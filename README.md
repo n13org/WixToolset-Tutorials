@@ -3,4 +3,4 @@ A collection of tutorials for the [Wix Toolset](http://wixtoolset.org/), which i
 
 ## What is the Wix Toolset
 Slogan from the offical Webseite:
-THE MOST POWERFUL SET OF TOOLS AVAILABLE TO CREATE YOUR WINDOWS INSTALLATION EXPERIENCE.
+> THE MOST POWERFUL SET OF TOOLS AVAILABLE TO CREATE YOUR WINDOWS INSTALLATION EXPERIENCE.
