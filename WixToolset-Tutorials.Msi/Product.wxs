@@ -6,6 +6,11 @@
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
 		<MediaTemplate />
 
+    <!-- UI-Dialogs -->
+    <UIRef Id="WixUI_Advanced"/>
+    <Property Id="ApplicationFolderName" Value="KargWare\WixToolset-Tutorials" />
+    <Property Id="WixAppFolder" Value="WixPerMachineFolder" />
+
 		<Feature Id="ProductFeature" Title="WixToolset_Tutorials.Msi" Level="1">
 			<ComponentGroupRef Id="ProductComponents" />
 		</Feature>
