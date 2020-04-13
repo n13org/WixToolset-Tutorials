@@ -21,6 +21,6 @@ A MSI can be inspected by the tool **Orca** from Microsoft ([Orca - Documenation
 
 ## History
 
-1. Create the project on [GitHub](https://github.com/n13org/WixToolset-Tutorials) inside the n13.org - Open-Source by [KargWare](https://kargware.com)
+1. Create the project on [GitHub](https://github.com/n13org/WixToolset-Tutorials) inside the "n13.org - Open-Source by [KargWare](https://kargware.com)"
 1. Change UI sequence [UIRef](https://wixtoolset.org/documentation/manual/v3/xsd/wix/uiref.html) from `WixUI_Minimal` to `WixUI_Advanced`
-1. Use Wix-Variables to avoid repeating your self many times
+1. Use [Wix-Variables](https://wixtoolset.org/documentation/manual/v3/votive/votive_project_references.html) to avoid repeating your self many times, extract version to separate WXI file

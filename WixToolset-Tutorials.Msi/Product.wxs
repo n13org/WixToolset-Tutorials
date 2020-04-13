@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Import global Variables -->
+<!-- Import global variables -->
 <?include ..\_SolutionItems\Variables.wxi ?>
 
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="$(var.ProductName)" Language="1033" Version="1.0.0.0" Manufacturer="$(var.Manufacturer)" UpgradeCode="c8795db6-2426-4f40-a615-671f26fcaf3a">
+	<Product Id="*" Language="1033"
+           Name="$(var.ProductName)" Version="$(var.ProductVersion)" Manufacturer="$(var.Manufacturer)" 
+           UpgradeCode="c8795db6-2426-4f40-a615-671f26fcaf3a">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
