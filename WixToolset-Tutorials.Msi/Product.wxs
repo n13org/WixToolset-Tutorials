@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="WixToolset_Tutorials.Msi" Language="1033" Version="1.0.0.0" Manufacturer="" UpgradeCode="c8795db6-2426-4f40-a615-671f26fcaf3a">
+	<Product Id="*" Name="WixToolset_Tutorials.Msi" Language="1033" Version="1.0.0.0" Manufacturer="KargWare" UpgradeCode="c8795db6-2426-4f40-a615-671f26fcaf3a">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
