@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Import global Variables -->
+<?include ..\_SolutionItems\Variables.wxi ?>
+
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="WixToolset_Tutorials.Msi" Language="1033" Version="1.0.0.0" Manufacturer="KargWare" UpgradeCode="c8795db6-2426-4f40-a615-671f26fcaf3a">
+	<Product Id="*" Name="$(var.ProductName)" Language="1033" Version="1.0.0.0" Manufacturer="$(var.Manufacturer)" UpgradeCode="c8795db6-2426-4f40-a615-671f26fcaf3a">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
@@ -8,7 +12,7 @@
 
     <!-- UI-Dialogs -->
     <UIRef Id="WixUI_Advanced"/>
-    <Property Id="ApplicationFolderName" Value="KargWare\WixToolset-Tutorials" />
+    <Property Id="ApplicationFolderName" Value="$(var.Manufacturer)\$(var.ProductName)" />
     <Property Id="WixAppFolder" Value="WixPerMachineFolder" />
 
 		<Feature Id="ProductFeature" Title="WixToolset_Tutorials.Msi" Level="1">
