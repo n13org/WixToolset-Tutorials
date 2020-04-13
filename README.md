@@ -11,6 +11,8 @@ Wix toolset (v3 and v4) is the tool to create:
 Slogan from the official Website:
 > THE MOST POWERFUL SET OF TOOLS AVAILABLE TO CREATE YOUR WINDOWS INSTALLATION EXPERIENCE.
 
+A MSI can be inspected by the tool **Orca** from Microsoft ([Orca - Documenation](https://docs.microsoft.com/en-us/windows/win32/msi/orca-exe)), which is part of the Windows Installer SDK and installed at `C:\Program Files (x86)\Orca\Orca.exe`. As an Alternative there is also [SuperOrca](http://www.pantaray.com/msi_super_orca.html) which is **NOT** from Microsoft.
+
 ## Wix Toolset Extensions
 
 |      Name      |           Description            |                             Source                              |
