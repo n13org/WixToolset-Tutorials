@@ -13,7 +13,7 @@
 		<MediaTemplate />
 
     <!-- UI-Dialogs -->
-    <UIRef Id="WixUI_Advanced"/>
+    <UIRef Id="WixUI_KargWare"/>
     <Property Id="ApplicationFolderName" Value="$(var.Manufacturer)\$(var.ProductName)" />
     <Property Id="WixAppFolder" Value="WixPerMachineFolder" />
 
