@@ -15,9 +15,11 @@ A MSI can be inspected by the tool **Orca** from Microsoft ([Orca - Documenation
 
 ## Wix Toolset Extensions
 
-|      Name      |           Description            |                             Source                              |
-| -------------- | -------------------------------- | --------------------------------------------------------------- |
-| WixUIExtension | UI Dialoges, e.g. WixUI_Advanced | C:\Program Files (x86)\WiX Toolset v3.11\bin\WixUIExtension.dll |
+Wix Toolset extensions are normally instaleld under `C:\Program Files (x86)\WiX Toolset v3.11\bin\`
+
+| Name           | Description   |
+| -------------- | ------------- |
+| [WixUIExtension](https://github.com/wixtoolset/wix3/tree/develop/src/ext/UIExtension/wixlib) | UI Dialoges, [UIRef](https://wixtoolset.org/documentation/manual/v3/xsd/wix/uiref.html), e.g. WixUI_Advanced, WixUI_FeatureTree and WixUI_Mondo |
 
 ## History
 
