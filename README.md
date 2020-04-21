@@ -26,12 +26,12 @@ Wix Toolset Extensions are stored inside `C:\Program Files (x86)\WiX Toolset v3.
 1. Create the project on [GitHub][GitHub WixToolset-Tutorials] inside the "n13.org - Open-Source by [KargWare][KargWare Website]"
 1. Change UI sequence [UIRef][Wix Toolset UIRef] from `WixUI_Minimal` to `WixUI_Advanced`
 1. Use [Wix-Variables][Wix Toolset Wix-Variables] to avoid repeating your self many times, extract version to separate WXI file
-1. Add a customized dialog `PrerequisitesDlg` to the default `WixUI_FeatureTree` UI. It is also shared as a [GitHub Gist][GitHub Gist PrerequisitesDlg]. The branch [features/AddPrerequisitesPage][[GitHub WixToolset-Tutorials 'features/AddPrerequisitesPage']] will stay.
+1. Add a customized dialog `PrerequisitesDlg` to the default `WixUI_FeatureTree` UI. It is also shared as a [GitHub Gist][GitHub Gist PrerequisitesDlg]. The branch [features/AddPrerequisitesPage][GitHub WixToolset-Tutorials branch AddPrerequisitesPage] will stay.
 
 [KargWare Website]: https://kargware.com
 [KargWare Notes]: https://notes.kargware.com
 [GitHub WixToolset-Tutorials]: https://github.com/n13org/WixToolset-Tutorials
-[GitHub WixToolset-Tutorials 'features/AddPrerequisitesPage']: https://github.com/n13org/WixToolset-Tutorials/tree/features/AddPrerequisitesPage
+[GitHub WixToolset-Tutorials branch AddPrerequisitesPage]: https://github.com/n13org/WixToolset-Tutorials/tree/features/AddPrerequisitesPage
 [GitHub Gist PrerequisitesDlg]: https://gist.github.com/N7K4/8b146328db03484a61543c4f612c5dd3
 [Wix Toolset]: http://wixtoolset.org/
 [Wix Toolset UIRef]: https://wixtoolset.org/documentation/manual/v3/xsd/wix/uiref.html
