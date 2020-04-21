@@ -27,23 +27,23 @@ Todo:
 
     <PropertyRef Id="ApplicationFolderName" />
 
-    <!--<CustomAction Id="WixSetDefaultPerUserFolder" Property="WixPerUserFolder" Value="[LocalAppDataFolder]Apps\[ApplicationFolderName]" Execute="immediate" />
-    <CustomAction Id="WixSetDefaultPerMachineFolder" Property="WixPerMachineFolder" Value="[ProgramFilesFolder][ApplicationFolderName]" Execute="immediate" />
-    <CustomAction Id="WixSetPerUserFolder" Property="APPLICATIONFOLDER" Value="[WixPerUserFolder]" Execute="immediate" />
-    <CustomAction Id="WixSetPerMachineFolder" Property="APPLICATIONFOLDER" Value="[WixPerMachineFolder]" Execute="immediate" />
+    <CustomAction Id="WixSetDefaultPerUserFolder_KargWare" Property="WixPerUserFolder" Value="[LocalAppDataFolder]Apps\[ApplicationFolderName]" Execute="immediate" />
+    <CustomAction Id="WixSetDefaultPerMachineFolder_KargWare" Property="WixPerMachineFolder" Value="[ProgramFilesFolder][ApplicationFolderName]" Execute="immediate" />
+    <CustomAction Id="WixSetPerUserFolder_KargWare" Property="APPLICATIONFOLDER" Value="[WixPerUserFolder]" Execute="immediate" />
+    <CustomAction Id="WixSetPerMachineFolder_KargWare" Property="APPLICATIONFOLDER" Value="[WixPerMachineFolder]" Execute="immediate" />
 
     <InstallExecuteSequence>
-      <Custom Action="WixSetDefaultPerUserFolder" Before="CostFinalize" />
-      <Custom Action="WixSetDefaultPerMachineFolder" After="WixSetDefaultPerUserFolder" />
-      <Custom Action="WixSetPerUserFolder" After="WixSetDefaultPerMachineFolder">ACTION="INSTALL" AND APPLICATIONFOLDER="" AND (ALLUSERS="" OR (ALLUSERS=2 AND (NOT Privileged)))</Custom>
-      <Custom Action="WixSetPerMachineFolder" After="WixSetPerUserFolder">ACTION="INSTALL" AND APPLICATIONFOLDER="" AND (ALLUSERS=1 OR (ALLUSERS=2 AND Privileged))</Custom>
+      <Custom Action="WixSetDefaultPerUserFolder_KargWare" Before="CostFinalize" />
+      <Custom Action="WixSetDefaultPerMachineFolder_KargWare" After="WixSetDefaultPerUserFolder_KargWare" />
+      <Custom Action="WixSetPerUserFolder_KargWare" After="WixSetDefaultPerMachineFolder_KargWare">ACTION="INSTALL" AND APPLICATIONFOLDER="" AND (ALLUSERS="" OR (ALLUSERS=2 AND (NOT Privileged)))</Custom>
+      <Custom Action="WixSetPerMachineFolder_KargWare" After="WixSetPerUserFolder_KargWare">ACTION="INSTALL" AND APPLICATIONFOLDER="" AND (ALLUSERS=1 OR (ALLUSERS=2 AND Privileged))</Custom>
     </InstallExecuteSequence>
     <InstallUISequence>
-      <Custom Action="WixSetDefaultPerUserFolder" Before="CostFinalize" />
-      <Custom Action="WixSetDefaultPerMachineFolder" After="WixSetDefaultPerUserFolder" />
-      <Custom Action="WixSetPerUserFolder" After="WixSetDefaultPerMachineFolder">ACTION="INSTALL" AND APPLICATIONFOLDER="" AND (ALLUSERS="" OR (ALLUSERS=2 AND (NOT Privileged)))</Custom>
-      <Custom Action="WixSetPerMachineFolder" After="WixSetPerUserFolder">ACTION="INSTALL" AND APPLICATIONFOLDER="" AND (ALLUSERS=1 OR (ALLUSERS=2 AND Privileged))</Custom>
-    </InstallUISequence>-->
+      <Custom Action="WixSetDefaultPerUserFolder_KargWare" Before="CostFinalize" />
+      <Custom Action="WixSetDefaultPerMachineFolder_KargWare" After="WixSetDefaultPerUserFolder_KargWare" />
+      <Custom Action="WixSetPerUserFolder_KargWare" After="WixSetDefaultPerMachineFolder_KargWare">ACTION="INSTALL" AND APPLICATIONFOLDER="" AND (ALLUSERS="" OR (ALLUSERS=2 AND (NOT Privileged)))</Custom>
+      <Custom Action="WixSetPerMachineFolder_KargWare" After="WixSetPerUserFolder_KargWare">ACTION="INSTALL" AND APPLICATIONFOLDER="" AND (ALLUSERS=1 OR (ALLUSERS=2 AND Privileged))</Custom>
+    </InstallUISequence>
 
     <UI Id="WixUI_KargWare">
       <TextStyle Id="WixUI_Font_Normal" FaceName="!(loc.Advanced_Font_FaceName)" Size="!(loc.Advanced_Font_Normal_Size)" />
@@ -52,7 +52,7 @@ Todo:
       <TextStyle Id="WixUI_Font_Emphasized" FaceName="!(loc.Advanced_Font_FaceName)" Size="!(loc.Advanced_Font_Emphasized_Size)" Bold="yes" />
 
       <Property Id="DefaultUIFont" Value="WixUI_Font_Normal" />
-      <Property Id="WixUI_Mode" Value="Advanced" />
+      <Property Id="WixUI_Mode" Value="FeatureTree" />
 
       <DialogRef Id="BrowseDlg" />
       <DialogRef Id="DiskCostDlg" />
@@ -70,6 +70,8 @@ Todo:
 
       <Publish Dialog="BrowseDlg" Control="OK" Event="DoAction" Value="WixUIValidatePath" Order="1">1</Publish>
       <Publish Dialog="BrowseDlg" Control="OK" Event="SpawnDialog" Value="InvalidDirDlg" Order="2"><![CDATA[WIXUI_INSTALLDIR_VALID<>"1"]]></Publish>
+
+      <!--<Publish Dialog="PrerequisitesDlg" Control="Next" Event="NewDialog" Value="AdvancedWelcomeEulaDlg">1</Publish>-->
 
       <Publish Dialog="AdvancedWelcomeEulaDlg" Control="Advanced" Event="NewDialog" Value="InstallScopeDlg" Order="1">!(wix.WixUISupportPerMachine) AND !(wix.WixUISupportPerUser)</Publish>
       <Publish Dialog="AdvancedWelcomeEulaDlg" Control="Advanced" Event="NewDialog" Value="FeaturesDlg" Order="2">NOT !(wix.WixUISupportPerMachine)</Publish>
@@ -109,10 +111,15 @@ Todo:
       <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg" Order="3">Installed AND PATCH</Publish>
 
       <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="VerifyReadyDlg">Installed AND PATCH</Publish>
+
+      <!--<Publish Dialog="PrerequisitesDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg">1</Publish>-->
+      <Publish Dialog="PrerequisitesDlg" Control="Next" Event="NewDialog" Value="AdvancedWelcomeEulaDlg">PreReg1Requiered OR PreReg2Requiered OR PreReg3Requiered OR PreReg4Requiered OR PreReg5Requiered</Publish>
+      <!--<Publish Dialog="PrerequisitesDlg" Control="Next" Event="NewDialog" Value="WelcomeDlg" Order="2"><![CDATA[LicenseAccepted="1"]]></Publish>-->
     </UI>
 
     <InstallUISequence>
       <Show Dialog="WelcomeDlg" Before="AdvancedWelcomeEulaDlg" >Installed AND PATCH</Show>
+      <Show Dialog="PrerequisitesDlg" Before="AdvancedWelcomeEulaDlg" >PreReg1Requiered OR PreReg2Requiered OR PreReg3Requiered OR PreReg4Requiered OR PreReg5Requiered</Show>
     </InstallUISequence>
 
     <Property Id="WIXUI_INSTALLDIR" Value="APPLICATIONFOLDER" />
