@@ -15,14 +15,18 @@ A MSI can be inspected by the tool **Orca** from Microsoft ([Orca - Documenation
 
 ## Wix Toolset Extensions
 
-Wix Toolset extensions are normally instaleld under `C:\Program Files (x86)\WiX Toolset v3.11\bin\`
+Wix Toolset Extensions are stored inside `C:\Program Files (x86)\WiX Toolset v3.11\bin` (replace the version v3.11 with your version) as `.dll` and can be used as references inside your project.  
 
-| Name           | Description   |
-| -------------- | ------------- |
-| [WixUIExtension](https://github.com/wixtoolset/wix3/tree/develop/src/ext/UIExtension/wixlib) | UI Dialoges, [UIRef](https://wixtoolset.org/documentation/manual/v3/xsd/wix/uiref.html), e.g. WixUI_Advanced, WixUI_FeatureTree and WixUI_Mondo |
+| Name           | Description                                                                                                              |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| [WixUIExtension][GitHub WixUIExtension] | UI Dialoges, [UIRef][Wix Toolset UIRef], e.g. WixUI_Advanced, WixUI_FeatureTree and WixUI_Mondo |
 
 ## History
 
 1. Create the project on [GitHub](https://github.com/n13org/WixToolset-Tutorials) inside the "n13.org - Open-Source by [KargWare](https://kargware.com)"
 1. Change UI sequence [UIRef](https://wixtoolset.org/documentation/manual/v3/xsd/wix/uiref.html) from `WixUI_Minimal` to `WixUI_Advanced`
 1. Use [Wix-Variables](https://wixtoolset.org/documentation/manual/v3/votive/votive_project_references.html) to avoid repeating your self many times, extract version to separate WXI file
+1. Add a customized dialog `PrerequisitesDlg` to the default `WixUI_FeatureTree` UI. It is also shared as a [GitHub Gist](https://gist.github.com/N7K4/8b146328db03484a61543c4f612c5dd3). The branch `features/AddPrerequisitesPage` will stay.
+
+[GitHub WixUIExtension]: https://github.com/wixtoolset/wix3/tree/develop/src/ext/UIExtension/wixlib
+[Wix Toolset UIRef]: https://wixtoolset.org/documentation/manual/v3/xsd/wix/uiref.html

@@ -13,10 +13,14 @@
 		<MediaTemplate />
 
     <!-- UI-Dialogs -->
-    <UIRef Id="WixUI_Advanced"/>
-    <Property Id="ApplicationFolderName" Value="$(var.Manufacturer)\$(var.ProductName)" />
-    <Property Id="WixAppFolder" Value="WixPerMachineFolder" />
-
+    <UIRef Id="WixUI_KargWareFeatureTree"/>
+    <SetProperty Id="PreReg1FoundText" Value="Prerequisites 1" Before="AppSearch" />
+    <SetProperty Id="PREREG1CONDITION" Value="required" Sequence="ui" Before="LaunchConditions"><![CDATA[(1)]]></SetProperty>
+    <!--<SetProperty Id="PreReg2FoundText" Value="Prerequisites 2" Before="AppSearch" />
+    <SetProperty Id="PreReg3FoundText" Value="Prerequisites 3" Before="AppSearch" />
+    <SetProperty Id="PreReg4FoundText" Value="Prerequisites 4" Before="AppSearch" />
+    <SetProperty Id="PreReg5FoundText" Value="Prerequisites 5" Before="AppSearch" />-->
+    
 		<Feature Id="ProductFeature" Title="WixToolset_Tutorials.Msi" Level="1">
 			<ComponentGroupRef Id="ProductComponents" />
 		</Feature>
