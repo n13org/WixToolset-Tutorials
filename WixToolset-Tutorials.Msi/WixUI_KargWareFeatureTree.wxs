@@ -63,6 +63,8 @@ Patch dialog sequence:
       <Publish Dialog="MaintenanceTypeDlg" Control="RepairButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
       <Publish Dialog="MaintenanceTypeDlg" Control="RemoveButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
       <Publish Dialog="MaintenanceTypeDlg" Control="Back" Event="NewDialog" Value="MaintenanceWelcomeDlg">1</Publish>
+
+      <Publish Dialog="PrerequisitesDlg" Control="Next" Event="NewDialog" Value="AdvancedWelcomeEulaDlg">PreReg1Requiered OR PreReg2Requiered OR PreReg3Requiered OR PreReg4Requiered OR PreReg5Requiered</Publish>
     </UI>
 
     <UIRef Id="WixUI_Common" />
