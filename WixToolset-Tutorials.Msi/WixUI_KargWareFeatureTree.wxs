@@ -6,6 +6,7 @@
 <!--
 First-time install dialog sequence:
  - WixUI_WelcomeDlg
+ - PrerequisitesDlg (when needed)
  - WixUI_LicenseAgreementDlg
  - WixUI_CustomizeDlg
  - WixUI_VerifyReadyDlg
@@ -43,10 +44,15 @@ Patch dialog sequence:
 
       <Publish Dialog="ExitDialog" Control="Finish" Event="EndDialog" Value="Return" Order="999"><![CDATA[1]]></Publish>
 
-      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="LicenseAgreementDlg"><![CDATA[NOT Installed]]></Publish>
+      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="LicenseAgreementDlg"><![CDATA[(NOT Installed) AND NOT (PreReg1Requiered OR PreReg2Requiered OR PreReg3Requiered OR PreReg4Requiered OR PreReg5Requiered)]]></Publish>
+      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="PrerequisitesDlg"><![CDATA[(NOT Installed) AND (PreReg1Requiered OR PreReg2Requiered OR PreReg3Requiered OR PreReg4Requiered OR PreReg5Requiered)]]></Publish>
       <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="VerifyReadyDlg"><![CDATA[Installed AND PATCH]]></Publish>
 
-      <Publish Dialog="LicenseAgreementDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg"><![CDATA[1]]></Publish>
+      <Publish Dialog="PrerequisitesDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg"><![CDATA[1]]></Publish>
+      <Publish Dialog="PrerequisitesDlg" Control="Next" Event="NewDialog" Value="LicenseAgreementDlg" Order="1"><![CDATA[1]]></Publish>
+
+      <Publish Dialog="LicenseAgreementDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg"><![CDATA[NOT (PreReg1Requiered OR PreReg2Requiered OR PreReg3Requiered OR PreReg4Requiered OR PreReg5Requiered)]]></Publish>
+      <Publish Dialog="LicenseAgreementDlg" Control="Back" Event="NewDialog" Value="PrerequisitesDlg"><![CDATA[(PreReg1Requiered OR PreReg2Requiered OR PreReg3Requiered OR PreReg4Requiered OR PreReg5Requiered)]]></Publish>
       <Publish Dialog="LicenseAgreementDlg" Control="Next" Event="NewDialog" Value="CustomizeDlg"><![CDATA[LicenseAccepted = "1"]]></Publish>
 
       <Publish Dialog="CustomizeDlg" Control="Back" Event="NewDialog" Value="MaintenanceTypeDlg" Order="1"><![CDATA[Installed]]></Publish>
@@ -63,10 +69,6 @@ Patch dialog sequence:
       <Publish Dialog="MaintenanceTypeDlg" Control="RepairButton" Event="NewDialog" Value="VerifyReadyDlg"><![CDATA[1]]></Publish>
       <Publish Dialog="MaintenanceTypeDlg" Control="RemoveButton" Event="NewDialog" Value="VerifyReadyDlg"><![CDATA[1]]></Publish>
       <Publish Dialog="MaintenanceTypeDlg" Control="Back" Event="NewDialog" Value="MaintenanceWelcomeDlg"><![CDATA[1]]></Publish>
-
-      <Publish Dialog="PrerequisitesDlg" Control="Next" Event="NewDialog" Value="WelcomeDlg">
-        <![CDATA[PreReg1Requiered OR PreReg2Requiered OR PreReg3Requiered OR PreReg4Requiered OR PreReg5Requiered]]>
-      </Publish>
     </UI>
 
     <UIRef Id="WixUI_Common" />
