@@ -5,6 +5,7 @@
     <!--
     ### 0. THIS FILE CAN BE USED AS IT IS. YOU DON'T NEED TO CHANGE IT
     ### **************************************************************
+    Source GitHub Gist https://gist.github.com/N7K4/8b146328db03484a61543c4f612c5dd3#file-prerequisitesdlg-wxs
     -->
     
     <!--
@@ -12,7 +13,7 @@
     ### ********************************************************
     <WixLocalization Culture="en-US" Codepage="1252" xmlns="http://schemas.microsoft.com/wix/2006/localization">
       <String Id="PrerequisitesDlg_Title">[ProductName] Setup</String>
-      <String Id="PrerequisitesDlgBitmap">WixUI_Bmp_Dialog</String>
+      <String Id="PrerequisitesDlgBitmap">WixUI_Bmp_Banner</String>
       <String Id="PrerequisitesDlgTitle">Prerequisites of [ProductName]</String>
       <String Id="PrerequisitesDlgDescription">List and state of prerequisites.</String>
     </WixLocalization>
@@ -76,13 +77,13 @@
         <Control Id="Next" Type="PushButton" X="236" Y="243" Width="56" Height="17" Default="yes" Text="!(loc.WixUINext)" >
           <Condition Action="disable">NOT AllLauchConditions</Condition>
         </Control>
-        <!--<Control Id="Back" Type="PushButton" X="180" Y="243" Width="56" Height="17" Text="!(loc.WixUIBack)" />-->
+        <Control Id="Back" Type="PushButton" X="180" Y="243" Width="56" Height="17" Text="!(loc.WixUIBack)" />
         <Control Id="Cancel" Type="PushButton" X="304" Y="243" Width="56" Height="17" Cancel="yes" Text="!(loc.WixUICancel)">
           <Publish Event="SpawnDialog" Value="CancelDlg">1</Publish>
         </Control>
 
         <Control Id="BannerHeader" Type="Text" X="15" Y="6" Width="280" Height="15" Transparent="yes" NoPrefix="yes" Text="!(loc.PrerequisitesDlgTitle)" />
-        <Control Id="BannerSubHeader" Type="Text" X="15" Y="23" Width="280" Height="15" Transparent="yes" NoPrefix="yes" Text="!(loc.PrerequisitesDlgDescription)" />        
+        <Control Id="BannerSubHeader" Type="Text" X="15" Y="23" Width="280" Height="15" Transparent="yes" NoPrefix="yes" Text="!(loc.PrerequisitesDlgDescription)" />
         <Control Id="BannerBitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="44" TabSkip="no" Text="!(loc.PrerequisitesDlgBitmap)" />
         <Control Id="BannerLine" Type="Line" X="0" Y="44" Width="370" Height="0" />
         <Control Id="BottomLine" Type="Line" X="0" Y="234" Width="370" Height="0" />
