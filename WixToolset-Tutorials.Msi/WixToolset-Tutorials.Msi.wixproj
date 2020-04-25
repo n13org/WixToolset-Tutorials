@@ -19,6 +19,7 @@
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Directories.wxs" />
     <Compile Include="WixUI_KargWareFeatureTree.wxs" />
     <Compile Include="PrerequisitesDlg.wxs" />
     <Compile Include="Product.wxs" />

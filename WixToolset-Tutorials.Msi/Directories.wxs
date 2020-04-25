@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?include ..\_SolutionItems\Variables.wxi ?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment Id="FragDirectories">
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      
+      <!-- WIX TOOLSET FOLDERS: https://docs.microsoft.com/en-us/windows/win32/msi/property-reference?redirectedfrom=MSDN#system-folder-properties -->
+
+      <!-- C:\Program Files (x86)\MANUFACTURER\PRODUCT -->
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="ManufacturerFolder" Name="$(var.Manufacturer)">
+          <Directory Id="APPLICATIONFOLDER" Name="$(var.ProductName)">
+          </Directory>
+        </Directory>
+      </Directory>
+
+    </Directory>
+	</Fragment>
+</Wix>
