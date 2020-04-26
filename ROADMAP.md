@@ -1,6 +1,6 @@
 # Roadmap
 
-The future steps of [GitHub - WixToolset-Tutorials][https://github.com/n13org/WixToolset-Tutorials] project.
+The future steps of [GitHub - WixToolset-Tutorials][README] project.
 
 ## Icons 
 AppIcon -> Source exe file -> Shortcuts
@@ -26,3 +26,5 @@ ProductIcon -> Source ico file -> Control Panel
 1. Information for Control Panel / Systemsteuerung
 1. Code Signing
 1. Makefile
+
+[README]: ./README.md
