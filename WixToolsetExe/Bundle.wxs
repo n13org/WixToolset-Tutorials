@@ -1,0 +1,25 @@
+﻿<!-- Import global Variables -->
+<?include ..\_SolutionItems\Variables.wxi ?>
+
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+  <Bundle Name="$(var.ProductName) Bundle" Version="$(var.ProductVersion)" Manufacturer="$(var.Manufacturer)"
+          UpgradeCode="5952ee24-d9e7-4165-ab69-2d597e44fdda">
+
+    <BootstrapperApplication>
+      <bal:WixStandardBootstrapperApplication
+          LicenseUrl="https://kargware.com"
+          Theme="hyperlinkLicense" />
+    </BootstrapperApplication>
+
+    <Chain>
+      <!-- Normal MSI Installer -->
+      <MsiPackage
+        SourceFile="$(WixToolsetMsi.TargetDir)\$(WixToolsetMsi.TargetName).msi"
+        Name="$(var.ProductName)"
+        Description="$(var.ProductName) $(var.ProductVersion) by $(var.Manufacturer) "
+        Visible="yes"
+        Id="Product_$(var.ProductVersion)_MsiPackage" />
+    </Chain>
+  </Bundle>
+</Wix>

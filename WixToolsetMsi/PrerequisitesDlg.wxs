@@ -1,0 +1,94 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">  
+  <Fragment>
+    <!--
+    ### 0. THIS FILE CAN BE USED AS IT IS. YOU DON'T NEED TO CHANGE IT
+    ### **************************************************************
+    Source GitHub Gist https://gist.github.com/N7K4/8b146328db03484a61543c4f612c5dd3#file-prerequisitesdlg-wxs
+    -->
+    
+    <!--
+    ### 1. PLEASE ADD THESE TRANSLATION TO ALL OF YOUR WSL FILES
+    ### ********************************************************
+    <WixLocalization Culture="en-US" Codepage="1252" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+      <String Id="PrerequisitesDlg_Title">[ProductName] Setup</String>
+      <String Id="PrerequisitesDlgBitmap">WixUI_Bmp_Banner</String>
+      <String Id="PrerequisitesDlgTitle">Prerequisites of [ProductName]</String>
+      <String Id="PrerequisitesDlgDescription">List and state of prerequisites.</String>
+    </WixLocalization>
+    -->
+    
+    <!-- 
+    ### 2. ADD 'PreRegXXXRequiered' AND 'PREREGXXXCONDITION' FROM 1 TO 5 TO YOUR PRODUCT.WXS
+    ### ************************************************************************************
+    This Dialog supports up to 5 prerequisites.
+    The prerequisites can be set as Property with 'PreRegXXXRequiered' as localization text and the Condition 'PREREGXXXCONDITION' (XXX is a value from 1 to 5).
+    When the `PreRegXXXRequiered` is not set, the value will be set to 'EmptyPrerequisites' and the field will disappear on the dialog
+    -->
+    
+    <!-- 
+    ### 3. SET LAUNCHCONDITIONS TO YOUR PRODUCT.WXS
+    ### *******************************************
+    The prerequisites can block the whole installer byusing launch conditions.
+    Just use the 'PREREGXXXCONDITION' directly or set the property by a WiX-Variable.
+    -->
+    
+    <WixVariable Id="EmptyPrerequisites" Value="----" Overridable="no" />
+
+    <Property Id="PREREG1CONDITION" Secure="yes" />
+    <Property Id="PREREG2CONDITION" Secure="yes" />
+    <Property Id="PREREG3CONDITION" Secure="yes" />
+    <Property Id="PREREG4CONDITION" Secure="yes" />
+    <Property Id="PREREG5CONDITION" Secure="yes" />
+
+    <Property Id="PreReg1FoundText" Value="!(wix.EmptyPrerequisites)" />
+    <Property Id="PreReg2FoundText" Value="!(wix.EmptyPrerequisites)" />
+    <Property Id="PreReg3FoundText" Value="!(wix.EmptyPrerequisites)" />
+    <Property Id="PreReg4FoundText" Value="!(wix.EmptyPrerequisites)" />
+    <Property Id="PreReg5FoundText" Value="!(wix.EmptyPrerequisites)" />
+
+    <SetProperty Id="PreReg1Checked" Value="1" Sequence="ui" Before="CostFinalize" Condition="PREREG1CONDITION" />
+    <SetProperty Id="PreReg2Checked" Value="1" Sequence="ui" Before="CostFinalize" Condition="PREREG2CONDITION" />
+    <SetProperty Id="PreReg3Checked" Value="1" Sequence="ui" Before="CostFinalize" Condition="PREREG3CONDITION" />
+    <SetProperty Id="PreReg4Checked" Value="1" Sequence="ui" Before="CostFinalize" Condition="PREREG4CONDITION" />
+    <SetProperty Id="PreReg5Checked" Value="1" Sequence="ui" Before="CostFinalize" Condition="PREREG5CONDITION" />
+
+    <SetProperty Id="PreReg1Requiered" Value="1" Sequence="ui" Before="CostFinalize" Condition="PreReg1FoundText &lt;&gt; &quot;!(wix.EmptyPrerequisites)&quot;" />
+    <SetProperty Id="PreReg2Requiered" Value="1" Sequence="ui" Before="CostFinalize" Condition="PreReg2FoundText &lt;&gt; &quot;!(wix.EmptyPrerequisites)&quot;" />
+    <SetProperty Id="PreReg3Requiered" Value="1" Sequence="ui" Before="CostFinalize" Condition="PreReg3FoundText &lt;&gt; &quot;!(wix.EmptyPrerequisites)&quot;" />
+    <SetProperty Id="PreReg4Requiered" Value="1" Sequence="ui" Before="CostFinalize" Condition="PreReg4FoundText &lt;&gt; &quot;!(wix.EmptyPrerequisites)&quot;" />
+    <SetProperty Id="PreReg5Requiered" Value="1" Sequence="ui" Before="CostFinalize" Condition="PreReg5FoundText &lt;&gt; &quot;!(wix.EmptyPrerequisites)&quot;" />
+
+    <SetProperty Id="pr1OK" Value="1" Sequence="ui" Before="SetAllLauchConditions" Condition="((NOT PreReg1Requiered) OR (PreReg1Requiered AND PreReg1Checked))" />
+    <SetProperty Id="pr2OK" Value="1" Sequence="ui" Before="SetAllLauchConditions" Condition="((NOT PreReg2Requiered) OR (PreReg2Requiered AND PreReg2Checked))" />
+    <SetProperty Id="pr3OK" Value="1" Sequence="ui" Before="SetAllLauchConditions" Condition="((NOT PreReg3Requiered) OR (PreReg3Requiered AND PreReg3Checked))" />
+    <SetProperty Id="pr4OK" Value="1" Sequence="ui" Before="SetAllLauchConditions" Condition="((NOT PreReg4Requiered) OR (PreReg4Requiered AND PreReg4Checked))" />
+    <SetProperty Id="pr5OK" Value="1" Sequence="ui" Before="SetAllLauchConditions" Condition="((NOT PreReg5Requiered) OR (PreReg5Requiered AND PreReg5Checked))" />
+
+    <SetProperty Id="AllLauchConditions" Value="1" Sequence="ui" After="CostFinalize" Condition="(pr1OK AND pr2OK AND pr3OK AND pr4OK AND pr5OK)" />
+
+    <UI>
+      <Dialog Id="PrerequisitesDlg" Width="370" Height="270" Title="!(loc.PrerequisitesDlg_Title)">
+        <Control Id="ProductVersion" Type="Text" X="10" Y="243" Width="56" Height="17" Text="[ProductVersion]" />
+        
+        <Control Id="Next" Type="PushButton" X="236" Y="243" Width="56" Height="17" Default="yes" Text="!(loc.WixUINext)" DisableCondition="NOT AllLauchConditions" />
+        <Control Id="Back" Type="PushButton" X="180" Y="243" Width="56" Height="17" Text="!(loc.WixUIBack)" />
+        <Control Id="Cancel" Type="PushButton" X="304" Y="243" Width="56" Height="17" Cancel="yes" Text="!(loc.WixUICancel)">
+          <Publish Event="SpawnDialog" Value="CancelDlg" />
+        </Control>
+
+        <Control Id="BannerHeader" Type="Text" X="15" Y="6" Width="280" Height="15" Transparent="yes" NoPrefix="yes" Text="!(loc.PrerequisitesDlgTitle)" />
+        <Control Id="BannerSubHeader" Type="Text" X="15" Y="23" Width="280" Height="15" Transparent="yes" NoPrefix="yes" Text="!(loc.PrerequisitesDlgDescription)" />
+        <Control Id="BannerBitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="44" TabSkip="no" Text="!(loc.PrerequisitesDlgBitmap)" />
+        <Control Id="BannerLine" Type="Line" X="0" Y="44" Width="370" Height="0" />
+        <Control Id="BottomLine" Type="Line" X="0" Y="234" Width="370" Height="0" />
+
+        <Control Id="PreReg1" Type="CheckBox" X="20" Y="70" Width="330" Height="18" CheckBoxValue="1" Hidden="yes" Property="PreReg1Checked" Text="[PreReg1FoundText]" Disabled="yes" ShowCondition="PreReg1Requiered" />
+        <Control Id="PreReg2" Type="CheckBox" X="20" Y="90" Width="330" Height="18" CheckBoxValue="1" Hidden="yes" Property="PreReg2Checked" Text="[PreReg2FoundText]" Disabled="yes" ShowCondition="PreReg2Requiered" />
+        <Control Id="PreReg3" Type="CheckBox" X="20" Y="110" Width="330" Height="18" CheckBoxValue="1" Hidden="yes" Property="PreReg3Checked" Text="[PreReg3FoundText]" Disabled="yes" ShowCondition="PreReg3Requiered" />
+        <Control Id="PreReg4" Type="CheckBox" X="20" Y="130" Width="330" Height="18" CheckBoxValue="1" Hidden="yes" Property="PreReg4Checked" Text="[PreReg4FoundText]" Disabled="yes" ShowCondition="PreReg4Requiered" />
+        <Control Id="PreReg5" Type="CheckBox" X="20" Y="150" Width="330" Height="18" CheckBoxValue="1" Hidden="yes" Property="PreReg5Checked" Text="[PreReg5FoundText]" Disabled="yes" ShowCondition="PreReg5Requiered" />
+
+      </Dialog>
+    </UI>
+  </Fragment>
+</Wix>

@@ -2,7 +2,7 @@
 
 A collection of tutorials for the [Wix Toolset][Wix Toolset], which include a bunch of samples and examples.  
 
-Wix toolset (v3 and v4) is the tool to create:
+Wix toolset (v3, v4 and v5) is the tool to create:
 
 * Modern `MSI` setups for the Windows Installer, main file is `Product.wxs`
 * Boostrapper `EXE` installer to handle prerequisites, main file is `Bundle.wxs`
@@ -15,6 +15,19 @@ A MSI can be inspected by the tool **Orca** from Microsoft ([Orca - Documenation
 
 The [Roadmap][ROADMAP] of the project.
 
+## WixToolset v5
+
+### Visual Studio Extension
+
+Install [HeatWave for VS2022 by FireGiant](https://marketplace.visualstudio.com/items?itemName=FireGiant.FireGiantHeatWaveDev17) to Visual Studio 2022.
+With this extension WixToolset v5 will be available and be supported.
+
+### Offical documentation for WixToolset v5
+
+* [Get started with WiX](https://wixtoolset.org/docs/intro/)
+* [Update from v4 to v5](https://wixtoolset.org/docs/fivefour/)
+* [Update from v3 to v4](https://wixtoolset.org/docs/fourthree/)
+
 ## History / Change Log
 
 1. Create the project on [GitHub][GitHub WixToolset-Tutorials] inside the "[n13.org][GitHub Org n13.org] - Open-Source by [KargWare][KargWare Website]"
@@ -23,6 +36,7 @@ The [Roadmap][ROADMAP] of the project.
 1. Add a customized dialog `PrerequisitesDlg` to the default `WixUI_FeatureTree` UI. It is also shared as a [GitHub Gist][GitHub Gist PrerequisitesDlg]. The branch [features/AddPrerequisitesPage][GitHub WixToolset-Tutorials branch AddPrerequisitesPage] will stay.
 1. Add a wixtoolset bootstrapper project and add the MSI to it
 1. Move the folders to a file 'Directories.wxs', [Folders and Directories in WixToolset][KargWare Notes #8274e8]
+1. Support WixToolset v5 driven by firegiant
 
 ## Wix Toolset Extensions
 
