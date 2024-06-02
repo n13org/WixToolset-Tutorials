@@ -57,9 +57,51 @@ docker run -it --rm -v ${pwd}:/ws/data wixtoolset /bin/bash
 
 Inside the docker container
 
-1. Download the dotnet pages `./download-pages.sh`, will be stored outside the container in the local `download` folder. This folder should be in gitignore and not under version controls.
-2. Parse the local HTML files to JSON with `./html2json.sh `, the json files will be stored in a local `data`folder. These json files can be under source control. For each SDK Runtime `asp`, `desktop` and `runtime` a file will be generated.
-3. Generate the WXS (wix toolset components) files with `./generateWixToolsetFragment.sh` a local `wix-dotnet` folder will be generated.
+1. Download the dotnet pages [`./download-pages.sh`](docker/scripts/download-pages.sh), will be stored outside the container in the local `download` folder. This folder should be in gitignore and not under version controls.
+2. Parse the local HTML files to JSON with [`./html2json.sh`](docker/scripts/html2json.sh), the json files will be stored in a local `data`folder. These json files can be under source control. For each SDK Runtime `asp`, `desktop` and `runtime` a file will be generated.
+3. Generate the WXS (wix toolset components) files with [`./generateWixToolsetFragment.sh`](docker/scripts/generateWixToolsetFragment.sh) a local `wix-dotnet` folder will be generated.
+
+An example wxs code, for dotnet `v8.0.6` SDK `Desktop` runtime for `x64`, the original link would be [.NET 8.0 Desktop Runtime (v8.0.6) Windows x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.6-windows-x64-installer).
+
+The code is copied from [DotNet_DesktopRuntime_v8_0_6_x64.wxs](wix-dotnet/DotNet_DesktopRuntime_v8.0.6_x64.wxs) below the folder [wix-dotnet](wix-dotnet/), where all other wxs-files are stored. 
+
+```xml
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="desktop"
+        Platform="x64"
+        MajorVersion="8"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_DesktopRuntime_v8_0_6_x64">
+    <ExePackage Id="Netfx80"
+                DisplayName="Microsoft .NET 8.0 Desktop Runtime"
+                Description="Microsoft .NET 8.0 (8.0.6) Desktop Runtime for windows x64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v8.0.6"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-desktop-8.0.6-windows-x64.exe"
+            DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/76e5dbb2-6ae3-4629-9a84-527f8feb709c/09002599b32d5d01dc3aa5dcdffcc984/windowsdesktop-runtime-8.0.6-win-x64.exe"
+            Hash="91bec94f32609fd194ac47a893cea1466e6ad25a16bbaf39cd6989fa9f09e865ba87669aabfe26cd3c8f2a57296170cc021dc762e238a6c5cb5e843d3df3169f"
+            Size="58663408" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>
+```
+
+Run the playwright tests inside the docker container. This command will execute all tests and will create a local folder `playwright-report`, which should be excluded from source control. Before the test can run, run [./joinjson.sh](docker/scripts/joinjson.sh).
+
+```powershell
+docker run -it --rm -v ${pwd}:/ws/data -v ${pwd}/playwright-report:/ws/playwright-report wixtoolset npx playwright test
+```
 
 ## History / Change Log
 

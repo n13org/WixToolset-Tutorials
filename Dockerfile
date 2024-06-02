@@ -13,10 +13,15 @@ WORKDIR /ws
 COPY docker/scripts/*.sh .
 RUN chmod +x /ws/*.sh
 
-# COPY docker/package.json .
-# COPY docker/package-lock.json .
-# COPY docker/playwright.config.ts .
+COPY docker/package.json .
+COPY docker/package-lock.json .
+COPY docker/playwright.config.ts .
 
-# RUN npm install
+COPY docker/tests/*.spec.ts ./tests/
+
+RUN npm install
+RUN npx playwright install
+RUN npx playwright install-deps
 
 VOLUME [ "/ws/data" ]
+VOLUME [ "/ws/playwright-report" ]
