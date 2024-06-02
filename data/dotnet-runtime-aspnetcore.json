@@ -1,0 +1,1218 @@
+[
+  {
+    "version": "5.0.0",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/92866d29-a298-4cab-b501-a65e43820f97/88d287b9fb4a12cfcdf4a6be85f4a638/aspnetcore-runtime-5.0.0-win-x64.exe",
+    "hash": "723ecbb1158d6b2878c1983b48f4dc4e8487b5dac15992ed1fe5bf1ccb5ee2c9332eb8cad8a452d585fdc2b99e38c337e87d03eec9616694f1e6e99825ba455f",
+    "bytes": "8267744"
+  },
+  {
+    "version": "5.0.0",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/115edeeb-c883-45be-90f7-8db7b6b3fa2f/6bf92152b2b9fa9c0d0b08a13b60e525/aspnetcore-runtime-5.0.0-win-x86.exe",
+    "hash": "594e013abc6fbe96f0d95f6c69be9522da985c8e627166492c39f5db0ffcffb445549ccfd61171ef6e8be374afcb477455ed7b189b91eb9aa6656ac7e0f65da2",
+    "bytes": "7567144"
+  },
+  {
+    "version": "5.0.1",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/48dd125b-b9ca-4fc7-b26c-558bff5bee13/214be31c3239444d4a9cfdf0574f3cd8/aspnetcore-runtime-5.0.1-win-x64.exe",
+    "hash": "d0d9b178fc5dc645750ad45457817b032d7b4ba1bf319c828a6015e9d8301fe9d6f9b747c7224e48f33ea00dd239c4dd174b59cb662658d76fb2be8e87bd41d7",
+    "bytes": "8292728"
+  },
+  {
+    "version": "5.0.1",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7d6ed29e-5c0d-47b4-8436-7f1d21a0bca4/e8609f033ad936c117f2d90b86fd05c4/aspnetcore-runtime-5.0.1-win-x86.exe",
+    "hash": "8eb37ea4f63c419236aad2f864012ccc96b3d9d4362d3ae32ed219f1403aee170e4d3b25454e2685255fd3e6ff225eae75b8d9b771582f35cc064530f6f0887e",
+    "bytes": "7592048"
+  },
+  {
+    "version": "5.0.10",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/69a4b292-6680-46b6-a067-eaf5b4a7ed1e/a14fa32031441812288c113bee953c8d/aspnetcore-runtime-5.0.10-win-x64.exe",
+    "hash": "ae3476f72ceaafcbc6414fa49790251f0f3a6b078951ff896ec00ca5fcc9d58ab89e3582d76d2135f5860e3842c41b390b771a07e9f5ef71b34679984c40ebe1",
+    "bytes": "8285440"
+  },
+  {
+    "version": "5.0.10",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1ddcc549-d626-4cda-bf0d-0b9f5571db0c/14dfffdcb7cd11f7001fccf6a4a54de2/aspnetcore-runtime-5.0.10-win-x86.exe",
+    "hash": "763f580d780ff9f7be70890f6cea275a463a5cfc8b90982a0d40d60e86630b472d0439f806eedbdc540d10ebf9f5ba3a1861c3f270e87462bb7dba14ba95bffb",
+    "bytes": "7586112"
+  },
+  {
+    "version": "5.0.11",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1f45eb5c-3d3d-423a-aacb-6a596f271632/df34923f6f1ec035b3049a7b5db05947/aspnetcore-runtime-5.0.11-win-x64.exe",
+    "hash": "5a47b0d4ce223875c801c6b2dfb35a9a07d07a8340606558f583063e49518a15b5a5f5a95225e8076030d6aaa2abee4afdc2f4e21bfd3011bdcf546b17506b18",
+    "bytes": "8259952"
+  },
+  {
+    "version": "5.0.11",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/0358616c-d42e-435a-a970-c6d219fb2ada/076b712cc24c291b8f2387df9c853842/aspnetcore-runtime-5.0.11-win-x86.exe",
+    "hash": "6e0df8fd2cf36b8208264a6c8a62fb24ba98910d75832f3fa45c7856a5caf80b179f3f08a866bb8a9fa0871246934e5f1e5e0535c2c0a011e471a73f0d559f2b",
+    "bytes": "7557984"
+  },
+  {
+    "version": "5.0.12",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/818bbc20-7dca-4fc5-a068-70bedc521bd7/89e08866807f9221f4425c4d53b0acc9/aspnetcore-runtime-5.0.12-win-x64.exe",
+    "hash": "92ef0f7bf0ec3e3fcfe23cdb21533f201784dacaa08ddcac99d9cb31b1eb876fa6002c362c6e8f78602b5c03823cab9864a1d489e054b4e0c42229512b8957f5",
+    "bytes": "8450240"
+  },
+  {
+    "version": "5.0.12",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e2e9672a-cdf7-4068-ac39-0b6e1b980979/5e2b2ebf050c718d1656c2e444c79916/aspnetcore-runtime-5.0.12-win-x86.exe",
+    "hash": "c388dc4804242d0fe911141829b35e2bd05a75d9f9c8f91f5d3d23870dd2e1faaaf0259ccd0ee2393fa63801fa36251cc669df5985a4eb26bf1fc7e8596a8218",
+    "bytes": "7636504"
+  },
+  {
+    "version": "5.0.13",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/aac560f3-eac8-437e-aebd-9830119deb10/6a3880161cf527e4ec71f67efe4d91ad/aspnetcore-runtime-5.0.13-win-x64.exe",
+    "hash": "e2bdd39a828cfe6246b72e8a4a45b63ae9a6c1e40e71ec3afbc3428525fa99b3e81f618f8f973093192c79f281d6bbde0a04466fbc5f81f95db7632b4aa2f56b",
+    "bytes": "8448752"
+  },
+  {
+    "version": "5.0.13",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/340f9482-fc43-4ef7-b434-e2ed57f55cb3/c641b805cef3823769409a6dbac5746b/aspnetcore-runtime-5.0.13-win-x86.exe",
+    "hash": "59c5aa1d8b6124483e518bd67cd46ba54b3bfe4818b9a4d93bfb1d8a25907d3ab987b6f6d5e5b65b70aa931449bb97b3d3b3702bb1b7c0bd6b2cd41f55050bad",
+    "bytes": "7630992"
+  },
+  {
+    "version": "5.0.14",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/52a19242-a21c-421b-97d4-e69d70e802c5/db47df274b9c64ea2e22f90983e0e946/aspnetcore-runtime-5.0.14-win-x64.exe",
+    "hash": "98c68dd411b4157cf07d78edb79131edd647fa2c897a140e6cf362ab83c8624979e69732b86663476333d31fe2c5c9a02af73aa1edf3ff9782c0f3c01417a098",
+    "bytes": "8435704"
+  },
+  {
+    "version": "5.0.14",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/144df243-2b0a-4b71-a258-2a3d6d5bb580/657500a79c0bcff546652624dbfe1741/aspnetcore-runtime-5.0.14-win-x86.exe",
+    "hash": "7db7d1015d4ff83a956eb01e5a271db2f9d8128c199b91b91099eec5800cb3ddb027a4ae24d233774de50ed96bc93239135f892f5e77a52a344e29b82f2064c1",
+    "bytes": "7611608"
+  },
+  {
+    "version": "5.0.15",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/69b4d158-fadb-46d0-8b28-6c4ba2968926/c4d93beeb194b73c134b3c2824499467/aspnetcore-runtime-5.0.15-win-x64.exe",
+    "hash": "9d796d21d2c79dcea3827eab27dae7709e80f1a9ae39b9500a9143610b876f5283ff4221255492371dd2726b4668af5b00f86758a020a56a11c888c62f5094a4",
+    "bytes": "8455080"
+  },
+  {
+    "version": "5.0.15",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/df529041-2a11-440c-98a4-650606c07ac0/dec1cbf6e76b45dbcff75e19c50ca485/aspnetcore-runtime-5.0.15-win-x86.exe",
+    "hash": "3ccffc9b26fb5b875cd5ce5fec83028b745b9b90751a6d5614cf808b5598e9f14ee4c508b18e5b811705e5cdb3c1e7b79deb2d4bbd3e8f83aaee7bd59530672c",
+    "bytes": "7642688"
+  },
+  {
+    "version": "5.0.16",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/8f5b182b-0c64-4ef2-907f-2a24bb3f6396/0e7e685b271b1a8eb2e41816f7004c80/aspnetcore-runtime-5.0.16-win-x64.exe",
+    "hash": "d54dacfa4dda13bed5f405b08741e0edb265dd03c502c9532919242acf5986140dcf804f7918e2dcb907371e20bd45dd702f91759b9ea9685e8f26eb129b7508",
+    "bytes": "8429280"
+  },
+  {
+    "version": "5.0.16",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/fc2264d8-b8e4-400e-892d-5ea35893e01a/2810f8be21bd8584a3b932419e6f52d5/aspnetcore-runtime-5.0.16-win-x86.exe",
+    "hash": "e188fc07a8e2f46318cc5d2ecdfa45115cefd9f868c2e99f5f65800c6a854959c0c42f9539ed081315d4aac3f9840aea495bc0ee195d184bab943009655556b1",
+    "bytes": "7619552"
+  },
+  {
+    "version": "5.0.17",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3789ec90-2717-424f-8b9c-3adbbcea6c16/2085cc5ff077b8789ff938015392e406/aspnetcore-runtime-5.0.17-win-x64.exe",
+    "hash": "85a4b4efa51d20fed86aa87576c1679a8123187116323cf8708ee904208960862bdb834d21ac2b1565b26afd7ce92c360e2f52f5067d20db3be76247f888b8e0",
+    "bytes": "8492712"
+  },
+  {
+    "version": "5.0.17",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/4bfa247d-321d-4b29-a34b-62320849059b/8df7a17d9aad4044efe9b5b1c423e82c/aspnetcore-runtime-5.0.17-win-x86.exe",
+    "hash": "04f9f5760d7fe08cbccc3a9274956129c634debcd2a51c2b7349a25a104528f49aad01bb66cdf790e793c5b03dcf1ec7c742656360dfb85b95f1ab9f15debc35",
+    "bytes": "7674816"
+  },
+  {
+    "version": "5.0.2",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/33c6f212-fcd3-428f-8ce5-9e4c0792fb58/06ffa38c3a903f8621e3ee2b78db40b7/aspnetcore-runtime-5.0.2-win-x64.exe",
+    "hash": "f404dd579b41d235178d26a8608281bb171d1554413b9ac53bbdca32e1f3e3c81f0bdc0048d209c5a5d09b9e822ad39a25eea574ac08b21fd02688f020c97052",
+    "bytes": "8292184"
+  },
+  {
+    "version": "5.0.2",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b2fd1b9b-1b96-457a-83fe-25089fd052c4/30b503f5ecbf04586aeff2e8658d5fb6/aspnetcore-runtime-5.0.2-win-x86.exe",
+    "hash": "66d6fe4962607d2d5971723bbb778b1da96007afc6b06c7ede9d6a6e00dda3ccdcaaa10d3285012f00b8ccc11aa1b70017dca6beddf91d85d6d9f37b9e8b3931",
+    "bytes": "7589240"
+  },
+  {
+    "version": "5.0.3",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/414172c8-580b-45f4-b203-7c8cd4aed3c4/aae889e11dc2c76dc47ababde8649731/aspnetcore-runtime-5.0.3-win-x64.exe",
+    "hash": "69e8490ab8120ba4c076d4eea2e07e9660ebaef484ec5d7cab436e967574bb672bfd1e7571255b7ec8dda5be6540f530170688c5f68c3656ee45664f1085693c",
+    "bytes": "8306656"
+  },
+  {
+    "version": "5.0.3",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/0cd54ac9-9526-4892-a127-cab2c13c6a4b/50faf5c2cbd5f9f42c7c19b4f78bf2df/aspnetcore-runtime-5.0.3-win-x86.exe",
+    "hash": "b41d73e229b024eb89702fc8e11574ead23079b6443ee2a7e1050b982ede4c809e1e3e8f23f0a5bc9024fa07843ed74e2dca1ed29a92dfa794c415dc1b8cf9b8",
+    "bytes": "7608360"
+  },
+  {
+    "version": "5.0.4",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/10ba6f78-b704-45fd-b770-e56aa9a03498/a4738342daec491cc55a2acc17987c4a/aspnetcore-runtime-5.0.4-win-x64.exe",
+    "hash": "08a6932cb0bd841a6eabe75e4725c532774f74ab02295b9a510ed02af9f4785bc37c63eac111eb1016fdd72b7bac815b8199f632147210e14e4d83fee0e80f15",
+    "bytes": "8268472"
+  },
+  {
+    "version": "5.0.4",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/89f9f142-416b-4967-986f-0efcdccb8152/226714a03e8b3bdda5d9a009e7ce1b87/aspnetcore-runtime-5.0.4-win-x86.exe",
+    "hash": "43d2c0a67ca6d5851e399d265f141e39470eb5d09da59b8a1244e59425ddf480e7018305f4dd9bee0857f04a0fa34d9cf92da9af3577e0d15e6d5a6b8746ae54",
+    "bytes": "7575232"
+  },
+  {
+    "version": "5.0.5",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a91ad09c-d834-4d3f-91a3-0457ac7e1ef3/4788259e62731a07d640495e8cde76cd/aspnetcore-runtime-5.0.5-win-x64.exe",
+    "hash": "c68d5fb4679bc5606d93fb17407e90b7357d40eb78aabc3a3ae9c6d8f24a527463955080a25fb3bc7d06e6e99917133f72006ff3f35baeb834aa2cd9d899244c",
+    "bytes": "8224304"
+  },
+  {
+    "version": "5.0.5",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/bacec315-bfea-42cb-bb06-3fa9eeedb361/86216a39bdde879abf32cb742c7cfec4/aspnetcore-runtime-5.0.5-win-x86.exe",
+    "hash": "871cbdacb83d35d842cd6c97d9e546791c0e19825980ac9d490788106c6165b1c3b7f27077dfd04fc0822e91eee06994a3439c0add5da6cd8e70d1c4d3c7cba6",
+    "bytes": "7526568"
+  },
+  {
+    "version": "5.0.6",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/275d6b51-e594-4edc-8f2f-606351e137ae/8a9e3886344599059dad377739151e37/aspnetcore-runtime-5.0.6-win-x64.exe",
+    "hash": "d03aeb2239e48b398903c0293528b3856d9a77b70779673ee5cd071ee091894ab98eb185e14421b5609af5bbfadcf2be081c524321d0d719ee16a07174c90b86",
+    "bytes": "8267928"
+  },
+  {
+    "version": "5.0.6",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/61284da9-728b-485c-a9e0-dfd4455f773f/facdf8e9e1509ec4d6f40fce95ff68dd/aspnetcore-runtime-5.0.6-win-x86.exe",
+    "hash": "ac14ffa2e01c4b1d59c55f6bb9100b8c4b9eff384752dd0b9cc9d05811aaff8fc87c9bdc63c3cc75081c606a5fb0367e0340756fd9a4af3b9fed9be0045af4d1",
+    "bytes": "7580376"
+  },
+  {
+    "version": "5.0.7",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/64ae43e4-fcf0-4247-80ec-ac87d7f198f7/af4cec1666bbc03578442c174f4ad4be/aspnetcore-runtime-5.0.7-win-x64.exe",
+    "hash": "6c110caf547fb7354c16c55dd40a1c5e59d5626a45d915599a5ec42bd73901bc1d80ca9d52e0241fac1a7055c25eeed41c73a15f926146f8a0bb771b393356b5",
+    "bytes": "8293952"
+  },
+  {
+    "version": "5.0.7",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/8668be00-9f55-41ce-9ca3-a3f4f9ac2d90/bf1739f11cbf61a47d2cf5f4b54e277e/aspnetcore-runtime-5.0.7-win-x86.exe",
+    "hash": "719dc4f37e9e14041bad5f1f4c7645024c18a98ece8ecb743507e824a9d50292ef695caa308d208d5a0f10bc4e8e93085141d763bfeb3a778a9744a45c8d6864",
+    "bytes": "7601864"
+  },
+  {
+    "version": "5.0.8",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7898c205-d8c4-45d0-93e1-d325bc6f90df/1e9b4a648b44d1b64622a38534900438/aspnetcore-runtime-5.0.8-win-x64.exe",
+    "hash": "db5c39d27dc7d652257bad19076bbc208a3c25cc62a4ab54edbd7149ab4925d0d8a43aaffb94421339bfb7a9a6785d11d3cfde15e3471c45c3c107fcd15a5d07",
+    "bytes": "8259960"
+  },
+  {
+    "version": "5.0.8",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/781b6844-f7f0-4b23-a7fd-2b45e8073fab/43bf54933d3aaffa790c80a15b2b2c0c/aspnetcore-runtime-5.0.8-win-x86.exe",
+    "hash": "cce4a7d2ae8812ae50777fecb60cb25b6d0a18e8967c331a38077151c8f881144ac9b8629a08fc45dcbbf1732a78609932b085225ae52777328919a52e8e4d7f",
+    "bytes": "7563608"
+  },
+  {
+    "version": "5.0.9",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/4b0ef3e7-ba6b-4213-b866-318695afbf3b/4218a12f9588ce7d6d6d394f8f3ef22e/aspnetcore-runtime-5.0.9-win-x64.exe",
+    "hash": "76edd81508c1306e3113a9eb4101081f689eba2e784751d21bb2d33c8c783b2d2899d69e12fa75fd34e05ec4c4ff51cfbd3a28678e91133fcefdb0d8f15ebef5",
+    "bytes": "8251864"
+  },
+  {
+    "version": "5.0.9",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/5bec3496-6944-4edc-936e-5a1beedd4fdd/6fb2df0cbd879c27c22c9f705784b768/aspnetcore-runtime-5.0.9-win-x86.exe",
+    "hash": "86a7d2c34f3f33a8123538e4d4dc150063f370f7c913d2def78f9ab7b25c48d7aed1d5a0e5422dd911d46bd38ec1b7eb798a0586c583ac301571ee45f71e393b",
+    "bytes": "7551432"
+  },
+  {
+    "version": "6.0.0",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3223fa10-441d-406b-af2e-94874ce38199/09347f9b4aea0ab34d6944b6b78fa29d/aspnetcore-runtime-6.0.0-win-x64.exe",
+    "hash": "2e589f40a5538afc4aeeb0af106f683e294cba2e1e2624769735efe1468e1e6649b6e5f4bf9af3e7034a9e040e8bc2d7c68632b7aa1db433067f4b7c3b8c0741",
+    "bytes": "8897224"
+  },
+  {
+    "version": "6.0.0",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7f757d80-b065-430e-ba65-7e95c3ec95e1/4d0335985f09db0650bbf9efe773f46c/aspnetcore-runtime-6.0.0-win-x86.exe",
+    "hash": "e146f55451bc3a3f9f3043868ce73f4a14d516fdb2a79a62befe5375b2a4ce9cabc669cb5de6345d697049657afc3f134ca8106c4c266d3d91d624b3d23bdd60",
+    "bytes": "8122576"
+  },
+  {
+    "version": "6.0.1",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d526db30-5bfe-4c24-808c-4d8f5d2ba479/ae90c40bdefb2f1775d812ede8e84309/aspnetcore-runtime-6.0.1-win-x64.exe",
+    "hash": "d73cee3ef2138c3160e30b9db2f1725a540af1faf1a0d9b59e2482b5c1fe445566db8420dd298749fa9f1121d5a14255ca6e7b7c88f7dbe854f05f28738614aa",
+    "bytes": "8896496"
+  },
+  {
+    "version": "6.0.1",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a706a729-c897-4e01-b51e-af8bf9c0183e/25d022b1b1976ab267ffd862d140dc20/aspnetcore-runtime-6.0.1-win-x86.exe",
+    "hash": "2b285d548f84510a365a46eab0d54aca936c69d88848f3bd5cda19f0a4ebf8cff5b9ccdc0c7927df446256ac849e1c2dbcf1ced326beabe1772b2240711bdec2",
+    "bytes": "8134000"
+  },
+  {
+    "version": "6.0.10",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/2370bcad-45b1-4ccb-bc61-21ffd7116d63/1aa8efcabfb60ee778b913a5eb237a56/aspnetcore-runtime-6.0.10-win-x64.exe",
+    "hash": "4af8da7de85bcb1d079a85cd3f4aafdfc4e4d441b87dfcdffc27c820d9f69513341be5acc987c47cacdc597cbc0cc89c7d746050e6d40ae02db7391e8214352d",
+    "bytes": "8997144"
+  },
+  {
+    "version": "6.0.10",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/16a50311-71a0-49c2-bfdc-2ed11ade7043/b7ee5cb05411fc03931b6ec9d6c63e87/aspnetcore-runtime-6.0.10-win-x86.exe",
+    "hash": "dbe4e28673b460c21477a1a6258fcc21e3f372bd4fe928ed46832dc5d768ca8b07aec6e543f15a091cf061c368154c0810a83df2c98f28724e31c056fe7e7caa",
+    "bytes": "8261360"
+  },
+  {
+    "version": "6.0.11",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e874914f-d43d-4b61-8479-f6a5536e44b1/7043adfe896aa9f980ce23e884aae37d/aspnetcore-runtime-6.0.11-win-x64.exe",
+    "hash": "e3d80d5b94100e3333a42b73d9ad362056d95b1bd4dfcd7264a56e9563a9d772aa793912eb8d40c3183aaead8c995eed493a6d6028fcb5f53ea008d1f1ce0441",
+    "bytes": "9041912"
+  },
+  {
+    "version": "6.0.11",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/94504599-143a-4d53-b518-74aee0ebecca/dac4a7b1f7bdc7b4e8441d6befa4941a/aspnetcore-runtime-6.0.11-win-x86.exe",
+    "hash": "11293f57a05d4bdeb86ffef6f0d9816de0eaae08fbeba65ab0bf6514b98b6b43539bcd7e4893e76162e9d0b3c2a5cc1ca1c7cacb7baf603adad7f0e8039b4a69",
+    "bytes": "8251016"
+  },
+  {
+    "version": "6.0.12",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/9e94fe1b-188a-4880-9e40-2cbb1fd98afc/84671c89295704cff726b014a502e188/aspnetcore-runtime-6.0.12-win-x64.exe",
+    "hash": "9ecc376194cd5e1479cbd5dc45f2bdfe215b1780d98f1098dc34fd98ac6cf106f19dbd0c610c27aebef5897187b9ec216a41dd60070519871eaa4eb4cafd0abb",
+    "bytes": "8955112"
+  },
+  {
+    "version": "6.0.12",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/81a5aa70-b439-46f3-8eaa-967f25034540/f4819aa6f648c279547406bd672473ed/aspnetcore-runtime-6.0.12-win-x86.exe",
+    "hash": "60faa13a92854062c8edf8237eb59470ce4644206f02505cabc2a2dd0b979433f14a3c1f30b3935459536b55f039bc4d59222659fc8ce7b0ff2ecf1eee55b293",
+    "bytes": "8243272"
+  },
+  {
+    "version": "6.0.13",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/ef825766-9885-4123-890e-3679352eda71/d58566678c1bcd9aa95327bcff043ccb/aspnetcore-runtime-6.0.13-win-x64.exe",
+    "hash": "92741b33b960ae238e844c8b0854fa2a70fb120115cd383d8479ef1ea83468ca9b90aba8c80ff7a33b6b6c095446ea8740bebe7fedb0c2acd050b97f56ba2fb5",
+    "bytes": "8947856"
+  },
+  {
+    "version": "6.0.13",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/afd28696-e178-4952-bd38-4525af28a220/8366e1fcdb706c5b0572aecbde579681/aspnetcore-runtime-6.0.13-win-x86.exe",
+    "hash": "9bd2b73d87b43f52ffd1480947ab1a44491a81bc284e9045b72ea63f07663964ce836afca2f83e595d437ab8e73cdb626da9a839bc4654f9a0594bbc46a6d871",
+    "bytes": "8211936"
+  },
+  {
+    "version": "6.0.14",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/95355fd2-12e2-4a03-b7ef-deff884e040b/a1070d778070557ef3a49eeaac524670/aspnetcore-runtime-6.0.14-win-x64.exe",
+    "hash": "8b94e16f132299bf79b63cd688efe2b5fa56a387139a29d3a6c66a433e0ae51e1ac822e1f1e4093ad16fba7495ceceb7a6b0463da946660c66ea0ee0a2a05060",
+    "bytes": "8974624"
+  },
+  {
+    "version": "6.0.14",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f7e263ac-64e0-41a6-b6b3-eca6a8ff193b/e8ca4e4568fccaf82d8081ddb9a3e18f/aspnetcore-runtime-6.0.14-win-x86.exe",
+    "hash": "b1c29ab498af9e9c430f9dee12f87c8db91c2bdfcd6772841f8cef979d598c3bd1530d011575dd460648a79f0a418ce9a785e045098e543bce88e7a5d129d68e",
+    "bytes": "8201584"
+  },
+  {
+    "version": "6.0.15",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/28431bba-e071-4e98-86a9-aa7e0c9050fc/0677f2fd79faee65f5d48260b9f303e5/aspnetcore-runtime-6.0.15-win-x64.exe",
+    "hash": "e883cf20145aad8a71113fcfdf9675b50f21d5e6bd68c632dcd20bf834a45496f2b69f727998820214515ffb8efcbea3065119443f75acc534b776d82501836a",
+    "bytes": "9003568"
+  },
+  {
+    "version": "6.0.15",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/4b99db58-969b-401d-a239-86ba1c92e6b8/2c17255b0091fa3210ec4cfb7bfe89ed/aspnetcore-runtime-6.0.15-win-x86.exe",
+    "hash": "38eb2dbb35bdce221d5fe3485b482e98f14dd414d99a9763a64577dcb8de6f5d5ac1f0b6513cdf0bcdc46d21e90179da6cd76dd96f28f5412eafef8148f52c8e",
+    "bytes": "8225768"
+  },
+  {
+    "version": "6.0.16",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/97eb0863-ef19-4f74-ac83-5ab594acb830/593ea1cd7b879bea4f75ab638c34de22/aspnetcore-runtime-6.0.16-win-x64.exe",
+    "hash": "4f9a9eaed6aaf5e71571fd5839dc934c8053dca7a3ecf5502e9004226171274623cd0713e9d2ac89e1e8e5d19dbd7d45a6fe58e536274a9b10d22432698c5cb9",
+    "bytes": "8967712"
+  },
+  {
+    "version": "6.0.16",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a4f38d1f-1d4d-41f0-8937-fcdd3fc692a2/64133ed947181f97400234cdd7e76c4f/aspnetcore-runtime-6.0.16-win-x86.exe",
+    "hash": "61797d278391c02f559c72e959ff6b0a6efe77e6af31f3f6e2facaa6bdeda7cbd8f36ff892db766ff0d202fa28bc9b99d6c10c3e1b2969ec0b57acbdc91b54bd",
+    "bytes": "8207296"
+  },
+  {
+    "version": "6.0.18",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a0a0d5c2-92d4-4781-a503-e957d63c5111/25ee550f61810fb292873ffdfc3e500a/aspnetcore-runtime-6.0.18-win-x64.exe",
+    "hash": "f92e9b80beb758fd5b44c5a0b191bede49145078c12636ef80ac5f46c73311a3484680a5790fdacd271464a09d1936136ac150950e4492aceae1d1a762d45a5f",
+    "bytes": "8940400"
+  },
+  {
+    "version": "6.0.18",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/4f0f6018-2f1e-4855-a4a4-57084f720bc6/45e06449f5ac52ec8c62618ae3dda669/aspnetcore-runtime-6.0.18-win-x86.exe",
+    "hash": "f60423750b6803b09cdb4b0bdfea99e781495813b004eb020c2c7f3668dc4582ff70959a23740b440ddd1614cc15c006efdf5dbd1d3bd1eefea4721dc5d4ad7d",
+    "bytes": "8211632"
+  },
+  {
+    "version": "6.0.19",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1cda6855-cc0d-44fa-9f02-250d306b4216/6ca1bcf300507edfa2036f91c1545b11/aspnetcore-runtime-6.0.19-win-x64.exe",
+    "hash": "e0762ac40c9e2456eab835d47d5486e8c16f8070743f0b4df79b18b91c4f20bb6d76f6b96dd8de009ea8bdfcbad44df41c874946c34f4c7a7a4f2310d9054eeb",
+    "bytes": "8968192"
+  },
+  {
+    "version": "6.0.19",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/599e1299-1f44-480e-be40-2dd660cb3fe2/83075b238d26aac63519fad9b01002c8/aspnetcore-runtime-6.0.19-win-x86.exe",
+    "hash": "5990c40673d40a0cc56220168591319edc467dcd01c338f6f0c5b1db0f5cf98ffb51ce5919fb05143ee80ff3ebaf7e8f7b02d97b827a878bfa6d863614cfe885",
+    "bytes": "8203688"
+  },
+  {
+    "version": "6.0.2",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f9c340ac-df04-4690-a434-111f9558941c/568ed66a3e32b22e3645a99e100008fe/aspnetcore-runtime-6.0.2-win-x64.exe",
+    "hash": "04c540ef795318255dd5ee8d3b90d0da855180d0d576c3a406efc9396daea989359b9059acc88409eaa554d0804097f9669ab1890f9e29f55ca65a33417ea930",
+    "bytes": "8971936"
+  },
+  {
+    "version": "6.0.2",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3fbcf485-c48e-49a3-87da-62114c084ede/6b8d31d2fc68e9d30889a17ef8da875b/aspnetcore-runtime-6.0.2-win-x86.exe",
+    "hash": "d317c6be4b3bcf483a8394f9c6c21dc98e39eb55ecaed78bb9581ae46ba0425352609604f4e1666ac1301af4b961c587858e10123b076fe020f127352ca1ced5",
+    "bytes": "8208952"
+  },
+  {
+    "version": "6.0.20",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/be9f67fd-60af-45b1-9bca-a7bcc0e86e7e/6a750f7d7432937b3999bb4c5325062a/aspnetcore-runtime-6.0.20-win-x64.exe",
+    "hash": "94099d52743928ce6f659865ca519e86131305750b1abee13948596e51780c91737213b5785661a59abcbd7ed5ecca2dd976ea056ea14c46f28eacac59974705",
+    "bytes": "8928560"
+  },
+  {
+    "version": "6.0.20",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/0e37c76c-53b4-4eea-8f5c-6ad2f8d5fe3c/88a8620329ced1aee271992a5b56d236/aspnetcore-runtime-6.0.20-win-x86.exe",
+    "hash": "9b10acce1bdab389e4f71dd72c3ff79aee0abd6631425162e978218c2ad03506a99470d45a574c016a03e395084cef34e4be850aa3c091a20e765f78d91c15f6",
+    "bytes": "8176760"
+  },
+  {
+    "version": "6.0.21",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e9d6a662-9f62-48b2-b7c2-5c94ee34afb1/b4b09a0dc605d4d51495abab6cfcf717/aspnetcore-runtime-6.0.21-win-x64.exe",
+    "hash": "e50f4f1406c9a6a59f37564156a646ba82938bbdc6270654f5772a40658197ac7f25e79c5a1be7de36c87da6c68330278ac70b3a1aa624cd56733eb8bcbbba69",
+    "bytes": "9015792"
+  },
+  {
+    "version": "6.0.21",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/fadbbcba-f49c-4c1b-b801-6c93566e1ca7/26594e6303cae1364f23928e2d63889a/aspnetcore-runtime-6.0.21-win-x86.exe",
+    "hash": "f3f63a6af46a4af29188a2e35fc16e7a065e3a369ec546a41e5ac05682acd9a60363741235942f15641b21b609466a2bcf34905df6b4fa8dfdda521ac9fe3734",
+    "bytes": "8249208"
+  },
+  {
+    "version": "6.0.22",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a0946814-10e0-4546-92e9-b74c88ebe45a/1da48715b74940956f3362b714c2457f/aspnetcore-runtime-6.0.22-win-x64.exe",
+    "hash": "8b751251e16cc6e396fc0afb7f159360bd1a1c971087ee8d27c0b112e940b5cd1f4b3cf775051df9231c991e555e4d592b031c458d9a7ceff6e5b9f5e0277313",
+    "bytes": "9019960"
+  },
+  {
+    "version": "6.0.22",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/aec975a2-16e3-4654-ad07-db9925012ca2/6a087cfaad1f8064933274fab65b7cd7/aspnetcore-runtime-6.0.22-win-x86.exe",
+    "hash": "5e6aa0e7a781b2e916360695cec503c73a593fc0d57cba2c530a203161b6b4a94ffefb5bd060276f07bbb8b626a8909c27b40557a0618cc2e817306242ae12db",
+    "bytes": "8228088"
+  },
+  {
+    "version": "6.0.23",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/5dda0222-f938-4c6f-abb8-31dbf6e73540/71d708e5c3579ab96f998c0e7323c0cc/aspnetcore-runtime-6.0.23-win-x64.exe",
+    "hash": "6183a8aaad0af1a026fe2d6f66cf9e0676ae3f417659dccab3f8dde1e0f8bc1d7c6dc33fade29ae3b0cecbdb09e53cfc469473a20e000a85c6c98b2423c8a2b6",
+    "bytes": "8990456"
+  },
+  {
+    "version": "6.0.23",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/6970ad95-e962-4ec9-b2e1-c8bd9f530346/e82487275052013684dfdd3780460a17/aspnetcore-runtime-6.0.23-win-x86.exe",
+    "hash": "ac8ebd88cb5b947c06b1e5b44d53a7cdec823d0de8e3f1959556a90ca43b2fb5b19c265b6e011ad8b7a27b13115cd818be6a95b01121de1c5a480b718c4d1970",
+    "bytes": "8217424"
+  },
+  {
+    "version": "6.0.24",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d38606f9-0adb-4df8-a0da-d49297c76846/a8796f1fb5e54735a4c8061359e3b9ed/aspnetcore-runtime-6.0.24-win-x64.exe",
+    "hash": "da6289aed11536dfcfb4e114a5daa34ea215779eefedd3511d37ed344ef40ddb502e1540a57ec1a443f799c429e7b322c1399f1d5076d95d75984750949195b2",
+    "bytes": "9013632"
+  },
+  {
+    "version": "6.0.24",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f59f7502-4360-41bb-9f25-5af0491d3a8c/43781f10e4a25862684b56b5f3ebde46/aspnetcore-runtime-6.0.24-win-x86.exe",
+    "hash": "9364aae7e1426e0b354cf5bb46d30830b804e28e3524ebf7a9a14007e34f3e126ef5efa3e7708258c9f11cfc88f60ad9d60bdb462e1e03417de4cdb4bf4d0022",
+    "bytes": "8260568"
+  },
+  {
+    "version": "6.0.25",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/dc41dbfc-0cb2-453b-8e13-b96df87ec639/80632cb579c5dd86842224b9e6304221/aspnetcore-runtime-6.0.25-win-x64.exe",
+    "hash": "f8ff2e8344d788b5e07cf615074c3fda07b92d0a949b12adcbc92ff6f7dd3ac6bac13cf95a90540e31d6c22f78f7421fa3a1ea296dd1c02564b5f9789eb2c2be",
+    "bytes": "9054288"
+  },
+  {
+    "version": "6.0.25",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/25974def-24fd-4155-af11-7bf477cc1c7f/21f5291090d9d4040ad8522bbdf00cc6/aspnetcore-runtime-6.0.25-win-x86.exe",
+    "hash": "15811fa02f486599187ef87d4c6ed0d6d70c57ec75ea98f4e9d5342b061242048111b384605d3c4c57adfc43f4a1ea3349581031f40fc0476a83cbb262fa0735",
+    "bytes": "8284560"
+  },
+  {
+    "version": "6.0.26",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/504867be-8cc2-4982-a4a6-5d3596835347/1868f16e22e6c13795d397fead4b9545/aspnetcore-runtime-6.0.26-win-x64.exe",
+    "hash": "d444d22a2f5105aa60464e47e2afc67d35d9a1e8482da739b654e1b4bcd377e84653f46146dfcaee4fb8405f821971212f4a75c5678c25d49a628bb4adbdc383",
+    "bytes": "9002824"
+  },
+  {
+    "version": "6.0.26",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a9326bbe-0d19-4980-af79-58095f22e956/fade24808fb03539ace50016367f3350/aspnetcore-runtime-6.0.26-win-x86.exe",
+    "hash": "7106df0967bb741942147715b14bb4cd43fbdcc76e7344ae6a843e02cc0d66371f186248d99881fb5b8124c68103a681609b6b7da048a6377cdb9f9e6e2a9e91",
+    "bytes": "8203648"
+  },
+  {
+    "version": "6.0.27",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/856b04b7-f893-4fb1-9205-052413fde70f/09996e15acebe136113a3aa77b28fe5e/aspnetcore-runtime-6.0.27-win-x64.exe",
+    "hash": "03dc5198461e62518f63aee7065da207f682e92adf8764a05c0c3646d7a293352bb1f98648fbb056317f42fe9463bc1305b7a71b22ec198689013f9bf9902b72",
+    "bytes": "9004912"
+  },
+  {
+    "version": "6.0.27",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/57d7ee45-b642-4f3d-8843-36fd275d7280/f99c16e25049cb16c9997c8b75de630f/aspnetcore-runtime-6.0.27-win-x86.exe",
+    "hash": "d30faadf9462e58c78bd44c63f1a4f1798442313998c21f31ecf0446428074c2a05cf41b14869d00e537e71994f8e95753f862f5cd2b575efadc5d9c0906ded6",
+    "bytes": "8247184"
+  },
+  {
+    "version": "6.0.28",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c7e44967-9522-4567-9f23-d92452cb25d4/89b32234f3dc50b2c1e215439dd98866/aspnetcore-runtime-6.0.28-win-x64.exe",
+    "hash": "8bffca6a8c92ea2b438e01857028cc8fd2904900f6e069b976eb1d246221190e05cafb223491ffdb469038034c2934662a5715603b0623662756abb4e3fc26d8",
+    "bytes": "9000536"
+  },
+  {
+    "version": "6.0.28",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/43a8bb70-5f8b-4219-95f1-8a3af65ac047/23bc7729e74089ee0edb0bf08f71bb37/aspnetcore-runtime-6.0.28-win-x86.exe",
+    "hash": "abf39d5ab7e1e9cfc927f0b18a16235810e2851f86f239abc674023d1da14bba534f641a44616e0fc3593a780d19d0cc5d833186cea2f386f9ec2d80bf136516",
+    "bytes": "8231784"
+  },
+  {
+    "version": "6.0.29",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/91214b5b-3197-4b4b-8b18-88bf817d9694/5037417e01ba9482adac4d5a3a0657d7/aspnetcore-runtime-6.0.29-win-x64.exe",
+    "hash": "e0a930eeb88c0ae6eb8f0ff964a3d2480d0d3b0c5a0d97553ed2ccb661b3c2d6d2e3302a294731d45d158488825e38310a0a59da91cc476ffe72ff2d9194c0a6",
+    "bytes": "8997328"
+  },
+  {
+    "version": "6.0.29",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/de3182fe-8475-438d-8c34-82504e3b15b9/7a6475407cbc1c380cda70ead77410e7/aspnetcore-runtime-6.0.29-win-x86.exe",
+    "hash": "e7d86eb3cd7803fdb00b7f4779a7e353d3ffdd3371548c81dbbecb174858619a77d3bc887f5e3bf124d67517e3d6f8327d742def284ff4dc8f7e9d5a9e3d1d25",
+    "bytes": "8197368"
+  },
+  {
+    "version": "6.0.3",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/10857513-e4fe-41eb-bb13-7ea5c02dcb00/ca75a693efb0b3c5cebf173eb7f98242/aspnetcore-runtime-6.0.3-win-x64.exe",
+    "hash": "677e6c32197a3e8d3dbdc0c27621006db3a4f484a40ed417d932be3b1d933f51429bf225a9f462793cd9903fa8b4e70f3762ea5df6517e42b88268877bad02ed",
+    "bytes": "8931896"
+  },
+  {
+    "version": "6.0.3",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/93ae486b-e23d-4311-af43-bb5201298e80/860ce9bf78843286a69bb2957456cc4c/aspnetcore-runtime-6.0.3-win-x86.exe",
+    "hash": "2d5aa3cd1e57969ca327afd428f7ce06a5cfb54e650afd65e075dfd0a44b1e23e5c52ea78437a9e0528d056ec199abf44a521089ca021fa46893a0d8405dfbf5",
+    "bytes": "8181256"
+  },
+  {
+    "version": "6.0.30",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/df69e0b0-7666-43f2-9a1d-5c239f0a5d70/ecd33d20405bbc0f9caf30983dd255bf/aspnetcore-runtime-6.0.30-win-x64.exe",
+    "hash": "ade3c8e9cbfe56cb87d3752421f1d627ac32bc740eaac1e4e1a4ee5326382e9a5898f6c79f5ce3a777823608efa1a894dff552b1a520bf37dd1b50f50f8b3ef0",
+    "bytes": "9038536"
+  },
+  {
+    "version": "6.0.30",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e418b6d7-11ba-4986-a94b-05129eca848d/832c57d83015072a1c1446dee4366ed6/aspnetcore-runtime-6.0.30-win-x86.exe",
+    "hash": "821edb0a41c71806855f6ec3fd4381a87a86110397bf39969fd068385bbfad83ba6e98b69269fd69c79f004983f50ad28af92b94a5d03bd8745608cdc82aebfb",
+    "bytes": "8277408"
+  },
+  {
+    "version": "6.0.31",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/29b7b141-bb4d-462b-8b55-6a1e4a610add/c38161439a048506b923b47fd50d21cc/aspnetcore-runtime-6.0.31-win-x64.exe",
+    "hash": "a4c657a448f361d3bc915e9ec4dc01e9fee60a3ead14ef7d7fb5fcdcde02aaf339127ddae2c918b7de74646c99c6802fbe291d632d893a9e5db35d0421998663",
+    "bytes": "9051400"
+  },
+  {
+    "version": "6.0.31",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/330eeb02-98bb-44c7-8ebc-4d76a0aaa669/418966ec92d4ef584587769e246155c5/aspnetcore-runtime-6.0.31-win-x86.exe",
+    "hash": "468d59c89fc907c519c93aae8471402b62d6631589bc89f6d4866dfc4f42f6f2c78e97c558cc6102c577b28f3c3bd152dff9b8ffaaba1c976c41d85470196f47",
+    "bytes": "8307312"
+  },
+  {
+    "version": "6.0.4",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/2162932c-987a-4de8-ae2a-f7d327bb39a8/97fe1cb950c2bccf44b7c3fe6aa45b53/aspnetcore-runtime-6.0.4-win-x64.exe",
+    "hash": "2ee7c786ad0b2ff0c562cfc0fdd8d7b2a03f37fe26ec1f17976b4f709d26e112e9d47da63f59fbd321964031165b9bac3cb22c05dd19ac5739e6d464f78af4ad",
+    "bytes": "8913520"
+  },
+  {
+    "version": "6.0.4",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c2093d31-b27e-4876-891c-750247cf1faa/33b9191b128a1d33671549972403994e/aspnetcore-runtime-6.0.4-win-x86.exe",
+    "hash": "f1431d89161afc8a00ddbc177529431f2fcddddaeb2b0d55fc0e062edc78ea9883ca331232aaac09c5ad6e6c0254d844166b3f5b969bc0516aff340a27d03a4c",
+    "bytes": "8212552"
+  },
+  {
+    "version": "6.0.5",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/042e2559-fe53-4793-b385-665b7c1ca6d5/308ffacc925383207a8f1a27a1df8bdc/aspnetcore-runtime-6.0.5-win-x64.exe",
+    "hash": "f931b430e9934f00146a5b09df4eacc781163d86f105a872165d2d95991b8fa1134f4902a27c459e7f8bacf3391a594ea1d4a449f807fe378cb9b3d1035776d5",
+    "bytes": "9004760"
+  },
+  {
+    "version": "6.0.5",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/6d6093d9-1547-410f-91e5-cd1c84cd29cc/ade04a37ae559ec060b331146fefed0e/aspnetcore-runtime-6.0.5-win-x86.exe",
+    "hash": "54d05c34ded7ea7e1e8780da3d0d004ed459e264778b76779ced87b4dbd5ff40d3ff24343ae1825dceac40645f1b5f0eb7bfe1de32e05e37d88d50be34d871b4",
+    "bytes": "8235544"
+  },
+  {
+    "version": "6.0.6",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7751b01b-4548-478d-ac63-ca57f2b66a3f/3339efd1fde8f62fed0ac2406f8bc559/aspnetcore-runtime-6.0.6-win-x64.exe",
+    "hash": "f82a64e442fb4db7133df64c53e7a69b57c904ad1ffde66219cd4e87138452f5860abd5c42ce8281ccf804f780f4583243218099491a3324e9dd55c9722bf5b9",
+    "bytes": "8996704"
+  },
+  {
+    "version": "6.0.6",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b68b5e5c-aeaa-4efd-b194-b37bd73eff64/b2afe8dbd41c8f266f8df26df8fe4ce9/aspnetcore-runtime-6.0.6-win-x86.exe",
+    "hash": "c092c5a459876a549577c43d6112fb584f855877afb615d6adf1dcb902477e30bda9bbe680a6965e6532fce1159923043b4687dbd8bcd6ef072604af3be84253",
+    "bytes": "8215056"
+  },
+  {
+    "version": "6.0.7",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c4c86d02-a47b-4bd4-b73d-ec3be19e5245/76c673e22a120464c95f85bef342a361/aspnetcore-runtime-6.0.7-win-x64.exe",
+    "hash": "7f42e5ee589a663aeb0c816f2e4172187189d92bc3c29fafc14523074bb793d58b238e64be8b001350b6dcbc111a5c9514b0def7acf6b6534290f5502206cd22",
+    "bytes": "8997384"
+  },
+  {
+    "version": "6.0.7",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a6f2f0c7-07ff-4255-88e6-707b84990828/db97169bf75388792cb52881dcc6afbc/aspnetcore-runtime-6.0.7-win-x86.exe",
+    "hash": "8b99a164e67aca14227f8eb90165e16189cc2ffda21c276e1ba100fbdfe6d83bf87bcf89f2423ebeef21c9e6eca6dcbf8896690a6fb9235fef7bd7f02b3494ef",
+    "bytes": "8258024"
+  },
+  {
+    "version": "6.0.8",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f5ef50c0-4dd1-4301-857f-768834d5a006/852c6470e4e5f602eee280c1e4e4e4c3/aspnetcore-runtime-6.0.8-win-x64.exe",
+    "hash": "de8ac0c44b71407221454f2ddc8d667ad956dda6288f64a8c1b8211383a3a7ce3a205c6827668c8e79dee787f4c252c1b4399345c132bc07059bfbc523589caf",
+    "bytes": "8927760"
+  },
+  {
+    "version": "6.0.8",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/26dd0df5-f2ef-4b47-8651-84a2496dd017/158f3a45dd0718fc3ceda10b56b22721/aspnetcore-runtime-6.0.8-win-x86.exe",
+    "hash": "151ca062ff13ea551433b56d118f7a9ff8020b236c087c590b1c16e4e3a7a08828efc53d47bcb0676b929fbb707008746d24a58ddacb0fa59a2ba8a50f4d0264",
+    "bytes": "8144672"
+  },
+  {
+    "version": "6.0.9",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/98dbe241-8b77-4be0-b130-a5fb6af8d724/27b655adce6250da42be9440abe847a2/aspnetcore-runtime-6.0.9-win-x64.exe",
+    "hash": "e3fae121878e5d98f49aeaa0a20b03ece760fcf75429256b7af13b78608eeaa2d2485578ed952a410cc590008023e62584233bad0e34e9fa632d445bce7fa1f5",
+    "bytes": "9010072"
+  },
+  {
+    "version": "6.0.9",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/8f583028-b802-4661-b8dd-47139b0561ce/3c0cd3bdc6051759ccae40f78982c86e/aspnetcore-runtime-6.0.9-win-x86.exe",
+    "hash": "493d9a5388a0e6bef4fed091465b58a5cc6d9c148478e5a9822d76eca61395cffa93ebadaec78c9f7e1da5ccecc00881baf10b757ca9c4eb9d475fb8ede7fc53",
+    "bytes": "8255248"
+  },
+  {
+    "version": "7.0.0",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/388543cf-e110-4425-be62-2dfa1635586c/fab629ebe2c7b2edfa0f2ee9171de26b/aspnetcore-runtime-7.0.0-win-x64.exe",
+    "hash": "83a8c15057bdbb64efdc1cb25b5824d9723d9973e73a6e837313e9b7d259ecf85bbd24715e35e0fa92bff8a2193eab4e78cfdb4f48f1f72fef67e800e89288a2",
+    "bytes": "9622456"
+  },
+  {
+    "version": "7.0.0",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/aa4da7f2-fa27-47b1-9ad0-ac07dcecb730/00101e955bae403e5a2a424b3c29fb78/aspnetcore-runtime-7.0.0-win-x86.exe",
+    "hash": "72681ee44cb17e75d8da95bbdf78a14c064b0af9075224b2f6fa4c2a3ac919ef744234dc92c16f30b59f1482b0f7400ede25472f15d3c27141eb48e8ab014b45",
+    "bytes": "8879968"
+  },
+  {
+    "version": "7.0.1",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/aeb10637-cad6-4012-9d07-d1d5c99b0ed3/b7d16e58e43d05fb9490b47a23062604/aspnetcore-runtime-7.0.1-win-x64.exe",
+    "hash": "20ccfb5582a1aac5c819a718c77f0f5ccda92cc16930ad9549b193a70635d17231b8045eb2ca2a37dca93464bad7a4cc5e9c1664773b066dd814147b76b911e5",
+    "bytes": "9533168"
+  },
+  {
+    "version": "7.0.1",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/97aa4501-7ce1-44a6-82bf-dd163af6dc68/39205a30b68f0f302ad5959d4734ff7b/aspnetcore-runtime-7.0.1-win-x86.exe",
+    "hash": "3c6b798a992a3ca8c4f1e3b1dfd01f8561059b5e6814123dc1d7107bd13ee93f75eae9fc6b40a80c08d2059d14952eb3d3716f24e0371cd1e043f3dff36cc05d",
+    "bytes": "8841792"
+  },
+  {
+    "version": "7.0.10",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f1777e79-21d8-4ed8-a529-3f212f4b5262/e685f2224f7140dc10bc0e0b47827e3a/aspnetcore-runtime-7.0.10-win-x64.exe",
+    "hash": "05ae0b5950b5a63f416c871e1cc7effcf847057661d2a35295f401f95da21a7be245e699ec61bb3d2aa7438b723581cff4cab3795c6f0ab916a1fe2da2fb5455",
+    "bytes": "9631432"
+  },
+  {
+    "version": "7.0.10",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/71f8f5e4-8e6d-493b-b16f-96c6fa34336a/8be06fb14a04a1c1383161c64e7e359b/aspnetcore-runtime-7.0.10-win-x86.exe",
+    "hash": "bee0c5e9010f6615becf66eb0761e8c08a31c4496806818c12e821209129843235386df3a30d3f150e76df79e800b2cc7e062ec39ecf7c206aa9f5d27ee206cb",
+    "bytes": "8848288"
+  },
+  {
+    "version": "7.0.11",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/56fbfa65-4bf5-40a0-8935-57f09ab3c76b/d80afe4b74d01c07ca74c4670fcfa1f8/aspnetcore-runtime-7.0.11-win-x64.exe",
+    "hash": "79e8546a73d63dac0da751f620ce556b4c1b8b8d271110cca8c585bc4387970a1014f8bddb8660cbc53c41757894fee325d1ef4f1a1c45b93212365387832f9e",
+    "bytes": "9656392"
+  },
+  {
+    "version": "7.0.11",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3aa49a19-636c-431f-b61e-3e007de33fa3/6cb7e36379bad86a6b52bc3a3cb0acbd/aspnetcore-runtime-7.0.11-win-x86.exe",
+    "hash": "39ca9aeb7230cf173bcf0fac614cec33883562b537458f116f26c861a034d17e3f1907d527c7c9c5e899dabefdec1dd339629b110e32cdc00f585e42d8cdcada",
+    "bytes": "8875680"
+  },
+  {
+    "version": "7.0.12",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/9478b711-8d41-4d1c-a95f-b9141c9c5785/6ef110b4d71b4b8d6a16b4503c14ee82/aspnetcore-runtime-7.0.12-win-x64.exe",
+    "hash": "8b77e3d3084e5b5904a8e18b6294bec1a8ee9a3ca52713a9237ee411737bca7bd890d2616a92fc4d55fdd4be2097ab05b0e7e88f48cb36699826ede5e16f7899",
+    "bytes": "9626512"
+  },
+  {
+    "version": "7.0.12",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/801dd0ec-8140-4c68-b2d9-676ea0777b50/2257a164f7ad451a8f00fb3d53999673/aspnetcore-runtime-7.0.12-win-x86.exe",
+    "hash": "7ee68298dfa31c65968a9d89d407d73581b1262bbc568c02eadcc85b40e4cadf2a1526152a1f35e91fa978feaa269895b3f50445f20ef680feec5fd9cdbebaf8",
+    "bytes": "8838272"
+  },
+  {
+    "version": "7.0.13",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/2047544d-b948-480e-a4ce-2d5276d906dc/010c6e5c6b822dc2121c1d23f0820cf6/aspnetcore-runtime-7.0.13-win-x64.exe",
+    "hash": "fb5784cb7aff75a26640272c1d1ba8111f915af8554d67f4ab40c5bda38265c6e119f7fb8e303994a32e6154777083c57bba0626a4fe9d703623107a4dd08f4c",
+    "bytes": "9625632"
+  },
+  {
+    "version": "7.0.13",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/6db4150d-11f3-4c21-b2c6-c81d5e6243db/3707dcce96dae59516a7679953df1ace/aspnetcore-runtime-7.0.13-win-x86.exe",
+    "hash": "8779954cd7ee7f9561f8d0f8f434279b2b91646fecb678ca5e5fac3029372f1b5a7c5aca7c18df887654fa84ce0ee75b971a4892f291c67086ab14e30dc49c21",
+    "bytes": "8897752"
+  },
+  {
+    "version": "7.0.14",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f066ab7a-a892-4e3c-95c5-ce87791cb03d/d41a0439ee555a5635fd87dfe86ae59a/aspnetcore-runtime-7.0.14-win-x64.exe",
+    "hash": "2577ac9a1b3fff86a90ef46b2cc6dd36356c134b841abdc5908b73a806819fce53d4dc4bad8cabe16dab0b46606ca7bb16afca9de9224c669b8d7928318ffae3",
+    "bytes": "9584880"
+  },
+  {
+    "version": "7.0.14",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/14e62731-8d55-44fe-8c2c-fffa95129223/f9cf2c77bc075757cd7d87cd65637f7d/aspnetcore-runtime-7.0.14-win-x86.exe",
+    "hash": "26bbfe06680afa63bc8446edc98cd9b0bf1d3e58838a28af60743d9af9efedb4e1c1c939adea31ba402fefb55265878257d0ec63059e6f5422f1abcf34e6d024",
+    "bytes": "8858416"
+  },
+  {
+    "version": "7.0.15",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/af20f5ce-cdf2-469c-ae29-20731dbdb49c/d9c568ae0fb44b91778aa74f6431f041/aspnetcore-runtime-7.0.15-win-x64.exe",
+    "hash": "a3a3d26e7342043a69c41f21416ea720b8fa79206adeacfc4e2cdde4957847d56c960ac013251687208aeff635cd2b4627a90f193a425635eb6b8fba69111301",
+    "bytes": "9652704"
+  },
+  {
+    "version": "7.0.15",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/23a3ba62-0a1a-4602-8ff9-003b33c52728/c221ac946c2a13484f5df1b655e96e26/aspnetcore-runtime-7.0.15-win-x86.exe",
+    "hash": "2b1887cba999a4a13b595d5f0f71ccdac703fa1045d1868f77dc58300f08ed786dcc736667ff840b65d9491976eca4705672526fff5819ee86c484288c965984",
+    "bytes": "8836480"
+  },
+  {
+    "version": "7.0.16",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7c7c13e7-e0eb-439c-b17e-0508b15ddb25/dcdb52f1752782bd1e38cc8bcb80556e/aspnetcore-runtime-7.0.16-win-x64.exe",
+    "hash": "f60981ef640f99ec74a3c1f78160a3d8f1e5f92fab4ee5adabd4827c4525a96ed7144c353960fafaefdde0f5fbc2baa3ea85a7c0e935e665821452119406050d",
+    "bytes": "9625432"
+  },
+  {
+    "version": "7.0.16",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/90863c51-8547-4b1d-bc62-3471799f354c/96b20152ede08dc863b122ad2791d817/aspnetcore-runtime-7.0.16-win-x86.exe",
+    "hash": "04a303d89596903ca09cf1b9ff1bccbec5cdfc44ae16fcdd65b2b47d16fa102d5d00e25eb2bbba943624fba46b6bfee1a75ece163f7358a96dbe85d238097257",
+    "bytes": "8825480"
+  },
+  {
+    "version": "7.0.17",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/098be53d-5a2d-4946-82f4-a5634fee5ba3/cdf19e1258534bbd1a42007d3f859f74/aspnetcore-runtime-7.0.17-win-x64.exe",
+    "hash": "930c8d6a267dfe415cf1a5f81d436fce01010494b6ff10b642ba6bc5b8a150727c5af7ea6a76473986ceed85fa80b37e35a9a77ffa7285a37404b185901d0183",
+    "bytes": "9615760"
+  },
+  {
+    "version": "7.0.17",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b52321fc-bb1c-4314-9990-a373e75e1b91/8c92eb4e78cc902148fc920d01080039/aspnetcore-runtime-7.0.17-win-x86.exe",
+    "hash": "c7c17315260e0189599763450014ba36b919961b3e789107382e72d4cf8c7597a0a17a5b1505e2f37419771780dd836df344f215887c6d5768aee2c7e45d4865",
+    "bytes": "8865376"
+  },
+  {
+    "version": "7.0.18",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/02dd5cac-62a6-4a34-b515-3987e940dc0d/4116dd9d03b0d7f31c4a15a076b6ec47/aspnetcore-runtime-7.0.18-win-x64.exe",
+    "hash": "aa718e0af9fa4b35e6d2a444ef0d2ab622a6e7e1d2a505a5c7b50c7428b1bd1c4f5101728e401899e2805c1bfc958f49c29b5b8fb91312a6ae3f2ab559d92f01",
+    "bytes": "9644072"
+  },
+  {
+    "version": "7.0.18",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b0fb2305-f64f-4ea0-b90d-5d233973e2d3/1f908dd8f53d9e609c31054668f8c5ea/aspnetcore-runtime-7.0.18-win-x86.exe",
+    "hash": "6323a5eacc718158e36e983690981def62a0a84c7e12ff52ba31042da17476269aba476956f5dcf9f36d6b979681055275093016f52537c7f785082d55dbe439",
+    "bytes": "8874536"
+  },
+  {
+    "version": "7.0.19",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/345f2916-ec5c-443b-91aa-1f430bcae337/418235e5d73ac3a992006392b62a7169/aspnetcore-runtime-7.0.19-win-x64.exe",
+    "hash": "08fece331c61d8fe13b525a6129109f0c77fc586161509bd9f8208084206de3275f4b1fee0b8c28d6e087972c2d5c03225268f21720bf15f740cb33e9a02fc16",
+    "bytes": "9687552"
+  },
+  {
+    "version": "7.0.19",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f09ac48f-ae75-4c47-9381-2f947fbbf55c/85756c47edcc8b1fa62eccae6cf6cdeb/aspnetcore-runtime-7.0.19-win-x86.exe",
+    "hash": "d1f84d6e8f3009a0fe46e1efaa4e7f9e0048e2c64ce7df0ef1aa6a1782bbadf611cf3dcd23a7ea060a02ca314a1d0e6914c82f13cf92bba26fcf22ac808b3c1e",
+    "bytes": "8941944"
+  },
+  {
+    "version": "7.0.2",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3ecad4f7-1342-4688-ae4a-38908c61f4a2/391a9010acad2e312e3d1e766bedfac7/aspnetcore-runtime-7.0.2-win-x64.exe",
+    "hash": "5c0f00e3adb2cc93850c7962cf632214dce85f3075901ee9b9749625034023b461660e444c3e20c054bc175bcf51401866191789e533271a83e6059fda4b6957",
+    "bytes": "9535008"
+  },
+  {
+    "version": "7.0.2",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/4d1c8de3-c5d8-41ac-b182-d906cc40f60b/671f4cc0a56905d844809e1e4c348493/aspnetcore-runtime-7.0.2-win-x86.exe",
+    "hash": "df7b83a2d7c9a7facdb1d19a958fdc0cb1c9220249a81f35433978c6965098a23025288b15d1e7307f3a53718dc6406c00a553f19011b4f772bfc4165da21c3b",
+    "bytes": "8815112"
+  },
+  {
+    "version": "7.0.20",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/10651a65-8afc-46e3-9287-fecb0e68504e/4c2bf0cdb44612f29d9b3f901098e13e/aspnetcore-runtime-7.0.20-win-x64.exe",
+    "hash": "bc87577dc88703b7768a3319d494167bae74beae93b6204d4cf873814ea0f279dc188340913957d0677df640ff91641f63d626ec7c2cdf97be955ac390ce765a",
+    "bytes": "9703408"
+  },
+  {
+    "version": "7.0.20",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d84ac38e-a248-4c8d-b1fe-4ee092d6b4b1/9f0bf370619ab3da8869e467827a6dc6/aspnetcore-runtime-7.0.20-win-x86.exe",
+    "hash": "ecc332a553a36823bb0929854e0dc1aeab3b7a4c6784ea0f7a5062b81028e148882e5f9d6c07232780b06d8d27dc633f509e89a95160ff6dc1454ac36162b4ee",
+    "bytes": "8924480"
+  },
+  {
+    "version": "7.0.3",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d37efccc-2ba1-4fc9-a1ef-a8e1e77fb681/b9a20fc29ff05f18d81620ec88ade699/aspnetcore-runtime-7.0.3-win-x64.exe",
+    "hash": "ae84e7adc817abdd3a60fd42bd9368c302538bbfc7f2157db77aa6423bb4ebcd55fc7ff5cf783bc96728fbbd2a591f80e6528c851dadb5274d0d5dd4265fb5df",
+    "bytes": "9562088"
+  },
+  {
+    "version": "7.0.3",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/4bf0f350-f947-408b-9ee4-539313b85634/b17087052d6192b5d59735ae6f208c19/aspnetcore-runtime-7.0.3-win-x86.exe",
+    "hash": "12af1565e02b42337f514bcdb51152b9b0f89980436ef59e0bab48007ea3ce43775a3267a80751025beebbe107dda0640beaaabaddf942e2878313f1d77ece4d",
+    "bytes": "8826344"
+  },
+  {
+    "version": "7.0.4",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1c260404-69d2-4c07-979c-644846ba1f46/7d27639ac67f1e502b83a738406da0ee/aspnetcore-runtime-7.0.4-win-x64.exe",
+    "hash": "e069bec552afcf08b0677924255ac3ed7005e95bb465a7da1b9ce2dc5f48c17368947e1b049f9af73bb31b27085f212b4da049d518c9c1dd5aca40ede622ff2b",
+    "bytes": "9561816"
+  },
+  {
+    "version": "7.0.4",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/771de8e0-6c27-435f-8471-32e360408e15/4f84ca38b7988cc602d1ca62c0469ad2/aspnetcore-runtime-7.0.4-win-x86.exe",
+    "hash": "138b94a2b3edea7711c18d8ed4609d35a0c90b478d1ff21a02c3adc9275bd8d68e49287555dadeac8c27cef1dd69902d13bb38e455c8145c4d90fb90cfcbb8f7",
+    "bytes": "8800872"
+  },
+  {
+    "version": "7.0.5",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/02d08d3a-c846-40a9-a75d-4dcfa12b2d8d/c9d48b7ce67ad4e1356d9f3630f51cf4/aspnetcore-runtime-7.0.5-win-x64.exe",
+    "hash": "2f62d0033f89473e8fd22b5134fa8a26163b0d66dd9256cfd0ed8ef1eb0ef6e72bbe107e64491c50c322c738ffafa92fdbaedc5f2f3261ba3bfb2060c8261ab0",
+    "bytes": "9588168"
+  },
+  {
+    "version": "7.0.5",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/423272b5-615c-436b-a198-a10518b3e8a3/e7587e2c70e4db7f9c93d0e6dbbc21f5/aspnetcore-runtime-7.0.5-win-x86.exe",
+    "hash": "ade0aa076e5a87387c1a181859c2cc92cfb440d9db7b75613414afc209e8f107d16a02d574284f417df0899ce4f3ee9227fae0a7e2365d36fe09d88a7fdba44f",
+    "bytes": "8850336"
+  },
+  {
+    "version": "7.0.7",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/754ad45c-5713-4bf7-8182-e82291e12d2f/4fbc681a6d28c7895b46940ebe573ae3/aspnetcore-runtime-7.0.7-win-x64.exe",
+    "hash": "942b9b3eb8a6a676fe0da097f7694de5bb7de27b16d2b32ace5e95250eb6587a3a2271480ab4b70d874960140eb4a016cb62eaf768ad2fedab3b0bdd89cbe0df",
+    "bytes": "9616544"
+  },
+  {
+    "version": "7.0.7",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/17ed245a-044a-4740-b307-40fa48670d76/d7325bb13405d1dfcc8a0f1bff2c390b/aspnetcore-runtime-7.0.7-win-x86.exe",
+    "hash": "f6329de5bd21932df7c101dddcf70e54df6e4d4872e4b3712e5f7c9d77834d1455ca746ca27faf2e4c9287e782986d1e68a4bf83136d875b6d1941ad815382ef",
+    "bytes": "8853232"
+  },
+  {
+    "version": "7.0.8",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/ddfe312d-511a-4e1c-bca2-59046d1ec73f/823812d3a1421aa967748da9ac26b4e5/aspnetcore-runtime-7.0.8-win-x64.exe",
+    "hash": "afba08613cd7b4d23f91599decfeeb28c859167f0fcd4474668082eaf13a94da00d8be158203d927a21b93ab828fe479a81044a93081f1d3acd84c873a3e955b",
+    "bytes": "9618448"
+  },
+  {
+    "version": "7.0.8",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/6ad5ebde-12f9-46c3-89a2-189834ce3ac5/e90560462225d598a7de058c818750bb/aspnetcore-runtime-7.0.8-win-x86.exe",
+    "hash": "b82591bb23b1ecad2a6875dfea23caad19bee6561ffba14d9ec96dceecd057781aba36f8a4cd97032006cbf67fd4e2bc69810f2aff43eabcf729b13def3a6bc1",
+    "bytes": "8860440"
+  },
+  {
+    "version": "7.0.9",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/edd9c9b1-0c49-4297-9197-9392b2462318/d06fedaefb256d801ce94ade76af3ad9/aspnetcore-runtime-7.0.9-win-x64.exe",
+    "hash": "fdd469c95fc21f6398c3ff1aa54e5c7cea3a2c6a1434382f4a4d5e2255f507239defb99d0f7840d1eff1b97075a61d05885d1541fda8fbbcce49b0c3bd86af7b",
+    "bytes": "9594328"
+  },
+  {
+    "version": "7.0.9",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/6ec3b357-31df-4b18-948f-4979a5b4b99f/fdeec71fc7f0f34ecfa0cb8b2b897da0/aspnetcore-runtime-7.0.9-win-x86.exe",
+    "hash": "875272d72dc4cf5c0290d3282307415391294d05ee4cf318595f5b1afdd5732520442deb4a1bdd11be6bdfd25a0f74a60e7c43fef30eeac2828e5090bbfa3ff3",
+    "bytes": "8843216"
+  },
+  {
+    "version": "8.0.0",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/89d3660b-d344-47c5-a1cd-d8343a3f3779/9f55af82923dab7e3dce912f5c5b9d60/aspnetcore-runtime-8.0.0-win-x64.exe",
+    "hash": "8bae0bc5cb46486348c45d3df3a9caaf8b5413ae324483f5a90d0482d70ea4224222abee124524523ff7bb44c4c0629b9242dbf24a21736ce275ec0c2549d957",
+    "bytes": "10358944"
+  },
+  {
+    "version": "8.0.0",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/66ae7d00-596a-4e36-be73-2ebc0c332329/e2f6e37933e204fef5687e338a95b749/aspnetcore-runtime-8.0.0-win-x86.exe",
+    "hash": "9cf9f98a7737438c382c90092f25d706927b8ebd0079900c6d420282e6a2ea353a9856d427ef9a2ec675fffcc2b84f21bd02491c7c6b40f6101a58a491e1b478",
+    "bytes": "9646544"
+  },
+  {
+    "version": "8.0.1",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/4b805b84-302c-42e3-b57e-665d0bb7b1f0/3a0965017f98303c7fe1ab1291728e07/aspnetcore-runtime-8.0.1-win-x64.exe",
+    "hash": "32e436e24a9b6090070ece3d325131672dea9f0e95d7c570e83de2983c06523c40ebb26edecfaabc3d54e4c1ad5ec56111d322343b9ed1c4139c6e807795ac0c",
+    "bytes": "10400720"
+  },
+  {
+    "version": "8.0.1",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/054695b5-a7fd-43e9-8e7f-c8422e9766c4/78ff5d8a3ea0f03af996456dd260351e/aspnetcore-runtime-8.0.1-win-x86.exe",
+    "hash": "c05dda744d9718d3bd32f17426a2c9ce958c677fb585dcbd6749a45ae242f9e2f50d4bfaa50326925726cd554540f531f94e05ef985893f9a4dd4eff3bc10ee2",
+    "bytes": "9641232"
+  },
+  {
+    "version": "8.0.2",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/34d3e426-9f3c-45a6-8496-f21b3adbbf5f/475aec17378cc8ab0fcfe535e84698f9/aspnetcore-runtime-8.0.2-win-x64.exe",
+    "hash": "64f0a3f63ef5e80e7e61725639723c91368add464d08273444eb84d4e3c45ad841be24849553272b34e246180a1f497a61964da53cc42badc910ab48a6c2d1bb",
+    "bytes": "10416064"
+  },
+  {
+    "version": "8.0.2",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/2a1c05bf-8147-4bb9-abf2-ef886871eb73/fec274762cdf5935369116a4f38d43ad/aspnetcore-runtime-8.0.2-win-x86.exe",
+    "hash": "2b530d4afad2e7ab6bb4008c81fe07ab0b241e68cfb0c52db78e1e323b8d6a118adad55864f3b7768d27bc30190333e6559f3b9f86a37c7914bbc5acdb486d6e",
+    "bytes": "9631160"
+  },
+  {
+    "version": "8.0.3",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e91876a9-1760-42cb-a6f4-97c57e9cca52/b433fcf4768929539f17e1908cb315bf/aspnetcore-runtime-8.0.3-win-x64.exe",
+    "hash": "ced75c39c5a2147525eebfd0977f6e7d774b7ea31d377937a6237dcf8b3f75c1b12b9b5137afcb1d1705bcafd9432ac0a60cb2f65fc1753d52d6eac080d0869e",
+    "bytes": "10449248"
+  },
+  {
+    "version": "8.0.3",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/6e92e2d6-32bb-4ff7-9424-78cd278076e8/7b23ff0e6bb04586ad90a0289b31d8d5/aspnetcore-runtime-8.0.3-win-x86.exe",
+    "hash": "16f0226043d4ce4a47538f495cd77363273c7286b1be518b6b32ad0e2ca3cbe268b4cfb3fb43ed4a9d3a9176b1986a399fbaed7f6c432149f2d16c67105449d4",
+    "bytes": "9668976"
+  },
+  {
+    "version": "8.0.4",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/eb04a61f-75c3-43dd-93d9-b6a7248116c7/f884863125730a39d7fa4139a00c0f99/aspnetcore-runtime-8.0.4-win-x64.exe",
+    "hash": "03759701074daa8815fda2a4893a29a9a8fe3532e7500b5351d6eea29ab89b2f50f31dc9b1c2de858cb117c69c8aab152a8568b73c63d074364391f2545712eb",
+    "bytes": "10425576"
+  },
+  {
+    "version": "8.0.4",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b53d938e-3ae2-4c22-8341-689a1c80fb95/84c2b40ac532dc2f9e6d8d1a680d3aaf/aspnetcore-runtime-8.0.4-win-x86.exe",
+    "hash": "b911dad38fd3437f0d639ee3b06f47c393b9a8f7c7dfb6592a11d32343a5157742892365b5bcc09d2c5c6c5b49551b411aa61108555b83a37ff2cd0a0db42404",
+    "bytes": "9625240"
+  },
+  {
+    "version": "8.0.5",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e2ced2b3-e1a5-401a-bcc9-6689e4eea673/93f77de4a39a219d775b403b7ef0cf58/aspnetcore-runtime-8.0.5-win-x64.exe",
+    "hash": "2c1f3088463bf3da70edb6e18412da7cd45baddcaa54f8fc8e1c7ef94cb414b3308b097531a61d68622c977b3db79402ebbf84ae9f45a04412d9056cb0f67027",
+    "bytes": "10549624"
+  },
+  {
+    "version": "8.0.5",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/24682756-e652-486d-a9f7-c4411f3141e9/39e6bb61fab38fdfb3472305174422cb/aspnetcore-runtime-8.0.5-win-x86.exe",
+    "hash": "171dcf56091ce0cddc31a74e1aaeacd06f7ec3c4ad63293afaf2f9c0af6e41b8e31ea51a69c0be1a910ad32fc19796f2c368a75c6a078e362897477815c48f7e",
+    "bytes": "9740904"
+  },
+  {
+    "version": "8.0.6",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/38b32fc8-8070-4f14-bd52-65505fddc5ff/50e6cf3b7505eee02c3b3db8ea46ffe3/aspnetcore-runtime-8.0.6-win-x64.exe",
+    "hash": "7bdd420d03e92d8e05a8467649f5a0e64910341e945f3ae6f0ce26dc513b121ce00d4bd8889b043fddd4c6eadffd52a69cd12edb62a661b2b23a886174e4dfc1",
+    "bytes": "10496800"
+  },
+  {
+    "version": "8.0.6",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/88a7d3f3-615e-4771-8709-1e16873645b3/a36f311385df553e54201137f53d041e/aspnetcore-runtime-8.0.6-win-x86.exe",
+    "hash": "b311bd4ae0a87fbce391005edb1c6b55d4e630e59fa15a7ed510947aaa6bf3ffc2970e833d3a9f9063f5f8af3ffa4cdd5c2da3e0d808990977c0ce6e262f15fa",
+    "bytes": "9696928"
+  }
+]

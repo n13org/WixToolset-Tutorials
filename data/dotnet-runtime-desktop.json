@@ -1,0 +1,1778 @@
+[
+  {
+    "version": "5.0.0",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1b3a8899-127a-4465-a3c2-7ce5e4feb07b/1e153ad470768baa40ed3f57e6e7a9d8/windowsdesktop-runtime-5.0.0-win-x64.exe",
+    "hash": "243986604ea7ec1332960536e6a534b7755d2bf29a585ca7e5bcd60570ab72c0f8ace0755b0e1a0a5972dc77c28bb3a5f152f8ed84d2acb2fa76c22916ac4376",
+    "bytes": "55185928"
+  },
+  {
+    "version": "5.0.0",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b2780d75-e54a-448a-95fc-da9721b2b4c2/62310a9e9f0ba7b18741944cbae9f592/windowsdesktop-runtime-5.0.0-win-x86.exe",
+    "hash": "144df140b566aa76b4bbc6259288d832df36935325c90af4cb9c28027f8625bdddd8369b03787d78e7a0502597ed809fbd20411549b4b93b127e88ce94b36e27",
+    "bytes": "49459144"
+  },
+  {
+    "version": "5.0.1",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c6a74d6b-576c-4ab0-bf55-d46d45610730/f70d2252c9f452c2eb679b8041846466/windowsdesktop-runtime-5.0.1-win-x64.exe",
+    "hash": "ac1be00ce52296148a84ddbcd92c7a78b1c6e09cf65d23fb2859ef050c3ad87eacf70745deb1cea0c64832486eb0b3470219dcb80ed034419bf6673487f2bac6",
+    "bytes": "55093240"
+  },
+  {
+    "version": "5.0.1",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/55bb1094-db40-411d-8a37-21186e9495ef/1a045e29541b7516527728b973f0fdef/windowsdesktop-runtime-5.0.1-win-x86.exe",
+    "hash": "c2dd979418e353940598ca721ea7927052f043282a219ca26244c0811e2359057719115a5b251cde98fd3a9bca05bdba551a57bf42df035a66de44a69a6e6309",
+    "bytes": "49390952"
+  },
+  {
+    "version": "5.0.10",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/20b2a5e9-2a9d-4856-be13-198b58121829/7d46975c9facb1e185d9b26b690f4f23/windowsdesktop-runtime-5.0.10-win-arm64.exe",
+    "hash": "240960f78db308e41e89cb2789aa4f699c5973fd0401abd8cf7209dfb5259e9a3229aeb951c9e17b6c3c1624b5e17c709fb03dbab196dd30e232cdfc161df3ab",
+    "bytes": "49404024"
+  },
+  {
+    "version": "5.0.10",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/78fa839b-2d86-4ece-9d97-5b9fe6fb66fa/10d406c0d247470daa80691d3b3460a6/windowsdesktop-runtime-5.0.10-win-x64.exe",
+    "hash": "71f5a21c44fb133a4778f72ec62fedd5b109b965303a466e67e615e075836f49573df4e32f9e6262f7fc2105a6e1a462f691fd92890df611cab49c338c81bb09",
+    "bytes": "54927000"
+  },
+  {
+    "version": "5.0.10",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7ed142ef-5738-4eea-bdd3-9210c5dd4973/ce3d680c487b178a828c5c3edd9ec685/windowsdesktop-runtime-5.0.10-win-x86.exe",
+    "hash": "6ab85e0e2e034252abbe1a7642e679d22de44e3c5702519224378c6cdfcecacd2397b0c974ac83bccab6e632178dd001d4e2c3e1ea925c0d8f9b2cb40a9c17ec",
+    "bytes": "49286872"
+  },
+  {
+    "version": "5.0.11",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a5e2ce05-7b16-46fe-b88c-4d3bf94f9bc6/a374ef55059f7bfe61daca61a152c8a1/windowsdesktop-runtime-5.0.11-win-arm64.exe",
+    "hash": "0c9066914d728e5bff4f675f0112585d3b0cd6a2d7cfef29a772bdd1e2d3054e44a336f8d662e7680d3dce00d46dd0e686fa64be373d82356d2b93c7b6e11109",
+    "bytes": "49392152"
+  },
+  {
+    "version": "5.0.11",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/06de9c13-4207-44e3-a802-1c90ff44048d/0d6cb312c95c7094434c381f77c75d8c/windowsdesktop-runtime-5.0.11-win-x64.exe",
+    "hash": "b3e00c68e95d5aefaaf366aef51f17d6dab4415890580fa0bc6ed29e3dfd3b2e9d3af477ffdebd5bd363b5d585e61e59f6296a6165d8b09f847dd03c87725ce2",
+    "bytes": "54944192"
+  },
+  {
+    "version": "5.0.11",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/0393fb31-b54e-4325-ba45-2b682fd6a43d/90036afbb9671be618554bf8fae3f66f/windowsdesktop-runtime-5.0.11-win-x86.exe",
+    "hash": "dd9a64f30c6e5b028a1070f538ec2c97ca8bc96d06834f1cfe07acc5db3ab0373f386ddc01eb1dd7bd8b4f52d1437a629ec5db962f7ca9c4237697b9fc7173a7",
+    "bytes": "49256536"
+  },
+  {
+    "version": "5.0.12",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/fd514c1e-52fd-4065-9a77-556038d7ee6f/73ebc0c45f39208c6ab01b1af87102e5/windowsdesktop-runtime-5.0.12-win-arm64.exe",
+    "hash": "100de45e94ed191e59f5d126b5df7289c760502fd693347d0620e42055d5937a6bbf89ebe74cc6ffc2205e70a5a9e56718ceabeec0140f309699129edfdcc485",
+    "bytes": "49322376"
+  },
+  {
+    "version": "5.0.12",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1daf85dc-291b-4bb8-812e-a0df5cdb6701/85455a4a851347de26e2901e043b81e1/windowsdesktop-runtime-5.0.12-win-x64.exe",
+    "hash": "174d9894ec52f1df21161af01a8db9b778d9270bc7471153e475a091a24fafb56bb34cd6a73afc3842061b48d5d31b34ad05364f4cae2da4538cab4fc54cc21f",
+    "bytes": "54943440"
+  },
+  {
+    "version": "5.0.12",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d3318276-b6db-422e-a156-8fdab0b4f27f/c758ff5762bb1d618c093a6f125ed592/windowsdesktop-runtime-5.0.12-win-x86.exe",
+    "hash": "54fb0c958ecd9f35d1c5bc96a628e9d2d97bf4edb04c18a89a1091264d7e11fee2fb77b5aabeaacc29322194462483e01ee50d11e63f34d0da57b325b728c809",
+    "bytes": "49326512"
+  },
+  {
+    "version": "5.0.13",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/bfdc7ba8-a5e5-4301-8ad8-e4f9c231ee9a/acf0f00c3401f78a40615c412e469d96/windowsdesktop-runtime-5.0.13-win-arm64.exe",
+    "hash": "07f56996940de408851c34f1f0fb5f8387c07c3265d2f90bc91f2ed2fb46ea36a1459c5421a1006c73f983685e045f735076b31acaa91dc9d9ee8300f33d4d47",
+    "bytes": "49341320"
+  },
+  {
+    "version": "5.0.13",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/2bfb80f2-b8f2-44b0-90c1-d3c8c1c8eac8/409dd3d3367feeeda048f4ff34b32e82/windowsdesktop-runtime-5.0.13-win-x64.exe",
+    "hash": "0a6ede4133e52fce974a97690024f7a2188fef9330d87d07b2e1a4a2c44bb4ee309e2302ba685214b4f3cd5dc0276b786dee14bd1615d6f3e3622299ec13cbf6",
+    "bytes": "54456248"
+  },
+  {
+    "version": "5.0.13",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c8125c6b-d399-4be3-b201-8f1394fc3b25/724758f754fc7b67daba74db8d6d91d9/windowsdesktop-runtime-5.0.13-win-x86.exe",
+    "hash": "a38ecb193722f709a8aa39ca8135e3b37a2c0080c67a4617284b0093bb403f55213208d1d448a45fb161c7da2064afc7a19c723f7c6eadda3baa024dea8413bd",
+    "bytes": "49188320"
+  },
+  {
+    "version": "5.0.14",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/500939fe-abf6-4104-8883-5e32a081025c/02b60c18722995c3c73eb70c103000ba/windowsdesktop-runtime-5.0.14-win-arm64.exe",
+    "hash": "a387c4e7cb75dbd156cae8b460711da6c50618a8a1086f617e1da500021712cb0da698d067d038fcf23a5466ccf0e77ebff7c15aa199e39a3ac0311589af44a5",
+    "bytes": "49435888"
+  },
+  {
+    "version": "5.0.14",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/2887cb40-178c-4c1c-8fc1-ad5b8a29075b/33b8f9d6bbcf1b8bef4170ff101e85d0/windowsdesktop-runtime-5.0.14-win-x64.exe",
+    "hash": "8a9f6e4d6e0ff7a6d5cac4bad1af2dc5421de39cbfeb5f88afe764aca5fe77be2102dc0a78806f9cb30f2b1b9e3b5418e6d68c2a8ca4ed52819a5a1d70cd442d",
+    "bytes": "54932640"
+  },
+  {
+    "version": "5.0.14",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/5bc3f97a-fef2-49cc-8320-eb0910beb9d4/bf0980b7fd0e599cd862db7ab109c2f4/windowsdesktop-runtime-5.0.14-win-x86.exe",
+    "hash": "871b7884c66cef3a5a4567509f4c85c08729283016f43eae800cd15e425b5d7ce45139d1b4a1f2f16e2467ec65d4eb4d941afdbf2eeec6845512dff7d8db06bf",
+    "bytes": "48819944"
+  },
+  {
+    "version": "5.0.15",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/40bf47cb-146b-479f-a660-a85c1c9c469d/96f8b74576dd57d65e1726c48e61734d/windowsdesktop-runtime-5.0.15-win-arm64.exe",
+    "hash": "76a8d3b2bffb49886bf25b20522ec5ae3d272a85fbde3861db8e344328c738a1d16ca1c9b90e4516cacb13dfb9af137e3f47e0fcacd7c89f7e7af5d46b7abe60",
+    "bytes": "49458024"
+  },
+  {
+    "version": "5.0.15",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b1902c77-e022-4b3e-a01a-e8830df936ff/09d0957435bf8c37eae11b4962d4221b/windowsdesktop-runtime-5.0.15-win-x64.exe",
+    "hash": "99f5002ce96895c1562f3c4461ab9710e9585ff3b2a4f25a783bd0e27595cc709c5c1fcaf1d9fa04c7dcab51d05de7ffe1bf3e4b3af2e684ee62a3ff993defd0",
+    "bytes": "55161928"
+  },
+  {
+    "version": "5.0.15",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/51b9e073-e0db-4c82-bdb8-47a9c39896e2/d676baa1bbb643f50c6b41ca64110d2f/windowsdesktop-runtime-5.0.15-win-x86.exe",
+    "hash": "853b4a0210469b54e85d3d34df0985e91f2c660c7d5a6b2f830ec931631e7a9b6d7e7d70b2487f6f40fcf38f2dac404dc7ca04fec397183a53cc373be97b3607",
+    "bytes": "49567888"
+  },
+  {
+    "version": "5.0.16",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/fd645c2a-048f-4ae3-93b3-1c4619c6b688/ab9774426dcb86ce73bb7b778a2ae101/windowsdesktop-runtime-5.0.16-win-arm64.exe",
+    "hash": "868b608bcc75b544ac0e377a16eef4edda94165a4f900de51c8336edc72082c9d3d78cdb4f7eb0fdd0334d68508a77c6e90062e3b7a76d5227b86a22dc59edb5",
+    "bytes": "49585032"
+  },
+  {
+    "version": "5.0.16",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a0fafe9b-958d-4bce-8ba4-6c67bd621644/a30d69b829fa1ad2312c7a75c111d821/windowsdesktop-runtime-5.0.16-win-x64.exe",
+    "hash": "87a80b3ddf837476300faad0d36c491f05d9343bc553ad76fa0c4b7c753fa3b435caba6ba1a920e732c0fc14f22fe1942bc6f59bfed834cf3b4d0c8f125353d8",
+    "bytes": "55316480"
+  },
+  {
+    "version": "5.0.16",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/426c1ce7-52d0-4002-af0c-76274a9be4b8/4c84f606549482e43b390122f12b291b/windowsdesktop-runtime-5.0.16-win-x86.exe",
+    "hash": "bc99476c311172864a4081269d1016eae306a120311fb3842ae8d726f553d7b987f2fac97e968f74a04a213e62ce324971b02d02aa5c8a828096625bf3a469a2",
+    "bytes": "49645952"
+  },
+  {
+    "version": "5.0.17",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/be25784a-4231-4c53-ba6e-869166ef523f/9602c6c0d358d31dc710fd0573fc39e0/windowsdesktop-runtime-5.0.17-win-arm64.exe",
+    "hash": "f98015fa55565ec9bf9cf797e7762257c6178f8888c0f9d4a09df25530ded6dd9c39f43052f95316a0e8ae9cd6ce9523efe36e9794daf8dfb75fffcded5fa6f5",
+    "bytes": "49734392"
+  },
+  {
+    "version": "5.0.17",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3aa4e942-42cd-4bf5-afe7-fc23bd9c69c5/64da54c8864e473c19a7d3de15790418/windowsdesktop-runtime-5.0.17-win-x64.exe",
+    "hash": "f7eb69a953ff6346a180e5200075120b4b47cb89a75bc36c76a9e468c037bb2376f497dbf8e0bada152bc3ec35dceaad55d0a811586569575bf5b201d1e32baf",
+    "bytes": "55338488"
+  },
+  {
+    "version": "5.0.17",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b6fe5f2a-95f4-46f1-9824-f5994f10bc69/db5ec9b47ec877b5276f83a185fdb6a0/windowsdesktop-runtime-5.0.17-win-x86.exe",
+    "hash": "74a379323e52172f563cd996880f58d58a19303ae59b3f55ff52625dfe8a4a602609785b1174b38f2da97282f90f1ade53194354f48773512943eae249926ee8",
+    "bytes": "49729032"
+  },
+  {
+    "version": "5.0.2",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/deffc9d5-ef77-4697-ac6e-33a58ccdc409/8386e478b5823a765dc1361155360877/windowsdesktop-runtime-5.0.2-win-x64.exe",
+    "hash": "6e48c1b6717040bbb431638d80cbf612c07316e9ca6bb23ee276e140d509236cdc1e8167b35148e1565a06d1f314bcdcf764597758ad3d9dbd589a6aa75d0dac",
+    "bytes": "55131120"
+  },
+  {
+    "version": "5.0.2",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/adeb8933-7480-4015-abf6-ca31137ad7cd/1123096ebfa5ee3f36d77500b622e4d8/windowsdesktop-runtime-5.0.2-win-x86.exe",
+    "hash": "97f6313f40159086a544f3f52cc1f34a161bd988f12c4f31b2e86eb9ffec0a72d4c9690616d80739c9f8aa65476ab1c7c4a95e804e9333c810f9d2f6d6e7ad2e",
+    "bytes": "49478248"
+  },
+  {
+    "version": "5.0.3",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c6541c87-42f2-4c5d-b6db-2df0dade5e00/13e89a5fec3ddb224cd93dd18b0761ff/windowsdesktop-runtime-5.0.3-win-x64.exe",
+    "hash": "216875b7be2bb1991015bd2ad390dda43263db51e173484dd9abaa38ef62c510e446d3135d6a4d84acae86ba2237ceca0645fb9fa2588edf2801c00ef4a13c1c",
+    "bytes": "54966104"
+  },
+  {
+    "version": "5.0.3",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a8dcbda1-8720-453c-9ec6-5a9d90935643/28754321a8b966f1ce837e6f59035b48/windowsdesktop-runtime-5.0.3-win-x86.exe",
+    "hash": "942f3348485fede89e339f4bc4f308fa9dcfaea92d54f805a420849ce37a0f4bcb812b56ecf04312c9dfa363f32ff637c07a72ccd9b8d0a6d131e69717a7e00d",
+    "bytes": "49263488"
+  },
+  {
+    "version": "5.0.4",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7a5d15ae-0487-428d-8262-2824279ccc00/6a10ce9e632bce818ce6698d9e9faf39/windowsdesktop-runtime-5.0.4-win-x64.exe",
+    "hash": "69fcbe5458869246cbd0657764ec3fdbfd59f06a49808cb283a7c90271409b0266539d31cec9047c512f167cae8e2992b617b68bc9f93e4815a37a8f50524d3f",
+    "bytes": "54790696"
+  },
+  {
+    "version": "5.0.4",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/0c5c56a4-8b34-4361-8af9-482c788b2bcf/d734b200547c8c367eb45ebbd69c4698/windowsdesktop-runtime-5.0.4-win-x86.exe",
+    "hash": "f9dc79182c557751ad8590aa70fdf01e10b691d95910520e9323074ba6e3bae0df6dc60c084e01536e7b46b6617e4173300ad0d541d4ba6bc18b42f54bf0a051",
+    "bytes": "49221608"
+  },
+  {
+    "version": "5.0.5",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c1ef0b3f-9663-4fc5-85eb-4a9cadacdb87/52b890f91e6bd4350d29d2482038df1c/windowsdesktop-runtime-5.0.5-win-x64.exe",
+    "hash": "3925bc0b50b273296d0ca5f677b45cf1fe9aa11d29c6d7f4491c8b64d62058043cc61e10ee71ef2601dfa2c53b7cb1bc00747040b533712997a5e50c9bb72721",
+    "bytes": "54977944"
+  },
+  {
+    "version": "5.0.5",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c089205d-4f58-4f8d-ad84-c92eaf2f3411/5cd3f9b3bd089c09df14dbbfb64124a4/windowsdesktop-runtime-5.0.5-win-x86.exe",
+    "hash": "a6fddc8ceaa607fecb157a755b9a89b5e3e44921eed9128478139779058bbc24de2207f1af8fac358d02194e801b5d8bb8ff32e92aa30b88afad627cf16eea65",
+    "bytes": "49435400"
+  },
+  {
+    "version": "5.0.6",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/63040d2c-e953-492f-ae93-7d93cc658e7b/1fce7e44a06c2d432fc0a492ca2b1a13/windowsdesktop-runtime-5.0.6-win-arm64.exe",
+    "hash": "598b40dc4933d69410842e8532d5575f59091cf9340b81b7e5dadafc36c622a7145122a3c6f79166b055314acfd5e32498e83bd42ade77d0f9b67c6ff7596b4a",
+    "bytes": "9299608"
+  },
+  {
+    "version": "5.0.6",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/6279dc90-f437-4481-82a5-73dd9f97da06/6519ef44735fd31115b9b1a81d6ff1e8/windowsdesktop-runtime-5.0.6-win-x64.exe",
+    "hash": "34b0d43e03b5aaeb987bbc9d6d6ee95b79d97587fecf39d8b8b653618cec4d8741c8d31c270662a0c8b59a18344be2a44b7c38e525505270b264d7dcc856761c",
+    "bytes": "54424832"
+  },
+  {
+    "version": "5.0.6",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/315854e8-6857-4d0d-b7e0-57761e3f7d12/b31193ac2c9f1674b66cf7a65c2521de/windowsdesktop-runtime-5.0.6-win-x86.exe",
+    "hash": "83ceb900805a33763df0a16e81f3f3d2a4b576802b335975177d77953bf9f0db60d36f257b2e018fe44440df2b8f8a8c44e767939bd9e4ff21230eb32f34db66",
+    "bytes": "49077576"
+  },
+  {
+    "version": "5.0.7",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/9532506e-81f3-41af-842f-01654c6d27ef/130c483c5b4401a4cee4b98cb308131c/windowsdesktop-runtime-5.0.7-win-arm64.exe",
+    "hash": "82ece7ca80388c1fdda2b8394117f065254b95500ecc005dff720246b55b80c84cc2ca0cd5e68941713cbd34f384d36133b13459b3479b2642ad7b41dac31933",
+    "bytes": "9316792"
+  },
+  {
+    "version": "5.0.7",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/2b83d30e-5c86-4d37-a1a6-582e22ac07b2/c7b1b7e21761bbfb7b9951f5b258806e/windowsdesktop-runtime-5.0.7-win-x64.exe",
+    "hash": "ff06980615041594012dc3882914f464f4844c0184aebd1973be08fc41b26aba077be1c0e8352089311ca084bfc007ebed758bb436f2aeba0f67e0607d7b1e8c",
+    "bytes": "54931280"
+  },
+  {
+    "version": "5.0.7",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c8af603e-ef3d-4bf3-89b9-f11dce1c2fc9/d416996ef55aa134b8aba565685d1ed2/windowsdesktop-runtime-5.0.7-win-x86.exe",
+    "hash": "01d07853a711f05c5c4e9a1baa557ea0cea60cf0def8bffc4868eecc053d66ca3d1d02e55087e1d04a3851b4351c1d8b1c6c30abd2cbb551c24c1d184d42c14e",
+    "bytes": "49206376"
+  },
+  {
+    "version": "5.0.8",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/81f697ea-9349-4d91-bce3-8dd8800d2f25/5d86a5e914b0a1d8ec6c3265ce379d14/windowsdesktop-runtime-5.0.8-win-arm64.exe",
+    "hash": "cd3add14712aac17fb1bdd203044f24d2afa219edaaa30d41513a221b2b8aaed88c9d8909eed7617f839e48a470102bead3fdd7269d04d53fb6839682d574b2d",
+    "bytes": "25449432"
+  },
+  {
+    "version": "5.0.8",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/9b564b8a-a26d-4bb3-8f30-1101ae71a55a/2cee4f9e4c0e77e3d0f866fdf690864e/windowsdesktop-runtime-5.0.8-win-x64.exe",
+    "hash": "d812994f964d53141075ebee146975187867dcaf911c7fdfe5cebb61f87cc36eaeec0ac4931d958c18274750a247402efd2527e004fc82845a3c081c0940f484",
+    "bytes": "54847536"
+  },
+  {
+    "version": "5.0.8",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c1c0117b-3565-4661-9a77-7629c937f808/90a45135929796778a9fd418bbad6bb3/windowsdesktop-runtime-5.0.8-win-x86.exe",
+    "hash": "561661909a31c9acb86ad00fbc2f4339bf35f32aa7af3b4dba32ae640d42e6d6ed702b319085e38b1f886da353220b107fc362fcfd52ee0f004e7d0b03c0e7a1",
+    "bytes": "49077752"
+  },
+  {
+    "version": "5.0.9",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/77535d55-6913-4f0d-bbdd-b0a52c00f9f7/e7ab952b5033a38d4d1b240bc9db0d16/windowsdesktop-runtime-5.0.9-win-arm64.exe",
+    "hash": "3784c340adedb8197aabf184c62719d2e09ca59dc36d8bbbce9d551f5a6933dbde4a8bab93e8cb7095f61a9cf2b1865ed3b35447851652ee10f5ead5dfb2ad5c",
+    "bytes": "25633296"
+  },
+  {
+    "version": "5.0.9",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/8bc41df1-cbb4-4da6-944f-6652378e9196/1014aacedc80bbcc030dabb168d2532f/windowsdesktop-runtime-5.0.9-win-x64.exe",
+    "hash": "132d91f0e552ac3074e222c12ef8c5c7fc5843fd55696627f0114ae18d8e00301eeacdbd2366345d646cf48dd1ca91c22a3206ce04202939e44849738e6058a7",
+    "bytes": "54882712"
+  },
+  {
+    "version": "5.0.9",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d889a1ec-bf19-4915-8d8c-81adda8d558b/fffa6e33af1b4cfcafdca9aac3aef476/windowsdesktop-runtime-5.0.9-win-x86.exe",
+    "hash": "e17b6d665daea5d48dd1679f7b0049a8e18cb4bb3f9f5266ee72233cf76709b4f8a3eab82ea39de56052decc06008482a180d5a1978c821172a6e7edf7776185",
+    "bytes": "49270208"
+  },
+  {
+    "version": "6.0.0",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/85cdb1b5-c57e-4986-8cf9-43f576d5487c/56ae11aff306810e3711032a19221282/windowsdesktop-runtime-6.0.0-win-arm64.exe",
+    "hash": "b6a6fbaf7a4a1388cee4daba707ff6e44b12341192d78bc9f7bfcf28d6f15183a0e28758c01db844824b8042d8fa6d24f8c055dc96e788d1bbd3c22b28d315bf",
+    "bytes": "51315896"
+  },
+  {
+    "version": "6.0.0",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a865ccae-2219-4184-bcd6-0178dc580589/ba452d37e8396b7a49a9adc0e1a07e87/windowsdesktop-runtime-6.0.0-win-x64.exe",
+    "hash": "6b9b230579b1e5825d3f5db0a209d8c0f1c42bd94b00907aa3a314e257c372a81535244007e3496d712dc04385c3247b2614001780cd27e832598404e754660f",
+    "bytes": "56998736"
+  },
+  {
+    "version": "6.0.0",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a1ca7d0d-ce01-4878-b952-3fa1e6d9a7c6/e386db367490b631b8c013a9fb0f3794/windowsdesktop-runtime-6.0.0-win-x86.exe",
+    "hash": "af89b1d0bcb9b51376fa181b2fe1918ca1dd6a47f928c9b3cafaf0972ba8b2faec4f15150ebfe54c5497570e4abdaee4c9e94d4928965194d232483cae34498f",
+    "bytes": "51842216"
+  },
+  {
+    "version": "6.0.1",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f30c6083-6119-4a10-8b01-ded5d7dac269/00c6ada6ace3b0ff1b0468bc27d84129/windowsdesktop-runtime-6.0.1-win-arm64.exe",
+    "hash": "d9a270611d4faca24186f5984f9d8ea01531b4f9513dd129db9f523d98920e24aaf08f0379c01a8edd36877ed0545178fc87b82636ccb40057f64e6c5bbbba45",
+    "bytes": "51512480"
+  },
+  {
+    "version": "6.0.1",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/bf058765-6f71-4971-aee1-15229d8bfb3e/c3366e6b74bec066487cd643f915274d/windowsdesktop-runtime-6.0.1-win-x64.exe",
+    "hash": "36dc038f6ed20b964238d6f1cb8d2248fdf120f53ab412c23d77981a0bc4133be731df7b4d5fec7d29a127ab6d3f0e93a3062eeb3691837d7442e085ee884ebd",
+    "bytes": "57508696"
+  },
+  {
+    "version": "6.0.1",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7977218c-1a01-4b69-a8ec-9d9311a6de5b/4c74f995295be78a9ebe1d5fede8f7f3/windowsdesktop-runtime-6.0.1-win-x86.exe",
+    "hash": "69d5ebc7e8421cd10164fadcf41f05e79c4c5e4fa88107b682ff44e2081e7d7c3427f775ffdba568f532aae24f9773043cdb6354828a8379e54a5404b1739f79",
+    "bytes": "52232960"
+  },
+  {
+    "version": "6.0.10",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b05a38ca-a434-473c-b031-07f05c75487e/0dfe9108f47050d81f1bc09002de6881/windowsdesktop-runtime-6.0.10-win-arm64.exe",
+    "hash": "eb43bfe09bc185a6e97454892c98956eb044ef40881d646ee4e2a934bc0ba0054eb2d2472b33dee3e7d64ad4cdc2a4efe0e6bb9cbcc6751a87886639e4b70c6f",
+    "bytes": "51265552"
+  },
+  {
+    "version": "6.0.10",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a6e878eb-d1da-40cb-8b6a-7f5b9390f09c/e4431ce2aa28b6c9956db672209be500/windowsdesktop-runtime-6.0.10-win-x64.exe",
+    "hash": "8fdcfc318fc0a90ad633813764d5a6ea48a6d0e4abc9c0584954b49cf0e1611b0904fd1cc066bfc55195f6424144c8020d9f00c6307cee516ec2072de728ee6e",
+    "bytes": "57361520"
+  },
+  {
+    "version": "6.0.10",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/6f8cf899-4800-400e-a196-867e7593c8e4/351213f8ae397c30efcfbb78fb10def2/windowsdesktop-runtime-6.0.10-win-x86.exe",
+    "hash": "ac4a0b971a2829e0c16c18d37567397a89d56ce1c14b52414484982d467eb1f950a44047c27090dfd408a3783e2878777141ba7d3fbd97a7d52a5b899b030737",
+    "bytes": "51963456"
+  },
+  {
+    "version": "6.0.11",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/70d9846e-7bae-496c-829d-dabfda93cddd/be9e28ef860bfc7f8f36db4af4ac7692/windowsdesktop-runtime-6.0.11-win-arm64.exe",
+    "hash": "19e73b88b417cec96624074f2f6b12ac6cee2bd9524060c64ae5b2d215827f5d4159dde2ba158137afddd2382317314f59cf27bcea1342421116dc2038b3110c",
+    "bytes": "51124616"
+  },
+  {
+    "version": "6.0.11",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/0192a249-3ec8-4374-a827-e186dd58d55d/cec046575f3eb2247a10ba3d50f5cf6c/windowsdesktop-runtime-6.0.11-win-x64.exe",
+    "hash": "37bef9107a069edd977c135fc54bf84f1b46862ef2636caeb9c7ddd9f53627f83cb69d6ecf79cb640d7979c7ebe80c03b1222c6c52d7a991e6c399c91fe902c0",
+    "bytes": "57217584"
+  },
+  {
+    "version": "6.0.11",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/2a392287-fd51-4ee8-9c15-a672ab9bc55d/03d4784b3a543a0fb9ce5677ed13a9a3/windowsdesktop-runtime-6.0.11-win-x86.exe",
+    "hash": "b642a16325053b266f2f2475c31e124987dcf0e010076633cfe174761a1ff736a5047019de3cc259d88775bae6ffb4b0f907e0818895fab0e2962dfa0ee66641",
+    "bytes": "52086400"
+  },
+  {
+    "version": "6.0.12",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/47562ac8-30a0-4661-9fa3-54964fe97eb8/67916d073e5d04d8aa3058b31c613048/windowsdesktop-runtime-6.0.12-win-arm64.exe",
+    "hash": "0faa82a4bd2dc4a45205225eb1e00e757f83ab7b81bf18f74b4d54fbe822f1c4ad93006994b2fc795952536ade75395c97bbed9471dbb3d302fcffe6e5c2abf0",
+    "bytes": "51350056"
+  },
+  {
+    "version": "6.0.12",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/ba2ece7b-686a-4bda-b7d7-8cc3b8964d66/8eee13e44d90345d40c1b262c78aad6a/windowsdesktop-runtime-6.0.12-win-x64.exe",
+    "hash": "7a827acfb4c982b05734db73a1e46f8f50536bc34e9b57abff46e5b907adf5dcf67331764cbe17ba17a1bf9dcce598f7c88605bf3dbed7111ad5a1ef1bcad42e",
+    "bytes": "57291440"
+  },
+  {
+    "version": "6.0.12",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b11d3075-2191-4fe9-be05-e880f58d4577/3199263ba5d86952f5521f5e665e63bb/windowsdesktop-runtime-6.0.12-win-x86.exe",
+    "hash": "962fdbb6b17a0e668c30948a7808782dd6672f78e458624c5aa69617227cdf5bc69503937b5ea6c027f7010da9deef6ae7660ee5fa6e86f7b59ee81df2f570cd",
+    "bytes": "52021912"
+  },
+  {
+    "version": "6.0.13",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1740d5f2-61e3-43ab-b0c7-89a44d18f5b5/ca9d3cd1ece3b4ae5517492086ce4a6f/windowsdesktop-runtime-6.0.13-win-arm64.exe",
+    "hash": "31fc944dbb77f3d88a7ca197b586514e46dd9d9ed5be84d3151c83243f20bb7579fd4ca45ac0c3dfefd2067397a003bf0be397553f528afa32fffdd9f686e6f2",
+    "bytes": "51184800"
+  },
+  {
+    "version": "6.0.13",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/4c5e26cf-2512-4518-9480-aac8679b0d08/523f1967fd98b0cf4f9501855d1aa063/windowsdesktop-runtime-6.0.13-win-x64.exe",
+    "hash": "1b44717a2784c6597aa2e1ec9e6bb54f295eab09457cd41e61ca917d45fd1797fb160765111a85cd7264efa392230ee45477a1d95bee0c108c41e8375cd51afd",
+    "bytes": "57190080"
+  },
+  {
+    "version": "6.0.13",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d37ab8e6-095b-4f42-bea5-f519b3c62b68/3b87e1c571a3fc49607acc821d3f107a/windowsdesktop-runtime-6.0.13-win-x86.exe",
+    "hash": "4b4458212b159f37a9f369d6034a6a59796513582a4114c309337cb1989a0e3acb6a9bb67ac5cf0553d8473fef46777e3bf2f37cefae20d29888044333acba27",
+    "bytes": "51985840"
+  },
+  {
+    "version": "6.0.14",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/55813168-b54b-456f-91df-e0aace414af9/770cd0e0d68e6757cd56c0fd14dbf5f7/windowsdesktop-runtime-6.0.14-win-arm64.exe",
+    "hash": "fb441825de7c2d671eb4c10f909ae4a075652d99eac71eace573af0937da72d1af235d930e0607e07f2167744718cc9b6e441547b17b2990eb6d5211b43de495",
+    "bytes": "51178528"
+  },
+  {
+    "version": "6.0.14",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/035efed3-6386-4e1d-bcbc-384a20ebf47e/abfbea2303e0ce9cb15d430314e5858f/windowsdesktop-runtime-6.0.14-win-x64.exe",
+    "hash": "5281e817571afa6c5d848ed9a3fec4cb568ad8c05633cbd97e65e52f4a929d9947c390b9b3a72da6464c89450576d318b253d190776bd357327fc27031c7acdf",
+    "bytes": "57339048"
+  },
+  {
+    "version": "6.0.14",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e66c97f8-3ca5-4cbc-aaf8-77079b21f41f/3ce8574df28f49d85091b1af758eccb7/windowsdesktop-runtime-6.0.14-win-x86.exe",
+    "hash": "3758549cc8d942885a8cda9223a63a795110f73483bf9674f7f8c3ae4d943e8aaced49cb2f452989cbcbf0b5bd62865b8a51d5bb72ac2c4a404cf60722c21127",
+    "bytes": "52131832"
+  },
+  {
+    "version": "6.0.15",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/ed661b4a-6784-4b40-8872-c7df46d2fc4d/22ee24e9434437b66f1d5431504c049b/windowsdesktop-runtime-6.0.15-win-arm64.exe",
+    "hash": "880344f57b4d5b97855eb8d8ecd7dea0101f33e9a8ba944c5e3e2a4566cd9a917839e6ad17ec28ea3365c8bc992a8f873ff456c7e7a2315af007fd527e689d6f",
+    "bytes": "51280424"
+  },
+  {
+    "version": "6.0.15",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/513d13b7-b456-45af-828b-b7b7981ff462/edf44a743b78f8b54a2cec97ce888346/windowsdesktop-runtime-6.0.15-win-x64.exe",
+    "hash": "62412c45ba5ebf89b0ea2c3d9dcce3a7f05198d4db368f63956f7ae58b368baa059343a2de39d24e20ffe126145f31c72131914cb2793f002921a975e69c3bb4",
+    "bytes": "57357160"
+  },
+  {
+    "version": "6.0.15",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c7294693-5754-4bb0-b4a4-bcb63d4ef661/dd21bbae18ee17a1f8cb004bd1a7d365/windowsdesktop-runtime-6.0.15-win-x86.exe",
+    "hash": "5959fdc7260479d57cb9a9c842d7ccc4fee6b0bb52554c7b066c5822344ab0f2efcdb1494bb427db810d8f4e7b209cdc726dab18875eecf3253bf3a9a0f1de56",
+    "bytes": "52008168"
+  },
+  {
+    "version": "6.0.16",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7a490e4e-5a43-4e3e-8311-028e1a5436cb/d2b0bd46d8202676bb8c9f4c97f8ec58/windowsdesktop-runtime-6.0.16-win-arm64.exe",
+    "hash": "5f8b5e5d3ec71b7857b434115448e4c7211c643caab8657d173de31c2d636f943b698d0bd6f53b6caa7b586fc9b5823ff100b7b3b8b2c27d895a8300f412ab88",
+    "bytes": "51291968"
+  },
+  {
+    "version": "6.0.16",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/85473c45-8d91-48cb-ab41-86ec7abc1000/83cd0c82f0cde9a566bae4245ea5a65b/windowsdesktop-runtime-6.0.16-win-x64.exe",
+    "hash": "2bc06b086a7189ad3e2cd0e57158b720c617878a0bd6cf97b510ce37e0b2eeb24463d4b74b0f17ced8b3b606ebbaf860a124517243639072def90a3f0034e35f",
+    "bytes": "57472448"
+  },
+  {
+    "version": "6.0.16",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/ea0e40d2-e326-453b-8cac-2719cbbefeca/b26458b139a500d3067ec25987030497/windowsdesktop-runtime-6.0.16-win-x86.exe",
+    "hash": "c412bc0ef80a05fa3ec9211405c5d6127ed535fec4407826a62b9fdfb17479888ae701d8265714463fa0efb4d7fc6825ac10bcaefad9dfb902f0054751d7a59b",
+    "bytes": "52291224"
+  },
+  {
+    "version": "6.0.18",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/efc902e6-6c71-42d2-b9d7-ad7c1d104d52/2f88aed465962b5f495c98536d6371c5/windowsdesktop-runtime-6.0.18-win-arm64.exe",
+    "hash": "cf05e58ee98251150d3c66fdb7d1b75b377241a396b822ff8696abced4fcf16d778ef83c9c848c6bb2df7f017c22c4026455766754efa4bdd581f2d48c5cd4c8",
+    "bytes": "51398400"
+  },
+  {
+    "version": "6.0.18",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f76bace5-6cf4-41d8-ab54-fb7a3766b673/1cbc047d4547dfa9ecd59d5a71402186/windowsdesktop-runtime-6.0.18-win-x64.exe",
+    "hash": "8e9ea3c67c3e8a910de72f12c30e472e8fa26c05e0927fc533f04fa7547dc88d63ee2239c29dd45e6e515ca355a1539c03b46365f8ac340776e14cbb3c6914f9",
+    "bytes": "57308744"
+  },
+  {
+    "version": "6.0.18",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/68574b0b-3242-46f1-a406-9ef9aeeec3e5/d45d732e846f306889f41579104b1a33/windowsdesktop-runtime-6.0.18-win-x86.exe",
+    "hash": "d876144f90b631f859c8112a463e9e3b9a8fec2bdb1688fc8156f9cfbf4e058b13a41465f573ffe89c90bede4031b1a864d547239551abf6167ded6c44626a33",
+    "bytes": "52234120"
+  },
+  {
+    "version": "6.0.19",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/84d9dca1-78f0-4f4f-b9ff-313beaf5873d/43b7293b597cbb02d112709810766a50/windowsdesktop-runtime-6.0.19-win-arm64.exe",
+    "hash": "ecdc0bcb63d9f4047110dffd3a7c9f60e1cb4bfc41e493f7e1d0c6eff74bd81d4cc246a2b4c60a97328c927dd4f5ed311aa75f57f60f1845d7b7de66da32eddb",
+    "bytes": "51172736"
+  },
+  {
+    "version": "6.0.19",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/30841ca9-5538-40c3-9022-d1ba1e69f6e8/aa94715bc3d74ee0b2e27de757ef0cdb/windowsdesktop-runtime-6.0.19-win-x64.exe",
+    "hash": "ee214705a57e0da2f31dfb4a4ce2368898eef10bbe024f2e0b05889a85d472d3acba9cd935fba5391b84463c1245f641bcc3cbeb9a48334fb6d41e7b3a2a9d61",
+    "bytes": "57187200"
+  },
+  {
+    "version": "6.0.19",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1a0e6cd8-4c5b-4a25-8da6-6985792c5cad/aea270b977828772087496b7b073f383/windowsdesktop-runtime-6.0.19-win-x86.exe",
+    "hash": "993422cec9e7aabf884c6030c855e62c674d85f9ec81eeaa63e9d0f8c395a75d142e8c59eeba57916e2a95650fadbe9e01d7dbbc989b784979dec442171243bc",
+    "bytes": "51821688"
+  },
+  {
+    "version": "6.0.2",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1ab1a9fa-5aab-4487-9048-0daaf74c90f8/e23a567db4880fce75c467d3e9f72b92/windowsdesktop-runtime-6.0.2-win-arm64.exe",
+    "hash": "de3fbb4cafb010590e7658c5f3d5aa13e93bf399d205f610cf3b78208a3aa463ec341cd26c3d40da4e159b7fba1096547d6f5bdfd5298e52d67947555d04a94d",
+    "bytes": "51462688"
+  },
+  {
+    "version": "6.0.2",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/efa32b7a-6eec-4d97-9cdc-c7336a29a749/3df4296170397cf60884dae1be3d103b/windowsdesktop-runtime-6.0.2-win-x64.exe",
+    "hash": "3bbc786c0bc25074ce430a5c7e2d8257888d21128d4c0a905b772fbc12a1e2053feb57e3d9535e7825d5bcc93440821a5264c91ccab41d6b791142b39f896187",
+    "bytes": "57296456"
+  },
+  {
+    "version": "6.0.2",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/72ebbe8e-5175-41da-9046-1890732e0d5a/675ce08d0c1740142305d35692a8685b/windowsdesktop-runtime-6.0.2-win-x86.exe",
+    "hash": "741031b9a2348bb9abb65c85b6728b6d67d36583503cf07af32c5a7af105161d5556543e049eb99ef5c58fefe6d329c1a38c6cf1f2c85ef4b2918c79586e597b",
+    "bytes": "52010600"
+  },
+  {
+    "version": "6.0.20",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/bb9cff90-608d-4799-909e-94f49191b402/25b6295aeecb86fd35fffb95c1e0066e/windowsdesktop-runtime-6.0.20-win-arm64.exe",
+    "hash": "a5798928573622d3641ba14889809cdaffce4014ff5861da205d8da71618a77106e87a25e28913911f35d6744cb2ca139686d7e1a84e3c707adbf5d29616f4d8",
+    "bytes": "51220640"
+  },
+  {
+    "version": "6.0.20",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1146f414-17c7-4184-8b10-1addfa5315e4/39db5573efb029130add485566320d74/windowsdesktop-runtime-6.0.20-win-x64.exe",
+    "hash": "eefd2e2dabb633b0d6c7e523dbdf072c9634088cc6d38c63aaa17c004e38366bcf2dcf5305093b5279a7366c11e177366ceb9d48c14600e140f2efef6caa6308",
+    "bytes": "57323976"
+  },
+  {
+    "version": "6.0.20",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/0413b619-3eb2-4178-a78e-8d1aafab1a01/5247f08ea3c13849b68074a2142fbf31/windowsdesktop-runtime-6.0.20-win-x86.exe",
+    "hash": "d9288d30122891edc2be5a9e65e00bcff678ee1bc9b125f7e5cb5aa1df91514a8f409f5a122e8751bbb122b35450b69c796ec94027e4a5c443c645fcb8aac29f",
+    "bytes": "52069928"
+  },
+  {
+    "version": "6.0.21",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d8396415-37e0-4445-b9aa-42e4b26b704e/a48269d7b01d818695e0413b34b724b1/windowsdesktop-runtime-6.0.21-win-arm64.exe",
+    "hash": "f6ce5d828c9f4ef593c9b40bab2210c689cd331d11b972e32fb089e2064bcb435fe5913e8b4de248ee1d94b6bb25df75712fd7832bbab45e9e1433a57fe446c2",
+    "bytes": "51420048"
+  },
+  {
+    "version": "6.0.21",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/06239090-ba0c-46e2-ad3e-6491b877f481/c5e4ab5e344eb3bdc3630e7b5bc29cd7/windowsdesktop-runtime-6.0.21-win-x64.exe",
+    "hash": "49192c5141bb04dc19483e8b1adec9c6f56fa54ef8c55e2f4fa4aae73abf9119bb7b1dff3d8f9b3307c50de8989669398a5f6d8dc4323b81b6a1def5ee6c6e79",
+    "bytes": "57322584"
+  },
+  {
+    "version": "6.0.21",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/edd094be-cc44-4af5-b6ce-d9e0c9bf47eb/f2e1c95e07a9cc1436e9f47a61dabc4e/windowsdesktop-runtime-6.0.21-win-x86.exe",
+    "hash": "e1a19dcb47dce660d17d459c4283b5f44da4d62c88c6d7ac967d791a6fffb10ab3946b1637423a19615190e85d3d88582d9c786d867f20b7cf0873a486ca95c3",
+    "bytes": "52065728"
+  },
+  {
+    "version": "6.0.22",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/5c1ee666-7d88-4463-afd4-87f608035d97/f3e97d4cb56dd7060d69f83a3e7c36ad/windowsdesktop-runtime-6.0.22-win-arm64.exe",
+    "hash": "2a5617d5ef77e89d650c192b9d48a7cd0cee8d722ff5d8a03aa8bad8af0d26104295627386aa337f1de79df2728a5bff85bacbad2004c5ba114a535bcb9de50d",
+    "bytes": "51374144"
+  },
+  {
+    "version": "6.0.22",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/66a7c4c6-8401-4799-864f-9afddf5a7733/4052f458f0266e25ab1b9c7959ca245f/windowsdesktop-runtime-6.0.22-win-x64.exe",
+    "hash": "448ee5cc3dea9c3c99c5a1bc8895c1a043f9be1c8a23ea4e1d9a4261b46d21c85de5d11a81866436c6216ec2df12de34a86061682c3856045fab5ed06571b25a",
+    "bytes": "57538680"
+  },
+  {
+    "version": "6.0.22",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/4842d8ed-dae1-462b-a1c6-f08fcf568aa1/2a4ede4188528a10d003ee797a211568/windowsdesktop-runtime-6.0.22-win-x86.exe",
+    "hash": "8dacb27082abde25cb981021339f2592167efe8688b4c9a3b76082d0a690097459589d155a8f262a4e5d2495fb960f3f54433580de94e43ec8746fc0b54edcd7",
+    "bytes": "52142984"
+  },
+  {
+    "version": "6.0.23",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c1bf9010-5b41-4457-bcad-bc2503767a57/2fea652e66c03acf51dcc62b98e5e9df/windowsdesktop-runtime-6.0.23-win-arm64.exe",
+    "hash": "1a5e7999bbfd3619792523478172e549bb5385c87dea934fd78fe6cecd488426a3bf0a91d1b1f07ebf5884dbfac0fd3eaf74613113cff39acf630f1ce1cf230f",
+    "bytes": "51193480"
+  },
+  {
+    "version": "6.0.23",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/83d32568-c5a2-4117-9591-437051785f41/e75171da01b1fa5c796660dc4b96beed/windowsdesktop-runtime-6.0.23-win-x64.exe",
+    "hash": "73d07cdcd8a876ba8608490d34e6513c05eac9a70ce0057ff53008f733d3615d57ddf33ea9afc736d4c8d4b19fe38d5cc132c2c472c5f1e38bc7650777b4041a",
+    "bytes": "57244456"
+  },
+  {
+    "version": "6.0.23",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c40fd151-a0f3-42a4-a081-cade6ad66bf8/3e6c8d60725eaa25ef1302a82fb1235b/windowsdesktop-runtime-6.0.23-win-x86.exe",
+    "hash": "4cc01bb5d2d52bffda533f447aa8bafa73ad5c127d6f440803f0350abacd6119e408e68aea8f155ae715c3427c9ca1ec8acd262f563e2592e86eccb09fd29de3",
+    "bytes": "51829672"
+  },
+  {
+    "version": "6.0.24",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e06f3708-2216-451a-a99a-48ce5eb8e556/daa5aca45f8fd818e9584331ca0cab82/windowsdesktop-runtime-6.0.24-win-arm64.exe",
+    "hash": "8bef31e14549285acedee79e7163f4884f66e8bd8dde53193cb1e2e7cef020832447a0e8ff7549adc16f283f58d53c18376cb9cc6a2cccd17053ec3c67120e39",
+    "bytes": "51536200"
+  },
+  {
+    "version": "6.0.24",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/dde9eb7e-8ea8-494a-9b04-5db26c7740e2/43d5050cfa63b7323749c7e56fedd3ac/windowsdesktop-runtime-6.0.24-win-x64.exe",
+    "hash": "033e522bf27761173b76f65a77b4723574bdce81a8e3e5021ff4f156c7e221d44bd7ebb332ef56d3e8d9ac3fa2d250dbc98cfcdbfd5e27ce1516510fa816dcb9",
+    "bytes": "57666384"
+  },
+  {
+    "version": "6.0.24",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e55fa3d8-9a76-498a-aaaa-7dca44c7be3a/5ec98543746ddf2df96264ab015caa0b/windowsdesktop-runtime-6.0.24-win-x86.exe",
+    "hash": "a2679007256c82625dd7acd06f00a8d4250395dc04da4963a9beb1817868464141fb817b15e23319aa25a6ed8b1dd7f55770f5c76a74d6a74fc24bd28e70c0d5",
+    "bytes": "52340912"
+  },
+  {
+    "version": "6.0.25",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b87f26d1-3e82-4df1-983a-42300f6830ec/24feae0309a1c6cd0fc8c10a20f3bdce/windowsdesktop-runtime-6.0.25-win-arm64.exe",
+    "hash": "46d2811411a6b9eac0026b465efffc9d2c8c32925e3e4cac6e4b40eac1516e21c8cbba5f8a797ca5329d15e53e01bc1bfd4a5489da569d033306864d2894f641",
+    "bytes": "51419088"
+  },
+  {
+    "version": "6.0.25",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/52d6ef78-d4ec-4713-9e01-eb8e77276381/e58f307cda1df61e930209b13ecb47a4/windowsdesktop-runtime-6.0.25-win-x64.exe",
+    "hash": "fdf1ae329d696bf280f3fee7c989bfc4678c640608e3175f7c26b3018ac58dc22d8f1618201cc209a8f28940fc94dcb144d98c8c91b072916f8f531f6aabc28f",
+    "bytes": "57436096"
+  },
+  {
+    "version": "6.0.25",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/33eced41-f212-46df-bb2f-12d4b891e667/f55a4581dd72a971f21e9562816c7430/windowsdesktop-runtime-6.0.25-win-x86.exe",
+    "hash": "fb83dd96a7ea4654f7bbd8d2e511df50dfc4633346b78ec317419bc9536b2d13cd71037fb80bdfefc87162fbb91fc9fd978751511877ace1a8788f2bbbaa82f7",
+    "bytes": "52268616"
+  },
+  {
+    "version": "6.0.26",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1f071ba6-9c5d-4b94-9c77-b21b626daa98/947231a2e1151ddc7dfd4ed50a8815a8/windowsdesktop-runtime-6.0.26-win-arm64.exe",
+    "hash": "dec20be2d9a5b4a0ede6a9ae733f1eea7288343c4749565eda3b276ea6aebde55b096e4e69676001e131cde3ecd0086cc64bb9debe6c6b6f236933f956a2ad2a",
+    "bytes": "51495568"
+  },
+  {
+    "version": "6.0.26",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3136e217-e5b7-4899-9b7e-aa52ecb8b108/d74134edaa75e3300f8692660b9fb7b5/windowsdesktop-runtime-6.0.26-win-x64.exe",
+    "hash": "7dd45e746fb0b82c13b91559ac25a39b66b9c94c22e5f9bd91b1dceaff96922b1da2fed152ec36e15f2c7a38e0180508f81807930928c5d0aea225f117a108c4",
+    "bytes": "57530448"
+  },
+  {
+    "version": "6.0.26",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d6835aa3-6ec4-47ec-a5a5-9052ed310e4f/c1171996e95717bf532475f4546e479c/windowsdesktop-runtime-6.0.26-win-x86.exe",
+    "hash": "bd0878b65750173e2d99479ae051daa9e71a0ee1949c600ed4a33856e4bdd2b658ebbd1439977d17c0d2fd8f3bb37c1592c4f46a4def9c534addac3a9f4a72a2",
+    "bytes": "52244696"
+  },
+  {
+    "version": "6.0.27",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/4ea37d90-c794-4059-a84e-27f6df349c1c/46d11b15e35b1ea4e36faaed3568766f/windowsdesktop-runtime-6.0.27-win-arm64.exe",
+    "hash": "0b040a3b8e7055fbc981e959a4694c815451512e6f5e5055ec2b4207428f53120bce156fc6ca286cb2a88b610b788131c1b147cae52eb4ac30b9a6862b09a5f2",
+    "bytes": "51252192"
+  },
+  {
+    "version": "6.0.27",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3ef3cd0c-8c7f-4146-bd8d-589d748b997e/3477d059f8fe5cceb5166b367d7995c6/windowsdesktop-runtime-6.0.27-win-x64.exe",
+    "hash": "8927e3bcda1f439af84af0cb41fefc38c4386297eb463ddc7dd835d98502e63e0ba06a0732b02939a981644d8afad1d77036b6ac38d348c1cd29cf691cb80da7",
+    "bytes": "57300216"
+  },
+  {
+    "version": "6.0.27",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a9669480-f3e0-42a6-b381-108950dfe290/b54d6613c0fa2839c41d61478926ccb9/windowsdesktop-runtime-6.0.27-win-x86.exe",
+    "hash": "b51ebd7eb998a47e2f40016527bded5e2ca845e771ca1cd718b4ec58cea2bdded88a038cf3520594cee9844dbb8d2d246e9daec570964daab11d3b59c0bfbe12",
+    "bytes": "52103608"
+  },
+  {
+    "version": "6.0.28",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1c3aa974-fd10-4e3a-afd0-70504981901c/f043466b295d91cb432cfb12187f9317/windowsdesktop-runtime-6.0.28-win-arm64.exe",
+    "hash": "ead47113e3eac7009fd8224b869d09531f6226cae55b3325f23b0860b83a3dec30df02c8fadf04d8fba476ada1ac65b3c2c2d9bcdff6b1728161fd4501d73723",
+    "bytes": "51417320"
+  },
+  {
+    "version": "6.0.28",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3f02cb28-18d2-41d8-a5e3-411aac7b7e5d/69fb6f7f450993f326ead2575ab783d0/windowsdesktop-runtime-6.0.28-win-x64.exe",
+    "hash": "984ff5f50f0b59e1edde0926858ac63a5605ea9f2c3e55bdb4fe81aaa805f033a70e43474858187c0c3e7358d4dd9b06b8aea1fd1b15dd0d0c3fc9c1d20cbdaa",
+    "bytes": "57433080"
+  },
+  {
+    "version": "6.0.28",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/6e38e5c8-1fad-47d6-8863-bef8a6806148/255e17a4ef55bc157392e713cc7aff82/windowsdesktop-runtime-6.0.28-win-x86.exe",
+    "hash": "4d6f5addb5ec088eacead3d6155d9124770be5f60a779e9f159ea5d19a66de2dbd62ec834eff242d821de81f0aa68f7bf4cfbbc8c916613176d56662c6619dd0",
+    "bytes": "52197208"
+  },
+  {
+    "version": "6.0.29",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3f248dec-e035-4688-8ec2-0ee6234148f2/5348de59826f299f21b479e35e38d940/windowsdesktop-runtime-6.0.29-win-arm64.exe",
+    "hash": "bc5870d1916c6061e82f1cc3869cb8f303ba943c9928676b241843d167b37d3a411a22e1305e06360ef47bb35e8b6148b065c66e0a2b99f7a71941fe827efe56",
+    "bytes": "51182568"
+  },
+  {
+    "version": "6.0.29",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d0849e66-227d-40f7-8f7b-c3f7dfe51f43/37f8a04ab7ff94db7f20d3c598dc4d74/windowsdesktop-runtime-6.0.29-win-x64.exe",
+    "hash": "63a285e8f00f7f408dc88fee512fe51b3905bf4c381fe933393450c479bafcb38ea9b8144c394bdf0ef3ee53326e4ccc059b0323e2b7def57076bddb990f3854",
+    "bytes": "57201496"
+  },
+  {
+    "version": "6.0.29",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/744eb7f8-57b2-4393-b3c6-a2cd57a2430f/23b8b7cefcb2cf19563f4d00575e58f4/windowsdesktop-runtime-6.0.29-win-x86.exe",
+    "hash": "b3c1b30a003e72839bd60cf30a70d01c0a13369b226c418d20d0c4e8493fb6187d093150095b212ae6e33bb4a3b282ea371809ee57a74fa35c76eecfd978458c",
+    "bytes": "52172528"
+  },
+  {
+    "version": "6.0.3",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/2aa0dc08-37a3-41cd-86be-e7179ca88185/7079574462a7b6a7e166dc1fe802abe1/windowsdesktop-runtime-6.0.3-win-arm64.exe",
+    "hash": "87724837f49c1ab2f255f3c33c94858ba65ed642ad781f7d66b20f23dfe9bdc22068db5ccf6780bd5a9beadf8d7021a54abf1b69c57801ef3d4f815ed3ae1c35",
+    "bytes": "51501544"
+  },
+  {
+    "version": "6.0.3",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7f3a766e-9516-4579-aaf2-2b150caa465c/d57665f880cdcce816b278a944092965/windowsdesktop-runtime-6.0.3-win-x64.exe",
+    "hash": "089cb2d98057f6193e2ec9aeda28dd0081b6f2c4b13c6d037903f35703fd84148308a85d0e233d17258bd48d44ce3698e876b858fbb241812d5e437524b34b2f",
+    "bytes": "57153808"
+  },
+  {
+    "version": "6.0.3",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/33dd62b5-7676-483d-836c-e4cb178e3924/0de6894b5fdb6d130eccd57ab5af4cb8/windowsdesktop-runtime-6.0.3-win-x86.exe",
+    "hash": "ec57c188acefd1f9ff284e9bdee9c978f88651069b7c7a4a7503e2343fd017ab6967d9a4d1b4afd4532e7acc94d6e900aa0b5805a7c3788068a7db1f740a877b",
+    "bytes": "52453248"
+  },
+  {
+    "version": "6.0.30",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/62c0149c-c117-4600-8717-cbdd0f6101aa/00c4f58f028abd47afe3ad9c41c6ca9a/windowsdesktop-runtime-6.0.30-win-arm64.exe",
+    "hash": "fbcc9577a2fbfd069d0c83e97a628b9c8969b23948743c7eaff76a78a02bb43f62fab4222d6290e04dcf57b1249434b9524fe64bf3823933fe23cdd74d0e5ef3",
+    "bytes": "51342024"
+  },
+  {
+    "version": "6.0.30",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b14af665-ca5f-40a5-b0a9-4c7ca9ff1072/dfc3ab88e4dfbcece4fb7ee5246c406b/windowsdesktop-runtime-6.0.30-win-x64.exe",
+    "hash": "fe6ba997ccafb5d8405e0ff4bcfc5b9ca07a425173f49d3bc043b3fd71833f7547837d80ae1d2aaa6f8f13bcf333d9814f0d9a4a5e1e7222b404fe1d08882a6d",
+    "bytes": "57325056"
+  },
+  {
+    "version": "6.0.30",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/94bd5cf9-0c22-4790-89c6-d1ce4b4fe952/2a01badbae5ec0c3e199f3c2a7ae764f/windowsdesktop-runtime-6.0.30-win-x86.exe",
+    "hash": "4ad73567c8bab8c789009a81137d8f05a27e9c21b6b89dfd58d5ed356d447b94694e047272b43eba2a16100fa0fe681adf5569bccdc4a3bf243af33ccf4f0a62",
+    "bytes": "52038832"
+  },
+  {
+    "version": "6.0.31",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1578f2ab-9de8-4078-8063-a629edfef884/bb9268adab104f9c23e590ca414603e3/windowsdesktop-runtime-6.0.31-win-arm64.exe",
+    "hash": "4b4f5e6616d0c0d6b28b9bd8fbd45c8300a3e45da97bef888196d562c4132c16f81cb1185101207b5cfd8bcf5aced1f15a60d90e7ae8d0ef466d8aaf79fe18e4",
+    "bytes": "51616696"
+  },
+  {
+    "version": "6.0.31",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a1da19dc-d781-4981-84e9-ffa0c05e00e9/46f3cd2015c27a0e93d7c102a711577e/windowsdesktop-runtime-6.0.31-win-x64.exe",
+    "hash": "5202b008e0f885c2c78cd23a8dc0970e1281e905e3c6c796e2d77e5aad15eb312661a6b459b0b29b7b16979cd6c8f29d0ac52b0573a60da4f9e032c17a8acd9c",
+    "bytes": "57699448"
+  },
+  {
+    "version": "6.0.31",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b5fbd3de-7a12-43ba-b460-2f938fd802c3/627f6335ef3ba17bd3ef901c790d7575/windowsdesktop-runtime-6.0.31-win-x86.exe",
+    "hash": "ee2d05c49c5c8a4981529ccf67c5554bc39c7fa1562ecd56f0b3b2c92367fc0646f87ba742955a61b744c6d2754a35775182932e511229528798439147875a01",
+    "bytes": "52314304"
+  },
+  {
+    "version": "6.0.4",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e49c1c5d-af86-4ec1-9cc9-fa6a9d3ace94/98fe87ae72e3e79a3efd82d07e59d1a3/windowsdesktop-runtime-6.0.4-win-arm64.exe",
+    "hash": "d6d83d7bce6b52a1bd1f6401e8ed0bd3f33a14aed51aca4a0a464d0f228073a79bf371536d8fc0b7e316077fb81a5767aeec5e3bb3da81f809f9b16673d8ee75",
+    "bytes": "51677888"
+  },
+  {
+    "version": "6.0.4",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f13d7b5c-608f-432b-b7ec-8fe84f4030a1/5e06998f9ce23c620b9d6bac2dae6c1d/windowsdesktop-runtime-6.0.4-win-x64.exe",
+    "hash": "209e596edd7ab022241ab378e66703912974e7aa6168f287c9ce036fb31e58029ad304c8182b4b62a08e8d5ae4db74de277e298ced6d2746ef08da2352a2a252",
+    "bytes": "57801256"
+  },
+  {
+    "version": "6.0.4",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/05b30243-5cd2-48c3-a9bb-6ac83d7d481b/03a25aecb5cf4ba53c8b9cf5194e3c86/windowsdesktop-runtime-6.0.4-win-x86.exe",
+    "hash": "e3e52096d09782b35d6dfe15c8ed8eed978d7def198696f2e6f3ce7c83e7526b5e74955de2ca68ae94bbbd6c1d01d4faf2f4a5252c1e7c99b0746e2716a0a8e5",
+    "bytes": "52576016"
+  },
+  {
+    "version": "6.0.5",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/aa74da73-02cb-49fd-93ad-ce93edccb8bc/4ac67827aff545ead4032a940c9094ff/windowsdesktop-runtime-6.0.5-win-arm64.exe",
+    "hash": "93a13ed9d11bf5c53958c17d9ab0b6da10376742c14e249b28b5e2412d6273e2b0dfcd71d44de479e13155b6d417f49343baeaf3297406d842e03af6505cdaa3",
+    "bytes": "51774400"
+  },
+  {
+    "version": "6.0.5",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/5681bdf9-0a48-45ac-b7bf-21b7b61657aa/bbdc43bc7bf0d15b97c1a98ae2e82ec0/windowsdesktop-runtime-6.0.5-win-x64.exe",
+    "hash": "5eb1537295cdb513197419c311777229fd43af6cea0ef6134f9990b32b8ac26aa51139f2c0b63d9cdfb6d753dd9db6f243b887ec511f15866157aa9e127b5cea",
+    "bytes": "57791288"
+  },
+  {
+    "version": "6.0.5",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/68b75eff-3cee-41e0-b993-88a3e063eaee/3aa76cd11da04e2126a3fb7a6ee16e23/windowsdesktop-runtime-6.0.5-win-x86.exe",
+    "hash": "c62dfcd8f51ba6aa8d7fcf963aeb3e0756e06c2b106587b4cb0820d06ecf9dadb43555f94986941d1bd8e9d8a61fe2b2bb58fce48f9ecfd0783c0763c40babcb",
+    "bytes": "52599120"
+  },
+  {
+    "version": "6.0.6",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d09acad2-0abb-4ec8-8388-b8b42b31cd58/517cff2da8fbcdcb514bb4e2f1dc8879/windowsdesktop-runtime-6.0.6-win-arm64.exe",
+    "hash": "176f8d10e890d253cfdc19b65fef83c6df299d10262ee3298299b1545b27ba2143ebc76a15f06ae5d6dace6a01fa2944b19af01fedb42bbac309d173b996ed71",
+    "bytes": "51535984"
+  },
+  {
+    "version": "6.0.6",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/9d6b6b34-44b5-4cf4-b924-79a00deb9795/2f17c30bdf42b6a8950a8552438cf8c1/windowsdesktop-runtime-6.0.6-win-x64.exe",
+    "hash": "b4b5d989fdfca6c160fbd769660f91aec47b0cc0764de1d2fb3de9d1b86d5c789a84376497574ebd86fb6fb1c7a2a6aaf52661932e8be4f4c2efe8a47a60e469",
+    "bytes": "57665648"
+  },
+  {
+    "version": "6.0.6",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/cc04076c-d188-4c20-9b4f-89be06f1a39c/32da746ef46fbeedb4f609b67cb451c3/windowsdesktop-runtime-6.0.6-win-x86.exe",
+    "hash": "8de470e216dd3066976e916f887697817e2245e7ea3db68326356c959abe0bb5dd408f889d154718cc316f046cc8b592ed9022c164a8f495448b6deed3cd9d24",
+    "bytes": "52595800"
+  },
+  {
+    "version": "6.0.7",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f33cf7ce-bf03-428c-8aa7-e32ef6d7ddc6/e61dc60fce686844c41ec2901ad5b01e/windowsdesktop-runtime-6.0.7-win-arm64.exe",
+    "hash": "1ab666244683bdf5c8297e52d6e2553f20b110b063ddd016e82998568ecf818f4d756f1a78fb8049ad25f9ff75f6ed2ad862f8b0576df32f7d6d344588815615",
+    "bytes": "51538312"
+  },
+  {
+    "version": "6.0.7",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/dc0e0e83-0115-4518-8b6a-590ed594f38a/65b63e41f6a80decb37fa3c5af79a53d/windowsdesktop-runtime-6.0.7-win-x64.exe",
+    "hash": "b38fb7edb21348b1cf6ee7310dd7fe03a10844f47418d993aa8145d7232a4e2d22a3388b591bdb9c3bfbd9c7456a538ac299beb93f180f6cca73cb41f1ef6596",
+    "bytes": "57705744"
+  },
+  {
+    "version": "6.0.7",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f21307ec-9007-48ba-80cb-0b1b7c3c212a/366a3d6b4c092d85d7979c6bb818f1b6/windowsdesktop-runtime-6.0.7-win-x86.exe",
+    "hash": "33f65f54f979689122cbbbab700b7de90226088d29a6069f31f69b980c023fcaea4b822562018f8b450509925c5ea295e06a2424366f75088522d1c3d5409852",
+    "bytes": "52452248"
+  },
+  {
+    "version": "6.0.8",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/17737b16-dbb0-45f8-9684-16cce46f0835/14475e8380422840249513d58c70d8da/windowsdesktop-runtime-6.0.8-win-arm64.exe",
+    "hash": "0cb088c6f3ab8f901019c3a6d45d90130fae090c1e530a12788f118377b0c54096530f4bc1fc868fb4cc8f5c17373a5106f6fcb77a4cb8a7d3bc6ff69792f277",
+    "bytes": "51735240"
+  },
+  {
+    "version": "6.0.8",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b4a17a47-2fe8-498d-b817-30ad2e23f413/00020402af25ba40990c6cc3db5cb270/windowsdesktop-runtime-6.0.8-win-x64.exe",
+    "hash": "53d5f38ebec2675d43c618c32533f3b8684384839b4bfa83902d06be535a56410255e26ee0a4844c170f7536be9039a126eebec8577a781b8a0c30c00a7ad20e",
+    "bytes": "57909296"
+  },
+  {
+    "version": "6.0.8",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/61747fc6-7236-4d5e-85e5-a5df5f480f3a/02203594bf1331f0875aa6491419ffa1/windowsdesktop-runtime-6.0.8-win-x86.exe",
+    "hash": "74738784718eb1f6db893ec084b7a9b590f8490b1976df536d20d7b145767217f6a5c2cb7fb923e917e20e1f0e8ed3d835008e15147b53c3c0e3b6fd053a4190",
+    "bytes": "52650784"
+  },
+  {
+    "version": "6.0.9",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e207429e-4cdc-43ed-868e-aeecbd1ae9d0/d32e40bb2385e7407ea235dc5541ef29/windowsdesktop-runtime-6.0.9-win-arm64.exe",
+    "hash": "a741c4af559526d69e00be8d0d954d365d67f30739af9d142fef28b0197ebaad9f169108b71c4cfa9ba94cc86fe2f0900f8a3165aa1cd0349c74defdf9f6157d",
+    "bytes": "51262992"
+  },
+  {
+    "version": "6.0.9",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/fe8415d4-8a35-4af9-80a5-51306a96282d/05f9b2a1b4884238e69468e49b3a5453/windowsdesktop-runtime-6.0.9-win-x64.exe",
+    "hash": "28cc3d88e6fa54938177937118260e9129967246e30d2140fdb7a4a8e9e393efec689d6282edb6982853fd3ba27701239a8d1ee81a2dd28c93b186f1a3cb1b55",
+    "bytes": "57328120"
+  },
+  {
+    "version": "6.0.9",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/925f9407-2767-4341-857a-43cdfad71e17/0b84db913bdbb1dcf02db937a3cd3f63/windowsdesktop-runtime-6.0.9-win-x86.exe",
+    "hash": "6b45a936a15710e22a03c64ad4f37ee4a934d957d31e78f73533099109bbeecdb8eab7ec0749c2ecbcf90b72c9d6c7462252885f7c502f68e636167cacba3de0",
+    "bytes": "52443656"
+  },
+  {
+    "version": "7.0.0",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/bce1b608-3a2a-45e6-ab7b-8c414b9e2c56/74703a44afc5f7550eba824143fc20a7/windowsdesktop-runtime-7.0.0-win-arm64.exe",
+    "hash": "9d7d71f6d07f58e2691f92f18862b3af884f39ec1e6fa4c0bf1e0d33a5cc00e6cc684ba87f432a3bb6db74be8fc6ff46571b7adc406d4ba01ab260560eb4ac69",
+    "bytes": "53133216"
+  },
+  {
+    "version": "7.0.0",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/5b2fbe00-507e-450e-8b52-43ab052aadf2/79d54c3a19ce3fce314f2367cf4e3b21/windowsdesktop-runtime-7.0.0-win-x64.exe",
+    "hash": "e6281f475a58c8dc7b103d0cfd895e0f27235e25731b473514c82b77d8e555ea294f66ab3e119c5fd38c5a8f18b4a4d8508938d7cff70ab2186b47417349ea1e",
+    "bytes": "57756472"
+  },
+  {
+    "version": "7.0.0",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/d05a833c-2cf9-4d06-89ae-a0f3e10c5c91/c668ff42e23c2f67aa3d80227860585f/windowsdesktop-runtime-7.0.0-win-x86.exe",
+    "hash": "8904a454d07360ee1a4d75fb856afabf5192695602053f11f598650defe9acf5cb40ff20d70999af99971bac621dcfb01c63cb16014f93b3a498ab504ec9bbb1",
+    "bytes": "52897096"
+  },
+  {
+    "version": "7.0.1",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/310cb8eb-5672-4b92-bbbf-ecc80993f0f1/c85f4064aae422d1940982aa1812d8e0/windowsdesktop-runtime-7.0.1-win-arm64.exe",
+    "hash": "bc8034081899706538277c948d9756212e6fa5ceff297ed1d31bc4f7f515424d9e23d399d518bb8c4b15d09c8e0f32f4308218cde7e8302bccc2297d0f13b006",
+    "bytes": "53087248"
+  },
+  {
+    "version": "7.0.1",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/04f1126b-2f97-45b8-838d-1844484af007/f9e892ad558abd3db479e16f65c762f3/windowsdesktop-runtime-7.0.1-win-x64.exe",
+    "hash": "827d66faf8666c8f12b6f85faece3edf3d87346ee71422b2d70e9e05e272b6d6bf0ff33b61348860effdfae1f4e91fcefb4ca37d76cd83267582733fc7df6728",
+    "bytes": "57573664"
+  },
+  {
+    "version": "7.0.1",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/ccdf433a-4112-49d5-8ade-183dac308ac6/eec9e7b2843844a78d34c9c9916a63e5/windowsdesktop-runtime-7.0.1-win-x86.exe",
+    "hash": "f918e5bb69cb1744fa0e17b5c759c30aa4463597d37f72edd914b32df126dd23e8c0259c3853a0eabb81ea0c98d3981f1eb541916ebd62da73d033bdc9135647",
+    "bytes": "52855824"
+  },
+  {
+    "version": "7.0.10",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c8a46c7f-effb-4ed1-8066-67a6623a915a/18d58ff2a47fb0d9bbd347efe873d503/windowsdesktop-runtime-7.0.10-win-arm64.exe",
+    "hash": "2bf42eba06f715aa265fcd80c0cbee2017b55d50bbedf0a1c1b5146c0d7d58f4ec66b6234391453f064c62b55cafe8385dcac9097fd9307401e6fd8a92f2ca90",
+    "bytes": "53169576"
+  },
+  {
+    "version": "7.0.10",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/747f4a98-2586-4bc6-b828-34f35e384a7d/44225cfd9d365855ec77d00c4812133c/windowsdesktop-runtime-7.0.10-win-x64.exe",
+    "hash": "e69fc0f0577dd2c255257521b11cbc5507847d2a092bacf6a7fa3b4b0493390f709fa3cae785dcb7afb271ceb83b804196578f4a6931f9a3f635cae114bb53ec",
+    "bytes": "57660896"
+  },
+  {
+    "version": "7.0.10",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/9812249d-fc42-41ab-bd2e-6e858d5dd5a7/95fa5a1a77eace4482bcb98ede190003/windowsdesktop-runtime-7.0.10-win-x86.exe",
+    "hash": "6a3dd2540b4766187925ad01c25337bd697856f9d8078fc902fff3c61961420d6832bc5e4d2691c284815b4a323e7c0dd619d5b4b954e54fd13bbbed29a8cc7c",
+    "bytes": "52813832"
+  },
+  {
+    "version": "7.0.11",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/94186fe9-7c8e-46d7-b9bc-69759f43e8b0/f9214eb5df67e0b98f0432cf61862de3/windowsdesktop-runtime-7.0.11-win-arm64.exe",
+    "hash": "62b752f01a1eb8c7b6408aeca63199092315a0b15659641b51d42a600715aec0d2ec0e405dd645fa7cdeda5fb784539d6d4ab2c0cbf2dbbfe1d82ed87640d7a1",
+    "bytes": "53144200"
+  },
+  {
+    "version": "7.0.11",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/2ce1cbbe-71d1-44e7-8e80-d9ae336b9b17/a2706bca3474eef8ef95e10a12ecc2a4/windowsdesktop-runtime-7.0.11-win-x64.exe",
+    "hash": "c5f042dadd878e2cbd1833a73141e64fba2fae10ba5770daac8faf24bb56d7bc61cae8f7664c37fa822db71d0bf05b97733126db396e97e9ceeced596b9a63c1",
+    "bytes": "57837864"
+  },
+  {
+    "version": "7.0.11",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/8390b217-55b7-497e-ba1b-b70f0a93cf29/39ab1928787ffc939d95e97c1f5a33e4/windowsdesktop-runtime-7.0.11-win-x86.exe",
+    "hash": "b7583409ea718d60ac81e8d28ab7511850d0b43e9bb9ea8488dd473b1ca904afe99d1ab298b1c5ab5271d8584baed65653196d3caf0ad9737e70f2eccbb9be4c",
+    "bytes": "53056184"
+  },
+  {
+    "version": "7.0.12",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/87be2c02-a0ca-4154-9c29-a33c30ff3ed3/0a6910c08704c50dc4fc059fe35eab0c/windowsdesktop-runtime-7.0.12-win-arm64.exe",
+    "hash": "1623a026b9f247dd503c05fafcd8ce05d7a1fd6109eaae0d0aed00b579729fc7084df23f5a60dd300d5ba23aef9c50b4ebb0871b3e26f682da406f2f72afc65f",
+    "bytes": "52998264"
+  },
+  {
+    "version": "7.0.12",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f9ea536d-8e1f-4247-88b8-e79e33fa0873/c06e39f73a3bb1ec8833bb1cde98fce3/windowsdesktop-runtime-7.0.12-win-x64.exe",
+    "hash": "a366e858eaca7330358ef5d7a7efada45cc64284e36ba9f7722fa1a1644b1b34b343e700ce718ef67d08c7abf718eff7aefb4d5909ca7b5f63b4056b132c83de",
+    "bytes": "57561656"
+  },
+  {
+    "version": "7.0.12",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7e606599-560e-47c9-9ff1-60af4beaffb5/377fdff249559470cf483880f16acaf0/windowsdesktop-runtime-7.0.12-win-x86.exe",
+    "hash": "ce33129b2c6efe948b1eed73d127e3a5b0bd0af727474c2b8971b9075e37137cd985e58d2e47b9b1f0152a527eac98545e6cdb40054a34a6e3286601069ce259",
+    "bytes": "52724920"
+  },
+  {
+    "version": "7.0.13",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/157ab26c-50f7-424d-86f7-ed25509be644/2d8c75f4fc0ca85211e5b2aa47a54632/windowsdesktop-runtime-7.0.13-win-arm64.exe",
+    "hash": "87fac539d227e95cc04dd9f91722da3cc996c063e35a11b1f7086157529da2a856817c49c62994f268e947d540e316becc4848a2507d27ad49d0c214ca9d257b",
+    "bytes": "53215560"
+  },
+  {
+    "version": "7.0.13",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/515cc796-e9f2-4b5c-be7f-b42f115a65a7/b0b146fcbf1d1c135807ff24b3d88093/windowsdesktop-runtime-7.0.13-win-x64.exe",
+    "hash": "66b252ea80571d29be668511c131f03c2d4d0d99c018ad21471048c96c5d41b175443910099e8579c4356562d7ba92793e971b510e4372d709b1ef549c0cc523",
+    "bytes": "57907104"
+  },
+  {
+    "version": "7.0.13",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/84986c79-dd13-4bbc-abef-294638d5864a/75d29754580986fef26b5d64ec880075/windowsdesktop-runtime-7.0.13-win-x86.exe",
+    "hash": "8dc11bb954eaeb67c67f118754872c58d30dce82f39f83fa4b4fd808c4aa4e249eb3fbe18f1ffbd4af39d8bdbb44a0a1a08232d02d4cbbba456f7e531bfbe3c7",
+    "bytes": "53062120"
+  },
+  {
+    "version": "7.0.14",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c6dd9f16-a5cc-486b-85d7-1f7d67e7f91f/11084e31d4d894e0c01d59b1cf2dbc84/windowsdesktop-runtime-7.0.14-win-arm64.exe",
+    "hash": "e221deb9d129bb37d890e9bdf5dec99487f1aa6b8c6b7545360e52f647d5415740666f2f9f57c2f165ad4e9f46d186ff609d7a3314cb15723ba5c6f7652d683e",
+    "bytes": "53152368"
+  },
+  {
+    "version": "7.0.14",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/8f5b0079-2bb4-49cd-874e-0f58703eff6e/7010b5f213a2c436a307eb385dbb16ff/windowsdesktop-runtime-7.0.14-win-x64.exe",
+    "hash": "cb43e9852e719cc2b42a7e3f265e816e20629980f3f0eee6b655558efefb7c8749aedcc9cd7c1f7cbaed5e228ff6d7d2a9fe3cc5434c9a19869dd50921c3bea5",
+    "bytes": "57776472"
+  },
+  {
+    "version": "7.0.14",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3a87d4cf-87c7-4432-89af-37f21dc651a7/7996e26d189d21afa4fe54a02062df5d/windowsdesktop-runtime-7.0.14-win-x86.exe",
+    "hash": "6784176e4e341c66fb49321acef2261a4067360dee11a1c51989c701eac707bc58848abce8ef6cd934135924317e1432dcb1504f03c184648685545c9356f1f5",
+    "bytes": "52967736"
+  },
+  {
+    "version": "7.0.15",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b72d5361-0d95-4021-b5fc-ea1e39607561/e19ce3af776d3cfe023a3dc1ea1153e9/windowsdesktop-runtime-7.0.15-win-arm64.exe",
+    "hash": "c378d55b11d99f7f606a8c1604a81514f81595d48077f63f6604dd1684ea3fd7f642d1d8d68111d66b5aa5a950f99d09735eb4a6cd43481763d3d81b3ea9d545",
+    "bytes": "53341072"
+  },
+  {
+    "version": "7.0.15",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/00f765dd-f009-41b4-921f-bee1273f3638/3cb6ac95b2aa7eeb272c6179d56fd036/windowsdesktop-runtime-7.0.15-win-x64.exe",
+    "hash": "9fcf6fe4a49ccac84fced899039522eee06210cb7d7add57d2c4f76560a4698f38ce22305d13f129a535fc105e3e7e132b90f9b9aadeaffae076f037c891813b",
+    "bytes": "57833152"
+  },
+  {
+    "version": "7.0.15",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/fd3675e7-91e6-4fce-9c77-9336a4973e42/e970987509babd919e8ea29309054c8c/windowsdesktop-runtime-7.0.15-win-x86.exe",
+    "hash": "f749fbb22ae6daf5370f2d8c0961af049a723b742805a5a36dc2288f0318ceb600551ff72fa79aaa393b22a207165c92aa2de918c7215b6f4caa7fb679a3df69",
+    "bytes": "53005408"
+  },
+  {
+    "version": "7.0.16",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/dcc4e2bb-c2d8-4c26-9340-5fa9248dfb5e/3defd1e70b53730938071792db453e6d/windowsdesktop-runtime-7.0.16-win-arm64.exe",
+    "hash": "ed2bed1402f85209faaa384f143082525f5b3982f5207effbc85c85c3250e909bdc44bb49a11e1d0422d3384b41334c1adb077ef1cbae1f39077ec7e31e17f34",
+    "bytes": "53337432"
+  },
+  {
+    "version": "7.0.16",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/38c809cc-858d-45ed-88f5-a7f098cab691/2e4f859f8f6cf64aa952df2a80f16d2e/windowsdesktop-runtime-7.0.16-win-x64.exe",
+    "hash": "695ee6ba6002e91936c04d5be5eff620968b1846ba3effa659aa724b6e53aadc57ddddfe07256721a461ffc6363ce5634a962f5e84a1b899a57e1325a5819af5",
+    "bytes": "57867520"
+  },
+  {
+    "version": "7.0.16",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/ff4b13ba-07aa-4aa7-b5ae-9111c363c802/5fdedee9a9fae645bfdda3a8930c923d/windowsdesktop-runtime-7.0.16-win-x86.exe",
+    "hash": "7b3b0256f85f6608231ef3d99407d5b02306089934b87ff56ec7835b1f4c750c64bc1e8380ef4a08941d6e259d7de4892b2eb8028f0d53eeae719902c3bf9b3b",
+    "bytes": "52915712"
+  },
+  {
+    "version": "7.0.17",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1e3fd87b-1c3f-4096-9492-ebcdf33d3e3f/91cb5d7efa6db8bfb1d08d83d0e287c7/windowsdesktop-runtime-7.0.17-win-arm64.exe",
+    "hash": "2cda092f42a1346aabe40838e20eb4ab1864aae168573ad3c9a016efbc99afc41a681e3b7824d44fbad08985f7c12c10ba7ef462e93a28248d483c7b159d6b46",
+    "bytes": "53428832"
+  },
+  {
+    "version": "7.0.17",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c81fc3af-c371-4bb5-a59d-fa3e852799c7/056ac9df87d92b75cc463cb106ef3b64/windowsdesktop-runtime-7.0.17-win-x64.exe",
+    "hash": "c8cc217acdc36c951fe6abea638fc1f8967e3f4d1eb37e2a44eeb2056f15af7186b875942f34ea8b2785f0877b60ae275c02297988e069a6b5e89882debb1bbe",
+    "bytes": "58133288"
+  },
+  {
+    "version": "7.0.17",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3375deb2-9c69-41b0-b3ee-a6ed6e87c705/caf33fdd0f8c3e8aa8a7229be1ae3de7/windowsdesktop-runtime-7.0.17-win-x86.exe",
+    "hash": "b6133567a387d778b806192ad0cfe9210595214a381d807c860b67dfa14b2593de039956bbbbbdfa53bf3d01aa60bcb2fa828971f45f59ebb1ca1eefbfddd638",
+    "bytes": "53283296"
+  },
+  {
+    "version": "7.0.18",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/5ba570b4-c834-4b6f-8590-561985f2f326/966f2683a39896227f0d697837b3652a/windowsdesktop-runtime-7.0.18-win-arm64.exe",
+    "hash": "489c8a4e4c0c173dcf6abcf928b7179ffa82a76e67c95575304056027d04afa251f86caf63b732230b125eee0961c861093efd3e52061f1537754daa8b331028",
+    "bytes": "53402904"
+  },
+  {
+    "version": "7.0.18",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/e8b0aac4-7f86-4a7b-9a9a-448aa2b0f116/99a4178751b799db3d059b4b22b4451e/windowsdesktop-runtime-7.0.18-win-x64.exe",
+    "hash": "cbdd6fbdc4a2cf1810f59d247bee4843c91c244bff896b9b4de299edf1544d6ab55125c7f13c0e006fe3cf518141748ec827d5539a1f47ade852a62b5cd050df",
+    "bytes": "57872832"
+  },
+  {
+    "version": "7.0.18",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/0e6c8e02-c8de-4948-9d9c-95b9521a35dd/bb162aaedc45c0bfc4b110dd26271539/windowsdesktop-runtime-7.0.18-win-x86.exe",
+    "hash": "4574b97556eb5b7a72dbfbde348b9e093c4b2e7125d5e7d6d9f2c80c84f55edd3d7896b6d836ee4b9e5804dd33513a77aff66a255ba28ba2fef331755e356a22",
+    "bytes": "52993624"
+  },
+  {
+    "version": "7.0.19",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/a5582b5c-5ed7-469d-b0b2-acdf9c8378a4/27ec43b32f8b0a388930566091c159c9/windowsdesktop-runtime-7.0.19-win-arm64.exe",
+    "hash": "aed3c87cf5f42b7a63ba1c2274962b57236b866529afc581896ec8d2ad97acaa5fdfafb483478cffa6617e5f7e390941708a10108339a1978ed00def11b86344",
+    "bytes": "53404680"
+  },
+  {
+    "version": "7.0.19",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/59f35686-7985-4356-9ed6-45bb943bd923/1d04faf7a23c79a5aa5edb6894245baa/windowsdesktop-runtime-7.0.19-win-x64.exe",
+    "hash": "a5bf3d8a0552d780d4b5dcef7b4b8158cedd4c3d724353343912861c1195d21706ec52b718216d0a4f9cd65cc385afb6864115f9217cd72379fec22dd37be3cd",
+    "bytes": "57937624"
+  },
+  {
+    "version": "7.0.19",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1f82e444-69a5-435b-945f-111a4ecf5303/365411fda0082c7b7d9b3a8bf6053868/windowsdesktop-runtime-7.0.19-win-x86.exe",
+    "hash": "bae6f65513a65b661bd762094a729a5683306d0f1bda1a8071309baa632abfd9902d9c1436d20f703a94aa8c0e3133f42fae619866be1785a01cd997390cbe41",
+    "bytes": "53285736"
+  },
+  {
+    "version": "7.0.2",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/17f810f5-7691-4e6c-8169-dc7874ddb938/2381bb0454a0c1cd790f102bb1b04345/windowsdesktop-runtime-7.0.2-win-arm64.exe",
+    "hash": "833aa91c9fba4243668ad39b3be91c10a17fed692ed74a83cc79d3320f126119a5d5d01883b9248203fc55ea7dfeb49e28ca77c6a918a70859bb300c66160f3f",
+    "bytes": "53223184"
+  },
+  {
+    "version": "7.0.2",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/8d4ae76c-10d6-450c-b1c2-76b7b2156dc3/9207c5d5d0b608d8ec0622efa4419ed6/windowsdesktop-runtime-7.0.2-win-x64.exe",
+    "hash": "f40a360ffbc9b3c21eed07f2400e595505377f467ad3f80377937b88ea89f1afd302c00fe5e4a0bf4b7e281cb1af3d2f79b3ced7ed408d97b465310719199447",
+    "bytes": "57757416"
+  },
+  {
+    "version": "7.0.2",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f63a565f-28cc-4cb0-94f4-e78bc2412801/f4e19159c0a2980b880ee6f1a73a1199/windowsdesktop-runtime-7.0.2-win-x86.exe",
+    "hash": "b50a1fc97c80cd330cee098e171e2b6e6b96553203d05a2aee195c1ee32c23a4162f90e11e4fa8a8fec3e55a73a0e95bace4c8266207c47ba8e9c26296f376e5",
+    "bytes": "52923160"
+  },
+  {
+    "version": "7.0.20",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/de2e5484-866e-4149-a3e2-023c705403f9/68a700c68af757d68ec87daa4b878c96/windowsdesktop-runtime-7.0.20-win-arm64.exe",
+    "hash": "b11f73901c5268b1f68850e8afaf889778f18b6052b818d3d1eac6ff84f2671e24c6c7b4dc28dcba7bbe652acf08990cc4a1655c766ee659e75c9aef5b3ff795",
+    "bytes": "53485664"
+  },
+  {
+    "version": "7.0.20",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/08bbfe8f-812d-479f-803b-23ea0bffce47/c320e4b037f3e92ab7ea92c3d7ea3ca1/windowsdesktop-runtime-7.0.20-win-x64.exe",
+    "hash": "a0ed41e1672a25a9ee2cf3ca081e90f037b889100dbf8312e277447a801a4f3b7af464fa05fb796a24f89cd119102e8d0a382f4711e4e6263e5503642231da88",
+    "bytes": "58011208"
+  },
+  {
+    "version": "7.0.20",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b840017b-c69f-4724-a152-11020a0039e6/b74aa12e4ee765a3387a7dcd4ba56187/windowsdesktop-runtime-7.0.20-win-x86.exe",
+    "hash": "cfdf8369b3ac1c8fcba3274cb716c9faaa1df489ec3d3fd77419e78a0d740588546269ab7d77e09b3d4fe3817c55ca63c909d259ab7fe8b33da351453b58a05b",
+    "bytes": "53193856"
+  },
+  {
+    "version": "7.0.3",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/96fb549b-f859-4722-9a62-41906c64be61/35ad6083caf6488eef4f9ef8504d4795/windowsdesktop-runtime-7.0.3-win-arm64.exe",
+    "hash": "944aaa353b9f371006cb4a98e1cb1b1cdad2bddd9958027843d5a841fade46f1bbb53caf7fd28c58f22faeac0258482ff7c1a7d7d4fd85d5cc1d8f9ae840900e",
+    "bytes": "53208040"
+  },
+  {
+    "version": "7.0.3",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3ebf014d-fcb9-4200-b3fe-76ba2000b027/840f2f95833ce400a9949e35f1581d28/windowsdesktop-runtime-7.0.3-win-x64.exe",
+    "hash": "3a401ba2681cd6bf88cdbc63d64dae390b53a0d49f5cc5ebdc02429e51e503e274833e9f1984c644d64713553192ec933a30d6fc98386cb87abb605e33cdb4da",
+    "bytes": "57748056"
+  },
+  {
+    "version": "7.0.3",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/fb8bf100-9e1c-472c-8bc8-aa16fff44f53/8d36f5a56edff8620f9c63c1e73ba88c/windowsdesktop-runtime-7.0.3-win-x86.exe",
+    "hash": "8aad7c1766f11337dfeb8774b28d7462b742609f27dbf6ee0f1ad300f0bf7def00f75d47b151b433e3811dec4144521972c30f1772c86dbabc465d2e8299db7e",
+    "bytes": "52919152"
+  },
+  {
+    "version": "7.0.4",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f9e5d878-12fa-4c6a-889c-3c03c22cecb9/0ccb0a599375a19ba34dbbb318864297/windowsdesktop-runtime-7.0.4-win-arm64.exe",
+    "hash": "ddea899010bf61b505120f57aa0f004078cb54c0a305ca09233b097cffcf460c93bb379063cc71addc76414d0eae6cf2d4cf03449a0e4f89e331587f9cba649b",
+    "bytes": "53004328"
+  },
+  {
+    "version": "7.0.4",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b6a55627-12de-482a-aea8-17d635f4b775/d8798c0c796a945c657d04438cf9b84d/windowsdesktop-runtime-7.0.4-win-x64.exe",
+    "hash": "03b1164beccec1421e46ed9bc6bc35c9b746a580b33cb71112a41f6e3b94e37d8f02cbcf0ada74e250f29286f7301828fc6f9dd78d11f0b7cacea4604414401b",
+    "bytes": "57688848"
+  },
+  {
+    "version": "7.0.4",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/9c8d474f-e58f-4ab2-ab3c-f6c2c8616910/41b492e1c41083c823d56162c700de57/windowsdesktop-runtime-7.0.4-win-x86.exe",
+    "hash": "2b31ad155f146ae802a7232d3511e910e95d46f00c4c39b0ffe521d53f4f2ef0d74adb3c9455ef5c86e0331d696ecca4eab0a2832f74b9942db8060497199e89",
+    "bytes": "52899496"
+  },
+  {
+    "version": "7.0.5",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/9b902dfd-2320-48ae-9d83-4120f7b0955d/e892bacdf6629da532f7604555afd07c/windowsdesktop-runtime-7.0.5-win-arm64.exe",
+    "hash": "46426250a93615b531d0dcfbef9c98747bdfa6b31a773e6efe640a30d063efd51f880fb80879ed2a9339588854402ea172952b5318a0810f038eab208aa4905d",
+    "bytes": "53116760"
+  },
+  {
+    "version": "7.0.5",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/dffb1939-cef1-4db3-a579-5475a3061cdd/578b208733c914c7b7357f6baa4ecfd6/windowsdesktop-runtime-7.0.5-win-x64.exe",
+    "hash": "8907aa0e934a31c63f0a840bf9e734c2f5ba109b766c1a775f8adbb169049753664790c0a15b216f02a942392819a3500e4a33918df10fb967341dc167f82d11",
+    "bytes": "57609944"
+  },
+  {
+    "version": "7.0.5",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/eb64dcd1-d277-4798-ada1-600805c9e2dc/fc73c843d66f3996e7ef22468f4902e6/windowsdesktop-runtime-7.0.5-win-x86.exe",
+    "hash": "a2f776cfabcfbd4b9278198301d289ed1c56febd47259520c50b8b8d130a79d0ea99c857aec96865cc635ddf078fd575368c030ce11d61bb9991d296df87a4a7",
+    "bytes": "52816632"
+  },
+  {
+    "version": "7.0.7",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/00f57df4-c604-46e1-8d32-f87a77f1d233/cd28e125d6f777c6d567a344da1fff2d/windowsdesktop-runtime-7.0.7-win-arm64.exe",
+    "hash": "9d9a2f86decc349776da0fae1dee02c3a265e64356d6b205c1883f1095c72636449059fd53bf016737f23603267d4670c78d206f32e7063a8a28495626c460b1",
+    "bytes": "53154888"
+  },
+  {
+    "version": "7.0.7",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/342ba160-3776-4ffa-91dd-e3cd9dc0f817/ba649d6b80b27ca164d80bd488cdb51f/windowsdesktop-runtime-7.0.7-win-x64.exe",
+    "hash": "d59e8716324bd8973a95a9fd42a58ad0b176f4b37e8b8ba732be0e13d6f7ffdea79a52aa98363ec86860d551e124bdfaf71ac979b8f41f398e668fd12aa8483e",
+    "bytes": "57789472"
+  },
+  {
+    "version": "7.0.7",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/8a184836-3d12-41c7-b509-7d0d8d63dbf8/5d3bb50e730873808363dea2e9b8a2fd/windowsdesktop-runtime-7.0.7-win-x86.exe",
+    "hash": "c219b72b5d628668a70531e8ce0776c2e4533d79f33cae581b29617050013bae75cc7d967def064eee8625dc141209e8c0ab53b2262a5c7815e7e2c5898c96a8",
+    "bytes": "52808880"
+  },
+  {
+    "version": "7.0.8",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/6e2bfdba-a6c6-4c91-b200-036cbec361a5/a1a0933659556145d8b9ab3e8808f50c/windowsdesktop-runtime-7.0.8-win-arm64.exe",
+    "hash": "6a68cb4f2b9dff00b4243deed0f7c4537c21d01b10078765cb596b2bf3fe6cd309596ebb95a60969facf775490bc080d73d24f8da5249f2ddb5983b6dc58c75b",
+    "bytes": "53082360"
+  },
+  {
+    "version": "7.0.8",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/53868e57-c621-476a-885b-dea78ac6edba/f1d5957ba91bde28370f0e782b3d6177/windowsdesktop-runtime-7.0.8-win-x64.exe",
+    "hash": "68337ebb614049596cc80eb2a4a3803b403e1f8268af00a367e99b0af28e6934e2de4ef3985882b5a06f764b287d7f6df3a98ff49132288cd5b3a491e402f7e5",
+    "bytes": "57674600"
+  },
+  {
+    "version": "7.0.8",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b59c30b1-05b8-46ef-9384-a94d58dc5016/8cb385cf8552abaa5876710c5c2f9492/windowsdesktop-runtime-7.0.8-win-x86.exe",
+    "hash": "2242a923890050d71b14c54fd754066e1ec78877764649f36c47050f7232638d9f954bd726519f0567b61bcc150e9637e6040a8ce8c4f19a659d9e136541f050",
+    "bytes": "52844304"
+  },
+  {
+    "version": "7.0.9",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/92ce753a-1575-4b2c-9783-d29635190dc8/aa103a5af65c9fa15e488112563e322e/windowsdesktop-runtime-7.0.9-win-arm64.exe",
+    "hash": "79f5555a2b0f355a1cb56b896fb41a716a1e83958faa3d23b4c65775ff59d6b8088036ee4d48aee89de6f76358ca81c7a627bdf2b464c2e5f667c11f39e3fde6",
+    "bytes": "53107728"
+  },
+  {
+    "version": "7.0.9",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/7727acb3-25ca-473b-a392-75afeb33cab7/f11f0477fd2fcfbb3111881377d0c9bb/windowsdesktop-runtime-7.0.9-win-x64.exe",
+    "hash": "e0f119cbb08a1ee5181d294ba135c57b9ebef642d1d6f356c8d6bff9164e2ec8b36bf0622d0abacc0ce872735745109be025cd34a544c5a03939ae546bb0c3f2",
+    "bytes": "57757712"
+  },
+  {
+    "version": "7.0.9",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/139b19d0-2d39-48ce-b59a-aec437509c20/ea6a2711eec53660c3b14d78b9fb2963/windowsdesktop-runtime-7.0.9-win-x86.exe",
+    "hash": "e0bf397c1740d2ee6a08c57195a4d97b4e64635d0833368d25675561509b7b9b98ed5acf3e9ccb1a5a21508bdbc951ad7dbfa9647858c7c6e662c49be2763af5",
+    "bytes": "52730672"
+  },
+  {
+    "version": "8.0.0",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/96b09d32-59a7-465c-bfa0-9a49493317f0/a4942158510a267137f161e77906cec0/windowsdesktop-runtime-8.0.0-win-arm64.exe",
+    "hash": "f9b91928493dee45883b0cc6e13494a91b3a22dfbd57223236db0139584fc81fdf843249888efa9de157f158616bccb0de6081121f1787d3bf7ec80852c61d9d",
+    "bytes": "53608592"
+  },
+  {
+    "version": "8.0.0",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/b280d97f-25a9-4ab7-8a12-8291aa3af117/a37ed0e68f51fcd973e9f6cb4f40b1a7/windowsdesktop-runtime-8.0.0-win-x64.exe",
+    "hash": "d2e92f8bdb2b840c3fee170f2ca3baa3237a6a56c7b86589f7e4d7a0d51d2605bafe045adbd14a0c43e946a8a895a621748418d1a2cb9c44370eafd1d1a8ffa9",
+    "bytes": "58183752"
+  },
+  {
+    "version": "8.0.0",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f9e3b581-059d-429f-9f0d-1d1167ff7e32/bd7661030cd5d66cd3eee0fd20b24540/windowsdesktop-runtime-8.0.0-win-x86.exe",
+    "hash": "711134538d6e7dc827c99914e7ae74cb2a0c41ce2b1b4fd2b6323032c05db31737a4370f613621bc04787e7ab4b6d377e62dd777c2b51db6636afd751e874ae4",
+    "bytes": "53485016"
+  },
+  {
+    "version": "8.0.1",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/627d7473-7de1-4285-ab75-16e89f861f0e/54e8a293cfc12144c111155b65a6a41b/windowsdesktop-runtime-8.0.1-win-arm64.exe",
+    "hash": "5f9c1ee5ee2c4dfe80fd2d3a686dc33142f17a9bd37e6f60d63f95e7bbff15d65c1f2f30f4fb1f18f24ffcc3d7feb6d95953d7e7314945a8989df8b86d069c7d",
+    "bytes": "53605240"
+  },
+  {
+    "version": "8.0.1",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/f18288f6-1732-415b-b577-7fb46510479a/a98239f751a7aed31bc4aa12f348a9bf/windowsdesktop-runtime-8.0.1-win-x64.exe",
+    "hash": "233d98b280eb4353fff7e45fa45e0de510403853e881c0bdcd3eb2466df4930795a62fec14cb30d05e00bff37f17b4d6c9b95511ca71475b739d6d9be9d2ebab",
+    "bytes": "58146456"
+  },
+  {
+    "version": "8.0.1",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/ca725693-6de7-4a4d-b8a4-4390b0387c66/ce13f2f016152d9b5f2d3c6537cc415b/windowsdesktop-runtime-8.0.1-win-x86.exe",
+    "hash": "1d2cdb417ff9d72e4766255a1d7568bc16348120c72db58a020f35917b47a0f39dd74e185371668419a9f8a4fc2e9aad4073b5dcb273d010fbf9b16a718d018d",
+    "bytes": "53426816"
+  },
+  {
+    "version": "8.0.2",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/851642d5-5a3f-48f5-b608-a8bc8251591f/1e5beaba1586f70cf882323d91fa7be1/windowsdesktop-runtime-8.0.2-win-arm64.exe",
+    "hash": "ded156143841a9256cf077527973ebd131e54d3413be5ab0286638e73f88e504fb553ca7dddb390ab917be652938d8be28caf82f8a454d78093791c02c8b9002",
+    "bytes": "53473656"
+  },
+  {
+    "version": "8.0.2",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/84ba33d4-4407-4572-9bfa-414d26e7c67c/bb81f8c9e6c9ee1ca547396f6e71b65f/windowsdesktop-runtime-8.0.2-win-x64.exe",
+    "hash": "62cd6be9ea5c397b607c75a3a9da332476b456482e20a3e786e964eae352965678c979792f3e0577d76205761b9c53da86c3aea6ae122934e4be7cf38648e950",
+    "bytes": "58192136"
+  },
+  {
+    "version": "8.0.2",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/9b77b480-7e32-4321-b417-a41e0f8ea952/3922bbf5538277b1d41e9b49ee443673/windowsdesktop-runtime-8.0.2-win-x86.exe",
+    "hash": "3700642786b3f9a67218b6a834a8472c31d8e5ae6c2436c752e2ade37d9cb0ff808e35bb9fc3207ecbdb6e4e934c1dc77796d47ed0b2d228755f9876d4e0af0a",
+    "bytes": "53495984"
+  },
+  {
+    "version": "8.0.3",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/bd4bf739-106e-44af-9f0d-a6a777976512/e9f077b8cb33b574df2f5cf986acddd8/windowsdesktop-runtime-8.0.3-win-arm64.exe",
+    "hash": "97e5ad8ae1e6418476a8f972f5c1365aeda826e2cf883ee145a5c3a9090a747e6e53a1388d1962aeafbe35f779b3e970b1be02e625b4445d1b41af4b4400cc62",
+    "bytes": "53788304"
+  },
+  {
+    "version": "8.0.3",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/51bc18ac-0594-412d-bd63-18ece4c91ac4/90b47b97c3bfe40a833791b166697e67/windowsdesktop-runtime-8.0.3-win-x64.exe",
+    "hash": "f4cf0300eb4e1750b75a9d973db2d100cd8fb244ef0c7bc5ab448dcc72091055c516d7fe6ea41215bdccec13fc08c5b3c444400c74b214af7f996e5780275f08",
+    "bytes": "58533016"
+  },
+  {
+    "version": "8.0.3",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c629f243-5125-4751-a5ff-e78fa45646b1/85777e3e3f58f863d884fd4b8a1453f2/windowsdesktop-runtime-8.0.3-win-x86.exe",
+    "hash": "b9b14552661f35b173c1539ffb422f31b13926dcd0d7aeba5283a467288f4db288f6afeede2fe3e57ed7d3ef3847dba7bd2725b8791396a0633dd14d957b1d34",
+    "bytes": "53792544"
+  },
+  {
+    "version": "8.0.4",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/01520b8c-dbf8-4818-89c6-128d5d6d2140/efbc62901cd9543f57b697d2a72eb1a0/windowsdesktop-runtime-8.0.4-win-arm64.exe",
+    "hash": "88a4cc58dbef71a767d6cd0acb8e418f5a49cbcda43b16743db5621de4494dea3cd7bada712c12acdfe555dde7cbe8bec9928db30e6d09f44843c884a275eeb7",
+    "bytes": "53762136"
+  },
+  {
+    "version": "8.0.4",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/c1d08a81-6e65-4065-b606-ed1127a954d3/14fe55b8a73ebba2b05432b162ab3aa8/windowsdesktop-runtime-8.0.4-win-x64.exe",
+    "hash": "8a0b1ab3a774c33f46cd042783cf785c33f2d9e0bdeee4ff8bf96cfa90a2101a5711231840ef93eab101409e7f3f3770d86e1a55bd52709af08d1a6c908cc194",
+    "bytes": "58447992"
+  },
+  {
+    "version": "8.0.4",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/1fbf5c5f-9770-402d-8971-83da662d8cf9/4e37b3c24bcb6004875b9f8b08024303/windowsdesktop-runtime-8.0.4-win-x86.exe",
+    "hash": "edeee99d70e776e21f84af1e6c63690f43fa5c89d4ac2e3de4e376eede0c8b2aedea8b7c890e1b8e1136d44c8f4a103be68c972b3d6a771b88d4f3adda75e1b5",
+    "bytes": "53554592"
+  },
+  {
+    "version": "8.0.5",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3f8a1e03-75f8-4a4d-9454-661951c7766c/d009696cbfdba724337e226d3a84a3f1/windowsdesktop-runtime-8.0.5-win-arm64.exe",
+    "hash": "c57b27abb9cff269ba2aa4ad768be22755ba87f32a7cd14c5919b1839fbcfa0394656c2207e16117e51711f21533b20b115f9fa228d98febe89654419de13b25",
+    "bytes": "53682336"
+  },
+  {
+    "version": "8.0.5",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/0ff148e7-bbf6-48ed-bdb6-367f4c8ea14f/bd35d787171a1f0de7da6b57cc900ef5/windowsdesktop-runtime-8.0.5-win-x64.exe",
+    "hash": "669610963dfa67d1da4ad84eed34df362455389347c0196bcef003f2fba69a69a71e011f6ed3dfd1b4b196338708f4a95e766520b69cfee2e08a3c435b97d276",
+    "bytes": "58386456"
+  },
+  {
+    "version": "8.0.5",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/44a63708-94fa-4edf-81a9-50612e4ef82f/1c9f61bc16d3bec6217337951898dbd3/windowsdesktop-runtime-8.0.5-win-x86.exe",
+    "hash": "609783925795183be3281f5d2963cf52caa8eca9e129f9184a7886a7472020e179d2d269aadc5532cb760091fc4e936a2f05536bb1a46024dabaa25d789528ee",
+    "bytes": "53706792"
+  },
+  {
+    "version": "8.0.6",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/3bee8b48-dd89-48c4-bb3c-1d786600a924/7a811fe983a4c5a61d79192e37c38e13/windowsdesktop-runtime-8.0.6-win-arm64.exe",
+    "hash": "26752fac8a17d9c78968fed741faaf364b17815bad2d74d2ba0cd29444fe2f86ed0f85d8e40744b82155a7763c43ab5f399fad426cd7f17a0a6775b5e8a6ec36",
+    "bytes": "54027616"
+  },
+  {
+    "version": "8.0.6",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/76e5dbb2-6ae3-4629-9a84-527f8feb709c/09002599b32d5d01dc3aa5dcdffcc984/windowsdesktop-runtime-8.0.6-win-x64.exe",
+    "hash": "91bec94f32609fd194ac47a893cea1466e6ad25a16bbaf39cd6989fa9f09e865ba87669aabfe26cd3c8f2a57296170cc021dc762e238a6c5cb5e843d3df3169f",
+    "bytes": "58663408"
+  },
+  {
+    "version": "8.0.6",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://download.visualstudio.microsoft.com/download/pr/fb4a2e70-0c24-42f8-a549-4ea2b6e16831/e7bf08360f9c96ad3a90b0eb2edf96c0/windowsdesktop-runtime-8.0.6-win-x86.exe",
+    "hash": "8cd87203979b7ca6c191bb5f46f71ade8f00439a564fbe73caa48c8bc0d33701893fff51d0e1c58fcb9cd83cdc420748fb30f4daa221e7417012d136bbd2310f",
+    "bytes": "53904416"
+  }
+]

@@ -331,3 +331,8 @@ ASALocalRun/
 
 # Folders from 3rd Party Sources
 /PipelineTools
+
+# Docker - Shell scripts for dotnet
+/download/
+
+# Generic / unsorted
