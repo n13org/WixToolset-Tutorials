@@ -15,7 +15,7 @@
     <Chain>
       <!-- Normal MSI Installer -->
       <MsiPackage
-        SourceFile="$(WixToolsetMsi.TargetDir)\$(WixToolsetMsi.TargetName).msi"
+        SourceFile="$(WixToolsetMsi.TargetDir)$(WixToolsetMsi.TargetName).msi"
         Name="$(var.ProductName)"
         Description="$(var.ProductName) $(var.ProductVersion) by $(var.Manufacturer) "
         Visible="yes"

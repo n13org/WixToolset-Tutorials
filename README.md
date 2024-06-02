@@ -15,6 +15,8 @@ A MSI can be inspected by the tool **Orca** from Microsoft ([Orca - Documenation
 
 The [Roadmap][ROADMAP] of the project.
 
+> When GPG signing is not working, try command `gpgconf --launch gpg-agent`
+
 ## WixToolset v5
 
 ### Visual Studio Extension
@@ -27,6 +29,37 @@ With this extension WixToolset v5 will be available and be supported.
 * [Get started with WiX](https://wixtoolset.org/docs/intro/)
 * [Update from v4 to v5](https://wixtoolset.org/docs/fivefour/)
 * [Update from v3 to v4](https://wixtoolset.org/docs/fourthree/)
+
+## Docker - debian based
+
+The docker usage is for the shell (bash) scripts to do download the HTML pages from Microsoft dotnet SDKs.
+
+|Major|Max Version|
+|:---:|:---------:|
+| [5.0](https://dotnet.microsoft.com/en-us/download/dotnet/5.0) | 5.0.17 |
+| [6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) | 6.0.31 |
+| [7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) | 7.0.20 |
+| [8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) | 8.0.6  |
+
+These versions are stored (additionally) in [_variables.sh](docker/scripts/_variables.sh).
+
+Create the docker image
+
+```powershell
+docker build --tag wixtoolset .
+```
+
+Run container interactive from docker image, use PWD as volume inside
+
+```powershell
+docker run -it --rm -v ${pwd}:/ws/data wixtoolset /bin/bash
+```
+
+Inside the docker container
+
+1. Download the dotnet pages `./download-pages.sh`, will be stored outside the container in the local `download` folder. This folder should be in gitignore and not under version controls.
+2. Parse the local HTML files to JSON with `./html2json.sh `, the json files will be stored in a local `data`folder. These json files can be under source control. For each SDK Runtime `asp`, `desktop` and `runtime` a file will be generated.
+3. Generate the WXS (wix toolset components) files with `./generateWixToolsetFragment.sh` a local `wix-dotnet` folder will be generated.
 
 ## History / Change Log
 

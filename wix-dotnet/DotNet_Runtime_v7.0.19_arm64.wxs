@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="core"
+        Platform="arm64"
+        MajorVersion="7"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_Runtime_v7_0_19_arm64">
+    <ExePackage Id="Netfx70"
+                DisplayName="Microsoft .NET 7.0 Runtime"
+                Description="Microsoft .NET 7.0 (7.0.19) Runtime for windows arm64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v7.0.19"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-7.0.19-windows-arm64.exe"
+            DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/e1e2c82e-2c53-419f-a49b-4e4198d51945/868e91a224ecacf490dd76a8f2be7119/dotnet-runtime-7.0.19-win-arm64.exe"
+            Hash="5e8fff0877fdc832e75f3124c43d1c85510abb2eaad467a00b0f0bd367026c6d35322174d9097d70fb7d534b23e0e17a0c6cb61f6bf0a8716d8d7641c1048df6"
+            Size="27382504" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>
