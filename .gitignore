@@ -330,9 +330,12 @@ ASALocalRun/
 .mfractor/
 
 # Folders from 3rd Party Sources
-/PipelineTools
+PipelineTools
 
 # Docker - Shell scripts for dotnet
-/download/
+download/
+playwright-report/
+data/dotnet-all.json
+data/dotnet-*-merged.json
 
 # Generic / unsorted
