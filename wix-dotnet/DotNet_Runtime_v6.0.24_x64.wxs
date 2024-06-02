@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="core"
+        Platform="x64"
+        MajorVersion="6"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_Runtime_v6_0_24_x64">
+    <ExePackage Id="Netfx60"
+                DisplayName="Microsoft .NET 6.0 Runtime"
+                Description="Microsoft .NET 6.0 (6.0.24) Runtime for windows x64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v6.0.24"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-6.0.24-windows-x64.exe"
+            DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/62bf9f50-dcd9-4e4c-ac02-4d355efb914d/a56b37b98cb07899cd8c44fa7d50dff3/dotnet-runtime-6.0.24-win-x64.exe"
+            Hash="1759d5f7ccdfe046e0dbae1328e39547974e884ac8e98e33f96ca67b8f4dbc3d9ba04d9832a82c457665a7f1aa8b43ba71b547a4919b680d8c7031140953f58b"
+            Size="28076072" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

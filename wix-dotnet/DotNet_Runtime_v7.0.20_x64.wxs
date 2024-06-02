@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="core"
+        Platform="x64"
+        MajorVersion="7"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_Runtime_v7_0_20_x64">
+    <ExePackage Id="Netfx70"
+                DisplayName="Microsoft .NET 7.0 Runtime"
+                Description="Microsoft .NET 7.0 (7.0.20) Runtime for windows x64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v7.0.20"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-7.0.20-windows-x64.exe"
+            DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/be7eaed0-4e32-472b-b53e-b08ac3433a22/fc99a5977c57cbfb93b4afb401953818/dotnet-runtime-7.0.20-win-x64.exe"
+            Hash="89a537a0ff92520cc543b4ee0a702063266aeb5d4d302e276fa9c8898ebf39bdc7bec134aa206bab8ef0ead395c79ab2e173abb8b506431f3cef641d8b7ecf11"
+            Size="28392424" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="aspnet"
+        Platform="x64"
+        MajorVersion="7"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_ASP_NET_v7_0_11_x64">
+    <ExePackage Id="Netfx70"
+                DisplayName="Microsoft .NET 7.0 ASP.NET Core"
+                Description="Microsoft .NET 7.0 (7.0.11) ASP.NET Core for windows x64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v7.0.11"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-aspnetcore-7.0.11-windows-x64.exe"
+            DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/56fbfa65-4bf5-40a0-8935-57f09ab3c76b/d80afe4b74d01c07ca74c4670fcfa1f8/aspnetcore-runtime-7.0.11-win-x64.exe"
+            Hash="79e8546a73d63dac0da751f620ce556b4c1b8b8d271110cca8c585bc4387970a1014f8bddb8660cbc53c41757894fee325d1ef4f1a1c45b93212365387832f9e"
+            Size="9656392" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

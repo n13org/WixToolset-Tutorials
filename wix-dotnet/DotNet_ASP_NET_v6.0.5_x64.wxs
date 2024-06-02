@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="aspnet"
+        Platform="x64"
+        MajorVersion="6"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_ASP_NET_v6_0_5_x64">
+    <ExePackage Id="Netfx60"
+                DisplayName="Microsoft .NET 6.0 ASP.NET Core"
+                Description="Microsoft .NET 6.0 (6.0.5) ASP.NET Core for windows x64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v6.0.5"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-aspnetcore-6.0.5-windows-x64.exe"
+            DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/042e2559-fe53-4793-b385-665b7c1ca6d5/308ffacc925383207a8f1a27a1df8bdc/aspnetcore-runtime-6.0.5-win-x64.exe"
+            Hash="f931b430e9934f00146a5b09df4eacc781163d86f105a872165d2d95991b8fa1134f4902a27c459e7f8bacf3391a594ea1d4a449f807fe378cb9b3d1035776d5"
+            Size="9004760" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="aspnet"
+        Platform="x86"
+        MajorVersion="5"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_ASP_NET_v5_0_15_x86">
+    <ExePackage Id="Netfx50"
+                DisplayName="Microsoft .NET 5.0 ASP.NET Core"
+                Description="Microsoft .NET 5.0 (5.0.15) ASP.NET Core for windows x86"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v5.0.15"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-aspnetcore-5.0.15-windows-x86.exe"
+            DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/df529041-2a11-440c-98a4-650606c07ac0/dec1cbf6e76b45dbcff75e19c50ca485/aspnetcore-runtime-5.0.15-win-x86.exe"
+            Hash="3ccffc9b26fb5b875cd5ce5fec83028b745b9b90751a6d5614cf808b5598e9f14ee4c508b18e5b811705e5cdb3c1e7b79deb2d4bbd3e8f83aaee7bd59530672c"
+            Size="7642688" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

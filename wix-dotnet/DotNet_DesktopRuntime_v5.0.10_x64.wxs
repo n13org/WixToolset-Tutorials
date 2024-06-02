@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="desktop"
+        Platform="x64"
+        MajorVersion="5"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_DesktopRuntime_v5_0_10_x64">
+    <ExePackage Id="Netfx50"
+                DisplayName="Microsoft .NET 5.0 Desktop Runtime"
+                Description="Microsoft .NET 5.0 (5.0.10) Desktop Runtime for windows x64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v5.0.10"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-desktop-5.0.10-windows-x64.exe"
+            DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/78fa839b-2d86-4ece-9d97-5b9fe6fb66fa/10d406c0d247470daa80691d3b3460a6/windowsdesktop-runtime-5.0.10-win-x64.exe"
+            Hash="71f5a21c44fb133a4778f72ec62fedd5b109b965303a466e67e615e075836f49573df4e32f9e6262f7fc2105a6e1a462f691fd92890df611cab49c338c81bb09"
+            Size="54927000" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

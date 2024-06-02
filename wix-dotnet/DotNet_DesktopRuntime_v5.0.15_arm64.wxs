@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="desktop"
+        Platform="arm64"
+        MajorVersion="5"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_DesktopRuntime_v5_0_15_arm64">
+    <ExePackage Id="Netfx50"
+                DisplayName="Microsoft .NET 5.0 Desktop Runtime"
+                Description="Microsoft .NET 5.0 (5.0.15) Desktop Runtime for windows arm64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v5.0.15"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-desktop-5.0.15-windows-arm64.exe"
+            DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/40bf47cb-146b-479f-a660-a85c1c9c469d/96f8b74576dd57d65e1726c48e61734d/windowsdesktop-runtime-5.0.15-win-arm64.exe"
+            Hash="76a8d3b2bffb49886bf25b20522ec5ae3d272a85fbde3861db8e344328c738a1d16ca1c9b90e4516cacb13dfb9af137e3f47e0fcacd7c89f7e7af5d46b7abe60"
+            Size="49458024" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="aspnet"
+        Platform="x64"
+        MajorVersion="8"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_ASP_NET_v8_0_1_x64">
+    <ExePackage Id="Netfx80"
+                DisplayName="Microsoft .NET 8.0 ASP.NET Core"
+                Description="Microsoft .NET 8.0 (8.0.1) ASP.NET Core for windows x64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v8.0.1"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-aspnetcore-8.0.1-windows-x64.exe"
+            DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/4b805b84-302c-42e3-b57e-665d0bb7b1f0/3a0965017f98303c7fe1ab1291728e07/aspnetcore-runtime-8.0.1-win-x64.exe"
+            Hash="32e436e24a9b6090070ece3d325131672dea9f0e95d7c570e83de2983c06523c40ebb26edecfaabc3d54e4c1ad5ec56111d322343b9ed1c4139c6e807795ac0c"
+            Size="10400720" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

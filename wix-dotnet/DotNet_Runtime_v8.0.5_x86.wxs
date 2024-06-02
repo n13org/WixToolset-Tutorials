@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="core"
+        Platform="x86"
+        MajorVersion="8"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_Runtime_v8_0_5_x86">
+    <ExePackage Id="Netfx80"
+                DisplayName="Microsoft .NET 8.0 Runtime"
+                Description="Microsoft .NET 8.0 (8.0.5) Runtime for windows x86"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v8.0.5"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-8.0.5-windows-x86.exe"
+            DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/6baea142-1c35-44d9-a753-d2ff252b2f05/c8d7547c2dba48eb8a196f9210ad417a/dotnet-runtime-8.0.5-win-x86.exe"
+            Hash="ff727bdb5e8eeb97ff2c20c6b45cfc297b4938937fdca5d0ce783f07e4a389000de86601d7faae1a1443cfdfd3754444c684fb804b526ea8bf6a5a2468224c3f"
+            Size="26283776" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>
