@@ -1,0 +1,32 @@
+﻿<Project Sdk="WixToolset.Sdk/5.0.0">
+  <PropertyGroup>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Platforms>x86;x64</Platforms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Package</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DefineConstants>Debug</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Directories.wxs" />
+    <Compile Include="KargWareLicenseAgreementDlg.wxs" />
+    <Compile Include="WixUI_KargWareFeatureTree.wxs" />
+    <Compile Include="PrerequisitesDlg.wxs" />
+    <Compile Include="Product.wxs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="License.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="WixToolset.UI.wixext" Version="5.0.0" />
+  </ItemGroup>
+    <PropertyGroup>
+    <DefineConstants>
+      $(DefineConstants);
+      licenseRtf=$(MSBuildProjectDirectory)\license.rtf;
+    </DefineConstants>
+    <Platforms>x86;x64</Platforms>
+  </PropertyGroup>
+</Project>

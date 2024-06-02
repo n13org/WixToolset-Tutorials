@@ -1,0 +1,15 @@
+<Project Sdk="WixToolset.Sdk/5.0.0">
+  <PropertyGroup>
+    <OutputName>WixToolset_Tutorials.Exe</OutputName>
+    <OutputType>Bundle</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DefineConstants>Debug</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="WixToolset.Bal.wixext" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WixToolsetMsi\WixToolsetMsi.wixproj" />
+  </ItemGroup>
+</Project>

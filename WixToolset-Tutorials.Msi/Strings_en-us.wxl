@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization">
-  <String Id="PrerequisitesDlg_Title">[ProductName] Setup</String>
-  <String Id="PrerequisitesDlgBitmap">WixUI_Bmp_Banner</String>
-  <String Id="PrerequisitesDlgTitle">Prerequisites of [ProductName]</String>
-  <String Id="PrerequisitesDlgDescription">List and state of prerequisites. Install them manually or use the bootstrapper of [ProductName]</String>
-</WixLocalization>
