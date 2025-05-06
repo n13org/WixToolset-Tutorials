@@ -3109,7 +3109,7 @@
     "os": "macos",
     "link": "https://download.visualstudio.microsoft.com/download/pr/d9899395-7f5a-45b4-acd0-8f0ad2d3dad8/008391ac2859dc0fca2eed8ff6bdd3f6/dotnet-runtime-8.0.2-osx-x64.pkg",
     "hash": "59a673c4de17f658d91c61a55ad0fb7ddd8014fdbda646930d874b1e4f1eeaf76025342a7084ba5058bc581d066af6468d3eabf8f87612a1d8b391888dd58a4a",
-    "bytes": ""
+    "bytes": "30888544"
   },
   {
     "version": "8.0.2",
@@ -3374,5 +3374,205 @@
     "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.8/dotnet-runtime-8.0.8-win-x86.exe",
     "hash": "fa542b8d3ae98e020b66f0bfa33c44a4ea166ab9cfb7b3cbe3034f9c38318464db8c767af9eb3a6fe9829aa67cff96beb49e2c1cb9e6081e5657ee4f75544bf3",
     "bytes": "26379544"
+  },
+  {
+    "version": "9.0.0",
+    "platform": "arm64",
+    "os": "macos",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.0/dotnet-runtime-9.0.0-osx-arm64.pkg",
+    "hash": "e0de96a405b00f68922ecc02db7bf52b9ddaf6f3491b7d7cf821e2ee6074e870cb282aecf9fb3d13519cfc07bb0eeff94551791ceaa4a031596bc5bb13cde41d",
+    "bytes": "30965004"
+  },
+  {
+    "version": "9.0.0",
+    "platform": "x64",
+    "os": "macos",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.0/dotnet-runtime-9.0.0-osx-x64.pkg",
+    "hash": "7fadb1f8a039efe22f66498919c58d4d8f24e6b75bb1035d15edc997229d3c52e4d66ec972ad61b846bbeea99e7228ee21185cac9b36cc0819426f2e429ba9c6",
+    "bytes": "32940870"
+  },
+  {
+    "version": "9.0.0",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.0/dotnet-runtime-9.0.0-win-arm64.exe",
+    "hash": "7ac11f3b388170ddf8d2248aa719bffd1202f3946a1bcf0701bdd8988d030d0ea2cd321eb2e6150e30bc0444a8af0b5a9ad5db3ac58b15f4338ce34193ba470a",
+    "bytes": "28739056"
+  },
+  {
+    "version": "9.0.0",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.0/dotnet-runtime-9.0.0-win-x64.exe",
+    "hash": "97334bbe82e2d6db090279b178d0bdfb1d675e0fcd9ca0c951bbcac05598b0424f66eb74599eb8d1a6790699a931974924f79815941944f440a261dce2cd9ca1",
+    "bytes": "29698192"
+  },
+  {
+    "version": "9.0.0",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.0/dotnet-runtime-9.0.0-win-x86.exe",
+    "hash": "7d744cedfc81f911b51ac05741a77953a18d1415bc7c1667fd8fa8e89b4a0df597046f25a82a960bf65e7e7fe453edf87aacc25abd6bb05d0b289adedd6b2ab1",
+    "bytes": "27084120"
+  },
+  {
+    "version": "9.0.1",
+    "platform": "arm64",
+    "os": "macos",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.1/dotnet-runtime-9.0.1-osx-arm64.pkg",
+    "hash": "8fb808f613f37cddc61c43d11c0265aa71394266db0529d1c6f806f2c79c40ebb43f6dde0f4246a0feb06da276564a2c37c9bec265950dbe61c4d16a063a4639",
+    "bytes": "30900001"
+  },
+  {
+    "version": "9.0.1",
+    "platform": "x64",
+    "os": "macos",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.1/dotnet-runtime-9.0.1-osx-x64.pkg",
+    "hash": "f9d040bf19abfc79fce730f0fb50114b8002dbafd4dfa8e5315763cc342d85c02e34637e135f26168fe809bf3fffd54bfcf2d67ec79bf43365cc4da2dc5dc4e7",
+    "bytes": "32849034"
+  },
+  {
+    "version": "9.0.1",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.1/dotnet-runtime-9.0.1-win-arm64.exe",
+    "hash": "3d866122fe7b560fce9d8313a37d2eb247e3e375079f456099854fdfcb5ab5c453b762ed347a48f23c56affb2d9cb9a4b92975290a6ef517fd69a6ff849a8cea",
+    "bytes": "28755952"
+  },
+  {
+    "version": "9.0.1",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.1/dotnet-runtime-9.0.1-win-x64.exe",
+    "hash": "1031c5c76dbc8a5605354915a2f5e4c7b0d1a6b666ff6366589498f5b20f8a41366449dfbcb0e9181e8e79f42230a87eeb235bfd1d41b1128bf9b76bcdb4f200",
+    "bytes": "29778408"
+  },
+  {
+    "version": "9.0.1",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.1/dotnet-runtime-9.0.1-win-x86.exe",
+    "hash": "191a9a61e8d6692b6d35a176cbcb7a9659128c646289977297744c64c98f4e18fa02751d1912e24a4450dae8ec459e7856a73271440a8abb7e9d479a23f3cdc1",
+    "bytes": "27030712"
+  },
+  {
+    "version": "9.0.2",
+    "platform": "arm64",
+    "os": "macos",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-osx-arm64.pkg",
+    "hash": "18e680670708b1230786c1433f8126c926d261d6516917f2d65a9038f819eb1deeea473e5f14e74020c68e6d67e393ef1f69c70f6220d1d7d0482802cdd6460b",
+    "bytes": "30889423"
+  },
+  {
+    "version": "9.0.2",
+    "platform": "x64",
+    "os": "macos",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-osx-x64.pkg",
+    "hash": "a9bb2cda7b53410880cecd51ba9798f0b4872e4327f4f5a619876f6d85b24bdf83f134f523edfa547640993c1e87f1a61c4f42ad738887d10d665ca7b597ec48",
+    "bytes": "32842185"
+  },
+  {
+    "version": "9.0.2",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-win-arm64.exe",
+    "hash": "d66e00748adcf3d43124cfaff1bb6122dc984ee20a488966e1d6a36b3c83671b91100f985812d1553d52498e8b40d5eccbad87a4778c5aa4c6debe5ca59390d2",
+    "bytes": "28837864"
+  },
+  {
+    "version": "9.0.2",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-win-x64.exe",
+    "hash": "da1d1ba1973d24bb42cf511d12931de88fd1e73efe26690fef60c61d20a6ca63018fd59d5a358f5a7a2bc8219ea294e0fb2786dbcea7d6c05b0a007ffef76e3c",
+    "bytes": "29823384"
+  },
+  {
+    "version": "9.0.2",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-win-x86.exe",
+    "hash": "d86fc1c6473d9a365a43b39da988b39a9a008f2c3fdde8b68cc6e0893af1e99a9fb5473a10128d55e3e02e808db088438431cce4610153fe3c4d0aadcaf6c7c5",
+    "bytes": "27179360"
+  },
+  {
+    "version": "9.0.3",
+    "platform": "arm64",
+    "os": "macos",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.3/dotnet-runtime-9.0.3-osx-arm64.pkg",
+    "hash": "e465ac53f042de610dd2897489b3c199043bf56c72c57607e09ff484dcaf8c8b2414fbe0a8fbc47b7593fbc254535e1153ae0c99e02675dbd0b6ca77706c6bbc",
+    "bytes": "30894735"
+  },
+  {
+    "version": "9.0.3",
+    "platform": "x64",
+    "os": "macos",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.3/dotnet-runtime-9.0.3-osx-x64.pkg",
+    "hash": "abf16ef042bc18d550524f0c2588f2037a4ef56cfeeb822c5f9e31f0b8e7765bb8c2c8009987168a7b3c9f9cbf3b7a131283e345049a4bcd6854d4e6837dfa22",
+    "bytes": "32844530"
+  },
+  {
+    "version": "9.0.3",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.3/dotnet-runtime-9.0.3-win-arm64.exe",
+    "hash": "dc4f1af15338302f44e9a1ed219f6786c7f81e3d0ff3a2043a07a04d357450984391f13185a9dae8afdf0bff251aea9857b5895d27bd4122e73f1faeb290decb",
+    "bytes": "28815320"
+  },
+  {
+    "version": "9.0.3",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.3/dotnet-runtime-9.0.3-win-x64.exe",
+    "hash": "f4730f354c10898908ac43c455364554273bc10d367e5221b09d3ac41b8780ead888496f4a1b79270b53239d666a2fdb571b683105bea4c453ddf233f937f834",
+    "bytes": "29877000"
+  },
+  {
+    "version": "9.0.3",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.3/dotnet-runtime-9.0.3-win-x86.exe",
+    "hash": "ea82dbf00bb91d2b66e3c06dfb6ad2a6f3443d75b575176113576e128878baa5760755e164901ad4ef69e3610fceecfc316be294a6ad8661fccb8388a2abafbf",
+    "bytes": "27140152"
+  },
+  {
+    "version": "9.0.4",
+    "platform": "arm64",
+    "os": "macos",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.4/dotnet-runtime-9.0.4-osx-arm64.pkg",
+    "hash": "0645e17b8dcaa3cf99d0c9b5b819adad7e6948ae57bee33256c09f7f9d668cf09a2639179dc09d40927f436d1c0bb46f82b88e39c7155e8c197f9467a014a9bd",
+    "bytes": "30900881"
+  },
+  {
+    "version": "9.0.4",
+    "platform": "x64",
+    "os": "macos",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.4/dotnet-runtime-9.0.4-osx-x64.pkg",
+    "hash": "12bd18f22c326dc71ad3e52655e42d0804069b162407cc9c2a707d6d70cf208a30da3498ec536fde0475e52bb3d7a08acc0aab754dffa1b2d90adb023894072c",
+    "bytes": "32846876"
+  },
+  {
+    "version": "9.0.4",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.4/dotnet-runtime-9.0.4-win-arm64.exe",
+    "hash": "6a701b6bdc42318c342990ae2f6f968e1063334f26eeebf8f2bdc6b5cbe3f360e97411eb43e6be250438125808a26f1bfa9d2a5295b48b71440e1d6c1c17c5b5",
+    "bytes": "28830424"
+  },
+  {
+    "version": "9.0.4",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.4/dotnet-runtime-9.0.4-win-x64.exe",
+    "hash": "cc385d981405bf8c62dac62550c4dbf1e4420d7375848326055dae18e89f252e0e866087763ad5c8c42ebebf8e51a64ad5a66834b24465eab9769753203c383d",
+    "bytes": "29874936"
+  },
+  {
+    "version": "9.0.4",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.4/dotnet-runtime-9.0.4-win-x86.exe",
+    "hash": "432a88e38c3e033ee6b1b3ea6394b4d661030cf1c25b07ef8e6f68ef4e43446e3f805b4054b5ca0a340bbda4d3d3bf8a9e85cbd69aae896d723d1ee046356e77",
+    "bytes": "27158232"
   }
 ]

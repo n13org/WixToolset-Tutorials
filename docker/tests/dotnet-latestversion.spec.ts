@@ -4,7 +4,8 @@ const versions = [
   "5.0.17",
   "6.0.36",
   "7.0.20",
-  "8.0.15"
+  "8.0.15",
+  "9.0.4"
 ];
 
 test.use({ javaScriptEnabled: false });

@@ -1470,5 +1470,125 @@
     "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/8.0.8/aspnetcore-runtime-8.0.8-win-x86.exe",
     "hash": "45b4cfb383fc9541423547807229bbd8477bf7f1c30af84cc4f4a41506fba0b54a06f28d83aafe7ce2a0014ae581813c4f4e60a3f08c23bd7e013fa947bd6995",
     "bytes": "9668856"
+  },
+  {
+    "version": "9.0.0",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.0/aspnetcore-runtime-9.0.0-win-arm64.exe",
+    "hash": "0f5290d42c8ed3b9a8168b618a8abb6ef0dd77f006339699bda8e9a182434143fecb0da4cd1b1d48cfbb8e95212c6d5b45bdd84fa77fcf3e8299671f0827c26c",
+    "bytes": "10166600"
+  },
+  {
+    "version": "9.0.0",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.0/aspnetcore-runtime-9.0.0-win-x64.exe",
+    "hash": "604b63941a063087d84d3bf92513cf3b2237faa11995b2854e25bde43181487d42f05bd084b412d0abfbec801b3c6c5dc6ae03df339c1a04bf08d86a9bf8fcfd",
+    "bytes": "10664408"
+  },
+  {
+    "version": "9.0.0",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.0/aspnetcore-runtime-9.0.0-win-x86.exe",
+    "hash": "ea65734b83c7443d4d702cb80a255a897a9ec4ed90e986dc681b124decd1fe6b55385e7f5beae59ff23341d9747d00cf4f8e60cf657c66243ad7e5cef9622e4b",
+    "bytes": "9872856"
+  },
+  {
+    "version": "9.0.1",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.1/aspnetcore-runtime-9.0.1-win-arm64.exe",
+    "hash": "e6e9a564919a63ab268269610b65dd47a03770aa1f4f9fcd4b4f3c1363400e4037eaf4f614e337741abb44c8d97c092efcf63bd200dc05a5686accf97cc1e447",
+    "bytes": "10142112"
+  },
+  {
+    "version": "9.0.1",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.1/aspnetcore-runtime-9.0.1-win-x64.exe",
+    "hash": "82b4237d0589a70ffa5ca37c2ecce6c9548c839acc2215f218e27572a161da7caacd3857553d5a4c331e3f6a3aa3e468c6e9de802dbd63f2dd5c54befb9b047b",
+    "bytes": "10630008"
+  },
+  {
+    "version": "9.0.1",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.1/aspnetcore-runtime-9.0.1-win-x86.exe",
+    "hash": "1a93e0d6df3eed98fc46ff5877fe7796f2aa4e01b3dcfb1b566cc68dcd3bcfe400e556f7f82fc99c1c53af7d496a319ee54dc67f01ed7ea43ea8a6a555813134",
+    "bytes": "9849992"
+  },
+  {
+    "version": "9.0.2",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.2/aspnetcore-runtime-9.0.2-win-arm64.exe",
+    "hash": "2fda149e90311f5f5bda6be635bbbe23fdcaf95359865a9880ae56e14eb5fbf36e1433ea772ae6427031bd8192bcaf50dbbfaa900044769ef462aeaa2636ad2e",
+    "bytes": "10190064"
+  },
+  {
+    "version": "9.0.2",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.2/aspnetcore-runtime-9.0.2-win-x64.exe",
+    "hash": "8a6e225a03319f5995c943b32482f73ae08bdcb20a0f8ad24a049162c5e66d3071f271cad6829202794cc7066391777caa8ad5bd3514ced213ba8093d1e5784c",
+    "bytes": "10702976"
+  },
+  {
+    "version": "9.0.2",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.2/aspnetcore-runtime-9.0.2-win-x86.exe",
+    "hash": "a633235f06943865b4176a919b1601d95618a4e43b3af6d374949700df68e02d0e71629c772a9b78c25bff609993d106621ed34a27856adce650bd47e9961e45",
+    "bytes": "9931736"
+  },
+  {
+    "version": "9.0.3",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.3/aspnetcore-runtime-9.0.3-win-arm64.exe",
+    "hash": "b468b96f39b7aa6035412d475c78eb820ed7f8dbf7257e9f99861ef1bac77f0fc56a4d8f53636116358470ee63d4ffcf27623db235b674b9340e3785b2652d9e",
+    "bytes": "10161144"
+  },
+  {
+    "version": "9.0.3",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.3/aspnetcore-runtime-9.0.3-win-x64.exe",
+    "hash": "20d2929c4cb85f7bac7b6875a79b877ca2ae5f59471c7b4c6ec089de33cb980584ef77042a20209afdd0e6128f1fc50c647813956675300aa19b6257ece90034",
+    "bytes": "10643264"
+  },
+  {
+    "version": "9.0.3",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.3/aspnetcore-runtime-9.0.3-win-x86.exe",
+    "hash": "27bf39dc5e116fe7f7f99c5a0d1bbcd23a5133ae903718c565e9b5470b2f598fc84cf6088fa3eced8456f34685dfd1e1dac980780ae76b57d744f2c6b4e57a53",
+    "bytes": "9869408"
+  },
+  {
+    "version": "9.0.4",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.4/aspnetcore-runtime-9.0.4-win-arm64.exe",
+    "hash": "1d4d856c3f23b309856e3f9d2e08b3cb5c99b11dbab460ab7d3e9ffea7bb36ddb2a916ebf3bdc51ea936176074f0742b7573be52904b9efa6bbea059c3dad924",
+    "bytes": "10136176"
+  },
+  {
+    "version": "9.0.4",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.4/aspnetcore-runtime-9.0.4-win-x64.exe",
+    "hash": "76b740deb1ce9332c094459f916245d9823e28d680ca9a1fc4f21826ad6155a58c5aec60fcd9dd0e5d698a4d746beea3c7b6d69906ef6ec3491c61e32b5a2b1b",
+    "bytes": "10655392"
+  },
+  {
+    "version": "9.0.4",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.4/aspnetcore-runtime-9.0.4-win-x86.exe",
+    "hash": "82c7158cbf6488adc29b6568ebf9d05a2ddfe99319e019c077084a25d5d366a020bc98eb55882088f6c22a5a4b1ee2de7dfe289c1ea1ec95976633e5d42e5bbd",
+    "bytes": "9829112"
   }
 ]

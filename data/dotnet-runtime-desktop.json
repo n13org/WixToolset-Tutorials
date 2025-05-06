@@ -2062,5 +2062,125 @@
     "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.8/windowsdesktop-runtime-8.0.8-win-x86.exe",
     "hash": "3101e64ab772cef8081ca5f441f599d1906c9a3869e7ff20ee1725e121a54dd0569e55dfd842e748a0dd6bff902562834922681c9bb43ede6760aed1206c7966",
     "bytes": "53790896"
+  },
+  {
+    "version": "9.0.0",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.0/windowsdesktop-runtime-9.0.0-win-arm64.exe",
+    "hash": "36ff3e8dd5f989c87a95b0220e618cb685104c74b4f7fcb553221983a804b67c6a1b57298830519dcd8f9233d78219adb3f1762716b83209326d25353c6bcb67",
+    "bytes": "56132528"
+  },
+  {
+    "version": "9.0.0",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.0/windowsdesktop-runtime-9.0.0-win-x64.exe",
+    "hash": "e48e015327598623cac9081a556f76f4d4d74c33e35a7cecbd2989a5b2bcb6575017e922883fc841e10efdec3d9577a47ed2b036b7f431d8f8442bb1066e72ac",
+    "bytes": "60752776"
+  },
+  {
+    "version": "9.0.0",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.0/windowsdesktop-runtime-9.0.0-win-x86.exe",
+    "hash": "f597d55205b776391ac1aeb56c40abf5274e6473193c4e6c48982582c135db199d8e75adba87bdacca8981752f04f596105548ab9cc267139e681c7858890543",
+    "bytes": "55471288"
+  },
+  {
+    "version": "9.0.1",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.1/windowsdesktop-runtime-9.0.1-win-arm64.exe",
+    "hash": "df2c1a51ef9b1118b7a5f3cc20df25b7616b3340b62abcb2cebc383ec188ac2e955bf4804f2066a0848614b249f2e3149751a932912d4a6a12383add69817806",
+    "bytes": "55960600"
+  },
+  {
+    "version": "9.0.1",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.1/windowsdesktop-runtime-9.0.1-win-x64.exe",
+    "hash": "4ad450ba0f0efed458a07f8d1ed8c5e75b78c349d6cd2b3374b190f878b3af80119e6797861a5ce2f9ad61216fb85ed046bfd905bd3006e940bd86bc0164ae46",
+    "bytes": "60735448"
+  },
+  {
+    "version": "9.0.1",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.1/windowsdesktop-runtime-9.0.1-win-x86.exe",
+    "hash": "b67c00b76ed6a601ee50cdc84126cec50d4f8f3d39f0280360555b600a38220ad683290b5fd5f3fe5b9bd6984fef8ce2f39f7ba82d417fb85b3801e41586911f",
+    "bytes": "55358544"
+  },
+  {
+    "version": "9.0.2",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.2/windowsdesktop-runtime-9.0.2-win-arm64.exe",
+    "hash": "5c086ef4d49e510319bed586049d443c4861dc2b826f531e992855c0abe9818fd60d6ed5cb87a9ea3b21bfff76190337470428cf08dad49c4bb6a77afc4792fa",
+    "bytes": "56000776"
+  },
+  {
+    "version": "9.0.2",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.2/windowsdesktop-runtime-9.0.2-win-x64.exe",
+    "hash": "60958279f9ff96cc953ed6cf404d8deb68e554374d08dc31e8b62a226ea67ae13d6c9eaf1fb44f783fa6241862e83d1cb8c21bbbadfc9386200fbb0345714be9",
+    "bytes": "60666168"
+  },
+  {
+    "version": "9.0.2",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.2/windowsdesktop-runtime-9.0.2-win-x86.exe",
+    "hash": "798b3e13f0276ccdaa4c593c28e83d8c90652d454ffd0e8fe878bfb44b6485a5b21cc5a93eb0c72586d170b3632283cebeaab25c70c793eff30a73e6369c819f",
+    "bytes": "55382840"
+  },
+  {
+    "version": "9.0.3",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.3/windowsdesktop-runtime-9.0.3-win-arm64.exe",
+    "hash": "1c6b40cd3e00ad441306c1a2e534c1970dd00d19856ef57e7c8b09a85e187da357e5825763e6cd6446ae317de212cb2ab7c92bbdf9faf7c07a079a7394909479",
+    "bytes": "55993632"
+  },
+  {
+    "version": "9.0.3",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.3/windowsdesktop-runtime-9.0.3-win-x64.exe",
+    "hash": "344603c607ad8a73dbfccba08f3d5400b28d831fe146541924ef02a5f838c84405837a08eba5f9b4a855ddfb94962e625b24cf51f8d3860135e305baf9114e49",
+    "bytes": "60672528"
+  },
+  {
+    "version": "9.0.3",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.3/windowsdesktop-runtime-9.0.3-win-x86.exe",
+    "hash": "b482793c9daac8888fdb53123748fe6438a8952a7d64e0820feeb580fcadbdb7c2f6efd90fe0d5fda73deb6e3e9830939538fb262362705c3e495b5b404f1750",
+    "bytes": "55366368"
+  },
+  {
+    "version": "9.0.4",
+    "platform": "arm64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.4/windowsdesktop-runtime-9.0.4-win-arm64.exe",
+    "hash": "6209799b87d2f7d3b17656e3229420dc2870217f8efc0f9000dba85f1811e95a4098ffd1601e78041b17fb181a3f58a89b5ca9da8bbb02f736e1d8c023e6cb9f",
+    "bytes": "56047648"
+  },
+  {
+    "version": "9.0.4",
+    "platform": "x64",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.4/windowsdesktop-runtime-9.0.4-win-x64.exe",
+    "hash": "c277fe5434b66c05f7782d40b90ab04dd2a9ac3d1570b2ab96a2311a58aeefff27761ca4488aadebe3b897e961b24b2f9c5a597ee27c2c4387d3cf0833f6cc48",
+    "bytes": "60759928"
+  },
+  {
+    "version": "9.0.4",
+    "platform": "x86",
+    "os": "windows",
+    "link": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.4/windowsdesktop-runtime-9.0.4-win-x86.exe",
+    "hash": "214a98c6d468566cb0d84898e7129897890384b1f3a49f1c59187f3711cea6340df588850d65c1b0c239fd0151806cfa7bc056551da05d9a0d94130b2e4fba7d",
+    "bytes": "55447192"
   }
 ]
