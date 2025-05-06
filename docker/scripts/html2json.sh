@@ -19,7 +19,7 @@ for runtime in ${runtimes[*]}; do
         title=$(grep 'property="og:title"' $filename | grep -Eo 'content="(.*)"')
         #echo $title
         if [[ $title == *"404"* ]]; then
-            echo "404 in the title, file will be skiped"
+            echo "404 in the title, file will be skipped"
             continue
         fi
 
@@ -38,7 +38,7 @@ for runtime in ${runtimes[*]}; do
         hash=$(grep 'id="checksum"' $filename | grep -Eo 'value="(\S*)"' | sed 's#value="##g' | sed 's#"##g')
         #echo $hash
 
-        bytes=$(curl -sI "$link" | grep -i "content-length" | sed 's#content-length: ##g' | sed 's#\r##g')
+        bytes=$(curl -sI "$link" | grep -i "content-length" | sed 's#content-length: ##gI' | sed 's#\r##g')
         #echo $bytes
 
         obj=$(jq -n \
@@ -54,5 +54,5 @@ for runtime in ${runtimes[*]}; do
     done
 
     (echo $json | jq -r) > $outfilename
-    echo "$outfilename written sucessfully."
+    echo "$outfilename written successfully."
 done
