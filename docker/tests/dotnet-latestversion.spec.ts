@@ -2,9 +2,9 @@ import { test, expect } from '@playwright/test';
 
 const versions = [
   "5.0.17",
-  "6.0.31",
+  "6.0.36",
   "7.0.20",
-  "8.0.6"
+  "8.0.15"
 ];
 
 test.use({ javaScriptEnabled: false });
