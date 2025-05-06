@@ -41,7 +41,9 @@ The docker usage is for the shell (bash) scripts to do download the HTML pages f
 | [7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) | 7.0.20 |
 | [8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) | 8.0.6  |
 
-These versions are stored (additionally) in [_variables.sh](docker/scripts/_variables.sh).
+These versions are stored (additionally) in
+* [_variables.sh](docker/scripts/_variables.sh)
+* [dotnet-latestversion.spec.ts](docker/tests/dotnet-latestversion.spec.ts)
 
 Create the docker image
 
