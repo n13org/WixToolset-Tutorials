@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="aspnet"
+        Platform="x86"
+        MajorVersion="10"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_ASP_NET_v10_0_1_x86">
+    <ExePackage Id="Netfx100"
+                DisplayName="Microsoft .NET 10.0 ASP.NET Core"
+                Description="Microsoft .NET 10.0 (10.0.1) ASP.NET Core for windows x86"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v10.0.1"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-aspnetcore-10.0.1-windows-x86.exe"
+            DownloadUrl="https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/10.0.1/aspnetcore-runtime-10.0.1-win-x86.exe"
+            Hash="13e9e0f8b08b60dcdf422675ef6e024e69fafea106cb05fb9f34d65cdf8e11ae8a872174f00314f410cc0746c87d4b6176486d51f565582a1e5a1e491c16a804"
+            Size="10860624" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

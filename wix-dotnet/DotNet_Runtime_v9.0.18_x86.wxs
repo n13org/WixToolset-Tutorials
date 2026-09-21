@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="core"
+        Platform="x86"
+        MajorVersion="9"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_Runtime_v9_0_18_x86">
+    <ExePackage Id="Netfx90"
+                DisplayName="Microsoft .NET 9.0 Runtime"
+                Description="Microsoft .NET 9.0 (9.0.18) Runtime for windows x86"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v9.0.18"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-9.0.18-windows-x86.exe"
+            DownloadUrl="https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.18/dotnet-runtime-9.0.18-win-x86.exe"
+            Hash="0064674cfef0de6d62ca218327e54f7152eae3456fa20598fb2b0a27be719850f05d49f5d78ed68a2d2873594b5e7b1748f1bd56fde207e0c0cea08a5ccf6709"
+            Size="27039488" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

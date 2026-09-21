@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="desktop"
+        Platform="x64"
+        MajorVersion="9"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_DesktopRuntime_v9_0_17_x64">
+    <ExePackage Id="Netfx90"
+                DisplayName="Microsoft .NET 9.0 Desktop Runtime"
+                Description="Microsoft .NET 9.0 (9.0.17) Desktop Runtime for windows x64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v9.0.17"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-desktop-9.0.17-windows-x64.exe"
+            DownloadUrl="https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.17/windowsdesktop-runtime-9.0.17-win-x64.exe"
+            Hash="f43d591aa6ea5376e6db2c6d984b62cea61103fbe41df8ec43e5fc24e86b3d4921edf3924fed4e3d3124f9d6cd5fd3a90b37e977cb807a783c2f0c81fcf781ce"
+            Size="60647352" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="aspnet"
+        Platform="x86"
+        MajorVersion="9"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_ASP_NET_v9_0_15_x86">
+    <ExePackage Id="Netfx90"
+                DisplayName="Microsoft .NET 9.0 ASP.NET Core"
+                Description="Microsoft .NET 9.0 (9.0.15) ASP.NET Core for windows x86"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v9.0.15"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-aspnetcore-9.0.15-windows-x86.exe"
+            DownloadUrl="https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.15/aspnetcore-runtime-9.0.15-win-x86.exe"
+            Hash="730732dc24f76105b1aee3ff07b3ffcacc11aee44c8a976c91e5fd85461885fa8cfb61807a5d5bab7d91a1e0ecec264d5c3bd165357fc7259544c036076c6fc1"
+            Size="9905136" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

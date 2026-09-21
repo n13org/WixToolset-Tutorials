@@ -39,8 +39,9 @@ The docker usage is for the shell (bash) scripts to do download the HTML pages f
 | [5.0](https://dotnet.microsoft.com/en-us/download/dotnet/5.0) | 5.0.17 |
 | [6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) | 6.0.36 |
 | [7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) | 7.0.20 |
-| [8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) | 8.0.16 |
-| [9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) | 9.0.4  |
+| [8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) | 8.0.31 |
+| [9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) | 9.0.20 |
+| [10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) | 10.0.12 |
 
 These versions are stored (additionally) in
 

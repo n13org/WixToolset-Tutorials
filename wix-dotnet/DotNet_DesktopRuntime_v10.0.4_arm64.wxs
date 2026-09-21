@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="desktop"
+        Platform="arm64"
+        MajorVersion="10"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_DesktopRuntime_v10_0_4_arm64">
+    <ExePackage Id="Netfx100"
+                DisplayName="Microsoft .NET 10.0 Desktop Runtime"
+                Description="Microsoft .NET 10.0 (10.0.4) Desktop Runtime for windows arm64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v10.0.4"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-desktop-10.0.4-windows-arm64.exe"
+            DownloadUrl="https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.4/windowsdesktop-runtime-10.0.4-win-arm64.exe"
+            Hash="90434ed69c54218a0623818f0bd49ca16c994a95d079886b52d6e39bf6e30a0b516ad4a2a93c871e2651efc10559b32a7f12359712feb4a12c058994e692099d"
+            Size="54009360" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

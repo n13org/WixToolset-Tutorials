@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="core"
+        Platform="x64"
+        MajorVersion="10"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_Runtime_v10_0_8_x64">
+    <ExePackage Id="Netfx100"
+                DisplayName="Microsoft .NET 10.0 Runtime"
+                Description="Microsoft .NET 10.0 (10.0.8) Runtime for windows x64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v10.0.8"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-10.0.8-windows-x64.exe"
+            DownloadUrl="https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe"
+            Hash="111f99b2ce9be6981af409fcba2102fdcebb47d659d2d73ace0067046a0a5a3438956784c771c2003c92a98fcf6b7c60029785f04d850783ec519338203f5516"
+            Size="30581336" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>

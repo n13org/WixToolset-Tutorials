@@ -8,5 +8,6 @@ declare -A arr_versions
 arr_versions["5"]="5.0.17"
 arr_versions["6"]="6.0.36"
 arr_versions["7"]="7.0.20"
-arr_versions["8"]="8.0.16"
-arr_versions["9"]="9.0.4"
+arr_versions["8"]="8.0.31"
+arr_versions["9"]="9.0.20"
+arr_versions["10"]="10.0.12"

@@ -1,0 +1,29 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx"
+     xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal">
+
+    <Fragment>
+    <netfx:DotNetCoreSearch
+        RuntimeType="desktop"
+        Platform="arm64"
+        MajorVersion="8"
+        Variable="DOT_NET_VER" />
+
+    <PackageGroup Id="DotNet_DesktopRuntime_v8_0_31_arm64">
+    <ExePackage Id="Netfx80"
+                DisplayName="Microsoft .NET 8.0 Desktop Runtime"
+                Description="Microsoft .NET 8.0 (8.0.31) Desktop Runtime for windows arm64"
+                PerMachine="yes" Permanent="yes" Vital="yes" InstallArguments="/norestart /quiet"
+                DetectCondition="DOT_NET_VER &gt;= v8.0.31"
+                bal:PrereqPackage="yes">
+        <ExePackagePayload
+            Name="runtime-desktop-8.0.31-windows-arm64.exe"
+            DownloadUrl="https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.31/windowsdesktop-runtime-8.0.31-win-arm64.exe"
+            Hash="368e1e1f53f4d3c4fe4c1dfc8904dc1d7ddf0c59d6092dbe44cd3907bbdff72bf701e6e2bef605a888d09e2eb552451f4148a0af1e8113060eb3b59e0337b4a5"
+            Size="54190552" />
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Behavior="scheduleReboot" />
+    </ExePackage>
+    </PackageGroup>
+    </Fragment>
+</Wix>
