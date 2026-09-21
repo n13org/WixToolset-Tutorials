@@ -1,0 +1,6 @@
+# Ensure shell scripts use LF line endings
+*.sh text eol=lf
+
+# Ensure WixToolset XML files use LF line endings
+*.wxs text eol=lf
+*.wxl text eol=lf
